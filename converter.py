@@ -5,23 +5,11 @@ import sys
 import os
 import glob
 
-def get_rule_type_value(rule_type):
-    """将Clash规则类型转换为SingBox规则类型"""
-    # 规则类型映射（注意：需要与SingBox支持的类型完全匹配）
-    mapping = {
-        "DOMAIN-SUFFIX": "domain_suffix",
-        "DOMAIN-KEYWORD": "domain_keyword",
-        "DOMAIN": "full_domain",  # 修正：使用full_domain替代domain
-        "IP-CIDR": "ip_cidr",
-        "IP-CIDR6": "ip_cidr"  # 注意：IPv6可能也使用ip_cidr类型
-    }
-    return mapping.get(rule_type, "")
-
 def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
     """转换YAML格式的Clash规则到SingBox规则集"""
     # 创建SingBox规则集基础结构
     singbox_data = {
-        "version": 3,
+        "version": 2,  # 使用版本2格式
         "rules": []
     }
     
@@ -40,8 +28,12 @@ def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
             print(f"No rules found in {input_file}")
             return False
         
-        # 按规则类型分组收集规则
-        rule_groups = {}
+        # 分类收集规则
+        domain = []
+        domain_keyword = []
+        domain_suffix = []
+        ip_cidr = []
+        process_name = []
         
         for rule in rules:
             parts = rule.split(",")
@@ -51,24 +43,40 @@ def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
             rule_type = parts[0]
             value = parts[1]
             
-            # 获取SingBox规则类型
-            singbox_rule_type = get_rule_type_value(rule_type)
-            if not singbox_rule_type:
-                # 不支持的规则类型
-                continue
-                
-            # 将规则添加到对应类型组中
-            if singbox_rule_type not in rule_groups:
-                rule_groups[singbox_rule_type] = []
-            rule_groups[singbox_rule_type].append(value)
+            if rule_type == "DOMAIN":
+                domain.append(value)
+            elif rule_type == "DOMAIN-KEYWORD":
+                domain_keyword.append(value)
+            elif rule_type == "DOMAIN-SUFFIX":
+                domain_suffix.append(value)
+            elif rule_type == "IP-CIDR" or rule_type == "IP-CIDR6":
+                ip_cidr.append(value)
+            elif rule_type == "PROCESS-NAME":
+                process_name.append(value)
+            # 跳过其他类型规则
         
-        # 为每个规则类型创建一个规则项
-        for rule_type, values in rule_groups.items():
-            singbox_rule = {
-                "type": rule_type,
-                "payload": values
+        # 创建单个规则项
+        rule_item = {}
+        
+        if domain:
+            rule_item["domain"] = list(set(domain))
+        if domain_keyword:
+            rule_item["domain_keyword"] = list(set(domain_keyword))
+        if domain_suffix:
+            rule_item["domain_suffix"] = list(set(domain_suffix))
+        if ip_cidr:
+            rule_item["ip_cidr"] = list(set(ip_cidr))
+        
+        # 如果规则不为空，添加到规则列表
+        if rule_item:
+            singbox_data["rules"].append(rule_item)
+        
+        # 如果有进程名称规则，单独创建一个规则项
+        if process_name:
+            process_rule = {
+                "process_name": list(set(process_name))
             }
-            singbox_data["rules"].append(singbox_rule)
+            singbox_data["rules"].append(process_rule)
         
         # 保存为JSON
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
