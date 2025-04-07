@@ -5,20 +5,16 @@ import sys
 import os
 import glob
 
-def get_outbound(category, filename):
-    """根据规则类别和文件名决定出站策略"""
-    filename = filename.lower()
-    
-    # 广告拦截规则
-    if any(keyword in filename for keyword in ["ad", "ads", "advert", "advertising", "ban", "reject", "privacy"]):
-        return "block"
-    
-    # 直连规则
-    if any(keyword in filename for keyword in ["china", "cn", "direct", "mainland", "domestic"]):
-        return "direct"
-    
-    # 默认为代理
-    return "proxy"
+def get_rule_type_value(rule_type):
+    """将Clash规则类型转换为SingBox规则类型"""
+    mapping = {
+        "DOMAIN-SUFFIX": "domain_suffix",
+        "DOMAIN-KEYWORD": "domain_keyword",
+        "DOMAIN": "domain",
+        "IP-CIDR": "ip_cidr",
+        "IP-CIDR6": "ip_cidr"
+    }
+    return mapping.get(rule_type, "")
 
 def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
     """转换YAML格式的Clash规则到SingBox规则集"""
@@ -43,7 +39,9 @@ def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
             print(f"No rules found in {input_file}")
             return False
         
-        # 处理每条规则
+        # 按规则类型分组收集规则
+        rule_groups = {}
+        
         for rule in rules:
             parts = rule.split(",")
             if len(parts) < 2:
@@ -52,26 +50,23 @@ def convert_clash_yaml_to_singbox(input_file, output_file, outbound):
             rule_type = parts[0]
             value = parts[1]
             
-            singbox_rule = {
-                "outbound": outbound
-            }
-            
-            # 根据规则类型设置正确的SingBox规则类型和值
-            if rule_type == "DOMAIN-SUFFIX":
-                singbox_rule["domain_suffix"] = [value]
-            elif rule_type == "DOMAIN-KEYWORD":
-                singbox_rule["domain_keyword"] = [value]
-            elif rule_type == "DOMAIN":
-                singbox_rule["domain"] = [value]
-            elif rule_type == "IP-CIDR":
-                singbox_rule["ip_cidr"] = [value]
-            elif rule_type == "IP-CIDR6":
-                singbox_rule["ip_cidr"] = [value]
-            else:
-                # 跳过不支持的规则类型
+            # 获取SingBox规则类型
+            singbox_rule_type = get_rule_type_value(rule_type)
+            if not singbox_rule_type:
+                # 不支持的规则类型
                 continue
-            
-            # 添加到规则列表
+                
+            # 将规则添加到对应类型组中
+            if singbox_rule_type not in rule_groups:
+                rule_groups[singbox_rule_type] = []
+            rule_groups[singbox_rule_type].append(value)
+        
+        # 为每个规则类型创建一个规则项
+        for rule_type, values in rule_groups.items():
+            singbox_rule = {
+                "type": rule_type,
+                "payload": values
+            }
             singbox_data["rules"].append(singbox_rule)
         
         # 保存为JSON
@@ -116,7 +111,7 @@ def convert_dir(input_dir, output_dir, source_name):
         
         output_json = os.path.join(output_dir, source_name, category, f"{filename}.json")
         
-        # 确定出站策略
+        # 确定出站策略 (仅用于日志，不再写入规则)
         outbound = get_outbound(category, filename)
         
         # 转换文件
@@ -127,6 +122,21 @@ def convert_dir(input_dir, output_dir, source_name):
     
     print(f"Conversion complete: {success_count} succeeded, {fail_count} failed")
     return success_count
+
+def get_outbound(category, filename):
+    """根据规则类别和文件名决定出站策略"""
+    filename = filename.lower()
+    
+    # 广告拦截规则
+    if any(keyword in filename for keyword in ["ad", "ads", "advert", "advertising", "ban", "reject", "privacy"]):
+        return "block"
+    
+    # 直连规则
+    if any(keyword in filename for keyword in ["china", "cn", "direct", "mainland", "domestic"]):
+        return "direct"
+    
+    # 默认为代理
+    return "proxy"
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
