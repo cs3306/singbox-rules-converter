@@ -55,67 +55,73 @@ jobs:
       - name: Create base README
         run: |
           cat > README.md << EOL
-# SingBox Rules
+          # SingBox Rules
 
-这个仓库包含了从常用的Clash规则源自动转换生成的SingBox规则集。
+          这个仓库包含了从常用的Clash规则源自动转换生成的SingBox规则集。
 
-## 规则来源
+          ## 规则来源
 
-- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) (master分支)
-- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
+          - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) (master分支)
+          - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
-## 使用方法
-在SingBox配置中添加规则集：
-\`\`\`json
-{
-  "route": {
-    "rule_set": [
-      {
-        "tag": "规则名称",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/来源/规则类别/规则名称.srs",
-        "download_detour": "proxy"
-      }
-    ],
-    "rules": [
-      {
-        "rule_set": ["规则名称"],
-        "outbound": "proxy或direct或block"
-      }
-    ]
-  }
-}
-\`\`\`
-## 自动更新
-规则每天自动更新一次。也可以手动触发GitHub Actions工作流来更新规则。
-## SingBox规则集格式说明
-singbox的规则集格式与路由规则不同，规则集使用以下格式：
-\`\`\`json
-{
-  "version": 2,
-  "rules": [
-    {
-      "domain": ["example.com"],
-      "domain_suffix": ["example.org"],
-      "domain_keyword": ["keyword"],
-      "ip_cidr": ["192.168.1.0/24"]
-    }
-  ]
-}
-\`\`\`
-在路由配置中使用规则集时，才指定出站策略：
-\`\`\`json
-{
-  "rules": [
-    {
-      "rule_set": ["规则名称"],
-      "outbound": "proxy"
-    }
-  ]
-}
-\`\`\`
-EOL
+          ## 使用方法
+          
+          在SingBox配置中添加规则集：
+          
+          \`\`\`json
+          {
+            "route": {
+              "rule_set": [
+                {
+                  "tag": "规则名称",
+                  "type": "remote",
+                  "format": "binary",
+                  "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/来源/规则类别/规则名称.srs",
+                  "download_detour": "proxy"
+                }
+              ],
+              "rules": [
+                {
+                  "rule_set": ["规则名称"],
+                  "outbound": "proxy或direct或block"
+                }
+              ]
+            }
+          }
+          \`\`\`
+          ## 自动更新
+          
+          规则每天自动更新一次。也可以手动触发GitHub Actions工作流来更新规则。
+          
+          ## SingBox规则集格式说明
+          
+          singbox的规则集格式与路由规则不同，规则集使用以下格式：
+          
+          \`\`\`json
+          {
+            "version": 2,
+            "rules": [
+              {
+                "domain": ["example.com"],
+                "domain_suffix": ["example.org"],
+                "domain_keyword": ["keyword"],
+                "ip_cidr": ["192.168.1.0/24"]
+              }
+            ]
+          }
+          \`\`\`
+          在路由配置中使用规则集时，才指定出站策略：
+          \`\`\`json
+          {
+            "rules": [
+              {
+                "rule_set": ["规则名称"],
+                "outbound": "proxy"
+              }
+            ]
+          }
+          \`\`\`
+          EOL
       
       - name: Update README with rule lists
         run: |
