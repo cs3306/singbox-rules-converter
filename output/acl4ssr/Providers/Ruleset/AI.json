@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "gemini.google.com",
-        "console.groq.com",
-        "api.together.xyz",
         "ai.google.dev",
-        "generativelanguage.googleapis.com",
-        "copilot-proxy.githubusercontent.com",
         "api.groq.com",
+        "sydney.bing.com",
+        "gemini.google.com",
         "api.githubcopilot.com",
+        "api.together.xyz",
+        "console.groq.com",
+        "generativelanguage.googleapis.com",
         "bard.google.com",
-        "sydney.bing.com"
+        "copilot-proxy.githubusercontent.com"
       ],
       "domain_keyword": [
         "openai",
-        "claude",
-        "anthropic"
+        "anthropic",
+        "claude"
       ],
       "domain_suffix": [
-        "grazie.aws.intellij.net",
-        "oaiusercontent.com",
-        "featuregates.org",
-        "ai.azure.com",
-        "sora.com",
-        "bard.google.com",
-        "anthropic.com",
+        "copilot.cloud.microsoft",
+        "openaiapi-site.azureedge.net",
         "gemini.google.com",
+        "ai.azure.com",
         "chatgpt.com",
         "grazie.ai",
-        "mistral.ai",
-        "copilot.cloud.microsoft",
-        "intercom.io",
-        "meta.ai",
-        "openai.com",
-        "makersuite.google.com",
-        "copilot.microsoft.com",
+        "perplexity.ai",
         "oaistatic.com",
         "events.statsigapi.net",
-        "openaiapi-site.azureedge.net",
-        "client-api.arkoselabs.com",
-        "perplexity.ai",
+        "oaiusercontent.com",
+        "bard.google.com",
+        "featuregates.org",
         "auth0.com",
-        "claude.ai",
+        "anthropic.com",
         "intercomcdn.com",
-        "identrust.com"
+        "sora.com",
+        "intercom.io",
+        "identrust.com",
+        "grazie.aws.intellij.net",
+        "makersuite.google.com",
+        "client-api.arkoselabs.com",
+        "meta.ai",
+        "mistral.ai",
+        "copilot.microsoft.com",
+        "claude.ai",
+        "openai.com"
       ]
     }
   ]
