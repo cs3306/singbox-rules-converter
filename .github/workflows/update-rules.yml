@@ -52,10 +52,9 @@ jobs:
         run: |
           bash compile.sh
           
-      - name: Create/Update README
+      - name: Create base README
         run: |
-          # 创建或更新README文件
-          cat > README.md << 'EOF'
+          cat > README.md << EOL
 # SingBox Rules
 
 这个仓库包含了从常用的Clash规则源自动转换生成的SingBox规则集。
@@ -69,7 +68,7 @@ jobs:
 
 在SingBox配置中添加规则集：
 
-```json
+\`\`\`json
 {
   "route": {
     "rule_set": [
@@ -89,3 +88,89 @@ jobs:
     ]
   }
 }
+\`\`\`
+
+## 自动更新
+
+规则每天自动更新一次。也可以手动触发GitHub Actions工作流来更新规则。
+
+## SingBox规则集格式说明
+
+singbox的规则集格式与路由规则不同，规则集使用以下格式：
+
+\`\`\`json
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["example.com"],
+      "domain_suffix": ["example.org"],
+      "domain_keyword": ["keyword"],
+      "ip_cidr": ["192.168.1.0/24"]
+    }
+  ]
+}
+\`\`\`
+
+在路由配置中使用规则集时，才指定出站策略：
+
+\`\`\`json
+{
+  "rules": [
+    {
+      "rule_set": ["规则名称"],
+      "outbound": "proxy"
+    }
+  ]
+}
+\`\`\`
+EOL
+      
+      - name: Update README with rule lists
+        run: |
+          # 更新README中当前可用的规则列表
+          echo -e "\n## 可用规则列表\n" >> README.md
+          
+          # ACL4SSR Ruleset 规则
+          echo -e "\n### ACL4SSR Ruleset 规则\n" >> README.md
+          find output/acl4ssr-ruleset -type f -name "*.srs" 2>/dev/null | sort | while read -r file; do
+            rel_path=$(realpath --relative-to=output "$file")
+            echo "- [$rel_path](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/$rel_path)" >> README.md
+          done
+          
+          # ACL4SSR Providers 规则
+          echo -e "\n### ACL4SSR Providers 规则\n" >> README.md
+          find output/acl4ssr-providers -type f -name "*.srs" 2>/dev/null | sort | while read -r file; do
+            rel_path=$(realpath --relative-to=output "$file")
+            echo "- [$rel_path](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/$rel_path)" >> README.md
+          done
+          
+          # ACL4SSR 其他规则
+          echo -e "\n### ACL4SSR 其他规则\n" >> README.md
+          find output/acl4ssr -type f -name "*.srs" 2>/dev/null | sort | while read -r file; do
+            rel_path=$(realpath --relative-to=output "$file")
+            echo "- [$rel_path](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/$rel_path)" >> README.md
+          done
+          
+          # BlackMatrix7 规则
+          echo -e "\n### BlackMatrix7 规则\n" >> README.md
+          find output/blackmatrix7 -type f -name "*.srs" 2>/dev/null | sort | while read -r file; do
+            rel_path=$(realpath --relative-to=output "$file")
+            echo "- [$rel_path](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/$rel_path)" >> README.md
+          done
+          
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          git add output/ README.md
+          
+          # 检查是否有变更需要提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update SingBox rules [automated]"
+          git push
