@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "stripe",
+        "alipay",
+        "taobao",
+        ".tmall.com",
+        "hnagroup",
+        "officecdn",
+        "baidu",
+        "beplay",
+        "weibo",
+        "alicdn",
+        "aliyun"
+      ]
+    },
+    {
+      "process_name": [
+        "com.zhiliaoapp.musically",
+        "com.xiaomi.mibrain.speech",
+        "com.bilibili.comic.intl",
+        "com.bilibili.app.blue",
+        "Thunder",
+        "com.qiyi.video",
+        "tv.danmaku.bilibilihd",
+        "com.jjwxc.reader",
+        "小米云服务.exe",
+        "tv.danmaku.bili",
+        "com.bilibili.comic",
+        "com.bilibili.app.in",
+        "com.taobao.taobao",
+        "Thunder.exe"
+      ]
+    }
+  ]
+}

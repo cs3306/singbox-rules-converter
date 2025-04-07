@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "gmail",
+        "google"
+      ],
+      "domain_suffix": [
+        "youtube.com",
+        "gstatic.com",
+        "gvt3.com",
+        "googleapis.com",
+        "youtu.be",
+        "gvt0.com",
+        "1e100.net",
+        "app-measurement.net",
+        "googleapis.cn",
+        "g.co",
+        "gvt1.com",
+        "gstatic.cn",
+        "gvt2.com",
+        "yt.be",
+        "ggpht.com",
+        "goo.gl",
+        "xn--ngstr-lra8j.com",
+        "youtube-nocookie.com",
+        "2mdn.net",
+        "ytimg.com"
+      ],
+      "ip_cidr": [
+        "173.194.0.0/16",
+        "74.125.0.0/16"
+      ]
+    }
+  ]
+}

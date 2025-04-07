@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "cc-ext-prod-pkgs.s3.amazonaws.com",
+        "adbemdigitalmediarebootprod2.112.2o7.net"
+      ],
+      "domain_keyword": [
+        "adobe"
+      ],
+      "domain_suffix": [
+        "geotrust.com",
+        "typekit.com",
+        "edgefonts.net",
+        "behance.net",
+        "ftcdn.net",
+        "businesscatalyst.com",
+        "globalsign.com",
+        "demandbase.com",
+        "adbecrsl.com",
+        "worldsecuresystems.com",
+        "echocdn.com",
+        "omtrdc.net",
+        "verisign.com",
+        "thawte.com",
+        "macromedia.com",
+        "symantec.com",
+        "newrelic.com",
+        "typekit.net",
+        "acrobat.com",
+        "digicert.com",
+        "ctldl.windowsupdate.com",
+        "creativecloud.com",
+        "godaddy.com",
+        "demdex.net",
+        "bam.nr-data.net",
+        "echosign.com",
+        "symcb.com",
+        "omniroot.com",
+        "omniture.com",
+        "photoshop.com",
+        "symcd.com"
+      ]
+    }
+  ]
+}

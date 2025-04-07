@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "openai"
+      ],
+      "domain_suffix": [
+        "featuregates.org",
+        "identrust.com",
+        "openai.com",
+        "openaiapi-site.azureedge.net",
+        "events.statsigapi.net",
+        "chatgpt.com",
+        "sentry.io",
+        "challenges.cloudflare.com",
+        "oaiusercontent.com",
+        "stripe.com",
+        "intercomcdn.com",
+        "client-api.arkoselabs.com",
+        "intercom.io",
+        "oaistatic.com",
+        "auth0.com"
+      ]
+    }
+  ]
+}

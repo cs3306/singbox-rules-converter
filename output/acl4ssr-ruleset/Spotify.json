@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "-spotify-",
+        "spotify.com"
+      ],
+      "domain_suffix": [
+        "spotify.com",
+        "spotifycdn.com",
+        "spotifycdn.net",
+        "pscdn.co",
+        "spoti.fi",
+        "scdn.co"
+      ]
+    }
+  ]
+}

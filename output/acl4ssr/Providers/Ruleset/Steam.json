@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "steamstore-a.akamaihd.net",
+        "steambroadcast.akamaized.net",
+        "steamuserimages-a.akamaihd.net",
+        "steamcommunity-a.akamaihd.net",
+        "steamusercontent-a.akamaihd.net",
+        "steampipe.akamaized.net"
+      ],
+      "domain_suffix": [
+        "steam-chat.com",
+        "fanatical.com",
+        "steamcommunity.com",
+        "underlords.com",
+        "valvesoftware.com",
+        "steamserver.net",
+        "steamgames.com",
+        "steamstatic.com",
+        "steampowered.com",
+        "playartifact.com",
+        "humblebundle.com",
+        "steamstat.us"
+      ]
+    }
+  ]
+}
