@@ -38,7 +38,7 @@ jobs:
       # 将转换脚本复制到GitHub仓库
       - name: Create converter script
         run: |
-          wget -O converter.py https://raw.githubusercontent.com/usercodehour/singbox-rules-converter/main/converter.py
+          wget -O converter.py https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/converter.py
           chmod +x converter.py
           
       - name: Convert ACL4SSR rules
