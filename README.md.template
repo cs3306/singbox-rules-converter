@@ -19,7 +19,7 @@
         "tag": "规则名称",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/*.srs",
+        "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/来源/规则类别/规则名称.srs",
         "download_detour": "proxy"
       }
     ],
@@ -31,8 +31,3 @@
     ]
   }
 }
-```
-
-## 自动更新
-
-规则每天自动更新一次。也可以手动触发GitHub Actions工作流来更新规则。
