@@ -7,12 +7,13 @@ import glob
 
 def get_rule_type_value(rule_type):
     """将Clash规则类型转换为SingBox规则类型"""
+    # 规则类型映射（注意：需要与SingBox支持的类型完全匹配）
     mapping = {
         "DOMAIN-SUFFIX": "domain_suffix",
         "DOMAIN-KEYWORD": "domain_keyword",
-        "DOMAIN": "domain",
+        "DOMAIN": "full_domain",  # 修正：使用full_domain替代domain
         "IP-CIDR": "ip_cidr",
-        "IP-CIDR6": "ip_cidr"
+        "IP-CIDR6": "ip_cidr"  # 注意：IPv6可能也使用ip_cidr类型
     }
     return mapping.get(rule_type, "")
 
