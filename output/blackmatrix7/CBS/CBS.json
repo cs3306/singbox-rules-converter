@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain_suffix": [
-        "cbsig.net",
-        "viacom.com",
         "cbsi.video",
-        "cbsradio.com",
-        "cbsimg.net",
-        "cbsistatic.com",
-        "cbsplaylistserver.aws.syncbak.com",
+        "paramount.com",
+        "cbsi.com",
         "cbsnews.com",
         "cbssvideo.com",
         "cbstelevisioncity.com",
-        "viacbs.com",
-        "plutotv.net",
-        "cbsi.live.ott.irdeto.com",
-        "cbsiam.com",
-        "cbsaavideo.com",
-        "cbsstatic.com",
-        "cbssports.com",
-        "showtime.com",
+        "pluto.tv",
+        "cbsig.net",
         "mtvnservices.com",
         "cbsstore.com",
-        "cbsivideo.com",
-        "viacomcbspressexpress.com",
-        "paramount.com",
-        "pluto.tv",
-        "cbsi.com",
-        "viacomcbs.com",
-        "cbs.com",
-        "cbspressexpress.com",
+        "viacom.com",
         "amlg.io",
+        "cbsistatic.com",
+        "cbsradio.com",
+        "cbs.com",
+        "cbsplaylistserver.aws.syncbak.com",
+        "viacomcbspressexpress.com",
+        "viacbs.com",
+        "cbssports.com",
+        "cbsi.live.ott.irdeto.com",
+        "showtime.com",
+        "viacomcbs.com",
+        "plutotv.net",
+        "cbsimg.net",
         "cbsservice.aws.syncbak.com",
-        "paramountplus.com",
+        "cbsivideo.com",
         "cbsinteractive.com",
+        "cbsstatic.com",
         "pplusstatic.com",
-        "cbscorporation.com"
+        "cbscorporation.com",
+        "cbsaavideo.com",
+        "paramountplus.com",
+        "cbsiam.com",
+        "cbspressexpress.com"
       ]
     },
     {
       "process_name": [
-        "com.cbs.app",
-        "com.showtime.standalone"
+        "com.showtime.standalone",
+        "com.cbs.app"
       ]
     }
   ]

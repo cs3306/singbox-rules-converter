@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain": [
-        "bnetproduct-a.akamaihd.net",
-        "blizzard.nefficient.co.kr",
         "blzddist1-a.akamaihd.net",
+        "cdn.blz-contentstack.com",
+        "blizzard.nefficient.co.kr",
         "blzddistkr1-a.akamaihd.net",
-        "cdn.blz-contentstack.com"
+        "bnetproduct-a.akamaihd.net"
       ],
       "domain_suffix": [
-        "battle.net",
         "battlenet.com.cn",
+        "battle.net",
         "blizzard.com"
       ]
     }
