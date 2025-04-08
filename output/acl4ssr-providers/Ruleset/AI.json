@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "api.together.xyz",
         "bard.google.com",
-        "console.groq.com",
-        "api.githubcopilot.com",
-        "api.groq.com",
-        "copilot-proxy.githubusercontent.com",
-        "generativelanguage.googleapis.com",
-        "sydney.bing.com",
         "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "copilot-proxy.githubusercontent.com",
+        "console.groq.com",
         "ai.google.dev",
-        "api.together.xyz"
+        "api.groq.com",
+        "sydney.bing.com",
+        "api.githubcopilot.com"
       ],
       "domain_keyword": [
-        "claude",
+        "anthropic",
         "openai",
-        "anthropic"
+        "claude"
       ],
       "domain_suffix": [
-        "bard.google.com",
-        "oaistatic.com",
-        "events.statsigapi.net",
-        "openaiapi-site.azureedge.net",
-        "identrust.com",
-        "makersuite.google.com",
-        "grazie.aws.intellij.net",
-        "gemini.google.com",
-        "anthropic.com",
-        "intercomcdn.com",
-        "copilot.microsoft.com",
-        "claude.ai",
+        "featuregates.org",
+        "sora.com",
         "ai.azure.com",
+        "events.statsigapi.net",
+        "perplexity.ai",
+        "copilot.microsoft.com",
+        "anthropic.com",
         "meta.ai",
         "intercom.io",
-        "sora.com",
-        "copilot.cloud.microsoft",
-        "perplexity.ai",
-        "featuregates.org",
-        "auth0.com",
+        "claude.ai",
+        "bard.google.com",
+        "mistral.ai",
+        "makersuite.google.com",
+        "intercomcdn.com",
+        "oaiusercontent.com",
+        "openai.com",
         "client-api.arkoselabs.com",
         "chatgpt.com",
-        "openai.com",
-        "oaiusercontent.com",
         "grazie.ai",
-        "mistral.ai"
+        "auth0.com",
+        "oaistatic.com",
+        "openaiapi-site.azureedge.net",
+        "identrust.com",
+        "copilot.cloud.microsoft",
+        "gemini.google.com",
+        "grazie.aws.intellij.net"
       ]
     }
   ]

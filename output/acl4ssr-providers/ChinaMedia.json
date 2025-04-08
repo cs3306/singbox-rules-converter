@@ -3,47 +3,47 @@
   "rules": [
     {
       "domain": [
-        "intl-rcd.iqiyi.com",
-        "intel-cache.video.iqiyi.com",
-        "intl-subscription.iqiyi.com",
         "upos-hz-mirrorakam.akamaized.net",
+        "intl-subscription.iqiyi.com",
         "apiintl.biliapi.net",
-        "intel-cache.m.iqiyi.com"
+        "intel-cache.video.iqiyi.com",
+        "intel-cache.m.iqiyi.com",
+        "intl-rcd.iqiyi.com"
       ],
       "domain_suffix": [
+        "bigfun.cn",
+        "acgvideo.com",
+        "bigfunapp.cn",
+        "vv.video.qq.com",
+        "inter.iqiyi.com",
+        "b23.tv",
+        "acg.tv",
+        "smtcdns.net",
+        "api.mob.app.letv.com",
+        "bilivideo.cn",
+        "intl.iqiyi.com",
+        "youku.com",
+        "iq.com",
+        "im9.com",
+        "biliapi.net",
+        "biligame.net",
         "biliapi.com",
         "biligame.com",
-        "bilivideo.com",
-        "inter.ptqy.gitv.tv",
-        "im9.com",
-        "smtcdns.net",
-        "b23.tv",
-        "bigfun.cn",
-        "vv.video.qq.com",
         "bilibili.tv",
-        "inter.iqiyi.com",
-        "bilivideo.cn",
         "bilibili.com",
-        "youku.com",
+        "inter.ptqy.gitv.tv",
         "v.smtcdns.com",
-        "acg.tv",
-        "iq.com",
-        "api.mob.app.letv.com",
-        "acgvideo.com",
-        "intl.iqiyi.com",
-        "bigfunapp.cn",
-        "biligame.net",
         "hdslb.com",
-        "biliapi.net"
+        "bilivideo.com"
       ],
       "ip_cidr": [
-        "23.40.241.251/32",
-        "118.26.120.0/24",
-        "23.40.242.10/32",
-        "106.11.0.0/16",
-        "223.119.62.225/28",
         "103.44.56.0/22",
-        "118.26.32.0/23"
+        "118.26.120.0/24",
+        "118.26.32.0/23",
+        "23.40.241.251/32",
+        "106.11.0.0/16",
+        "23.40.242.10/32",
+        "223.119.62.225/28"
       ]
     }
   ]
