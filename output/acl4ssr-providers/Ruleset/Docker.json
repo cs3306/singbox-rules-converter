@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain": [
-        "d2wy8f7a9ursnm.cloudfront.net",
         "d1q6f0aelx0por.cloudfront.net",
+        "d2wy8f7a9ursnm.cloudfront.net",
         "d36jcksde1wxzq.cloudfront.net"
       ],
       "domain_suffix": [
-        "compose-spec.io",
-        "docker.com",
         "dockerhub.com",
-        "docker.io"
+        "compose-spec.io",
+        "docker.io",
+        "docker.com"
       ]
     }
   ]

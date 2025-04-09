@@ -3,29 +3,29 @@
   "rules": [
     {
       "domain_suffix": [
-        "wechat.com",
-        "wechatpay.com",
-        "weixinsxy.com",
+        "weixin.qq.com",
+        "servicewechat.com",
         "tenpay.com",
-        "weixinbridge.com",
+        "qlogo.cn",
         "weixin.com",
+        "weixinbridge.com",
+        "wechatpay.com",
+        "wechat.com",
         "qpic.cn",
         "wxapp.tc.qq.com",
-        "qlogo.cn",
-        "servicewechat.com",
         "wechatlegal.net",
-        "weixin.qq.com"
+        "weixinsxy.com"
       ],
       "ip_cidr": [
-        "101.32.104.56/32",
-        "101.32.104.41/32",
-        "101.32.118.25/32",
-        "101.32.133.53/32",
         "101.32.133.16/32",
-        "101.32.104.4/32",
-        "129.226.3.47/32",
         "101.32.133.209/32",
-        "129.226.107.244/32"
+        "101.32.104.4/32",
+        "101.32.104.41/32",
+        "129.226.3.47/32",
+        "101.32.104.56/32",
+        "101.32.118.25/32",
+        "129.226.107.244/32",
+        "101.32.133.53/32"
       ]
     }
   ]
