@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
-        "generativelanguage.googleapis.com",
-        "api.groq.com",
         "copilot-proxy.githubusercontent.com",
-        "bard.google.com",
         "api.githubcopilot.com",
-        "sydney.bing.com",
+        "api.groq.com",
         "api.together.xyz",
-        "gemini.google.com",
-        "console.groq.com"
+        "ai.google.dev",
+        "bard.google.com",
+        "sydney.bing.com",
+        "console.groq.com",
+        "generativelanguage.googleapis.com",
+        "gemini.google.com"
       ],
       "domain_keyword": [
-        "openai",
         "anthropic",
-        "claude"
+        "claude",
+        "openai"
       ],
       "domain_suffix": [
+        "openai.com",
+        "auth0.com",
+        "anthropic.com",
+        "ai.azure.com",
+        "meta.ai",
+        "copilot.microsoft.com",
+        "oaiusercontent.com",
+        "openaiapi-site.azureedge.net",
+        "intercomcdn.com",
+        "copilot.cloud.microsoft",
+        "perplexity.ai",
+        "grazie.ai",
+        "featuregates.org",
         "bard.google.com",
+        "grazie.aws.intellij.net",
+        "claude.ai",
+        "events.statsigapi.net",
+        "makersuite.google.com",
+        "oaistatic.com",
+        "chatgpt.com",
         "client-api.arkoselabs.com",
         "identrust.com",
-        "oaistatic.com",
-        "anthropic.com",
-        "featuregates.org",
-        "intercomcdn.com",
-        "makersuite.google.com",
-        "openai.com",
-        "perplexity.ai",
-        "ai.azure.com",
-        "grazie.ai",
-        "events.statsigapi.net",
-        "meta.ai",
         "mistral.ai",
         "intercom.io",
-        "grazie.aws.intellij.net",
-        "oaiusercontent.com",
-        "claude.ai",
         "sora.com",
-        "openaiapi-site.azureedge.net",
-        "gemini.google.com",
-        "auth0.com",
-        "chatgpt.com",
-        "copilot.cloud.microsoft",
-        "copilot.microsoft.com"
+        "gemini.google.com"
       ]
     }
   ]
