@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "api.together.xyz",
-        "console.groq.com",
-        "copilot-proxy.githubusercontent.com",
-        "generativelanguage.googleapis.com",
         "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "console.groq.com",
+        "api.githubcopilot.com",
         "sydney.bing.com",
-        "ai.google.dev",
-        "api.groq.com",
         "bard.google.com",
-        "api.githubcopilot.com"
+        "ai.google.dev",
+        "api.together.xyz",
+        "api.groq.com",
+        "copilot-proxy.githubusercontent.com"
       ],
       "domain_keyword": [
         "anthropic",
@@ -20,32 +20,32 @@
         "openai"
       ],
       "domain_suffix": [
-        "openai.com",
-        "chatgpt.com",
-        "mistral.ai",
-        "makersuite.google.com",
-        "copilot.microsoft.com",
         "gemini.google.com",
-        "sora.com",
-        "copilot.cloud.microsoft",
+        "auth0.com",
+        "openai.com",
+        "copilot.microsoft.com",
+        "intercomcdn.com",
+        "makersuite.google.com",
+        "claude.ai",
+        "events.statsigapi.net",
+        "mistral.ai",
+        "chatgpt.com",
+        "grazie.ai",
+        "meta.ai",
+        "bard.google.com",
+        "intercom.io",
+        "grazie.aws.intellij.net",
         "ai.azure.com",
         "anthropic.com",
-        "claude.ai",
-        "openaiapi-site.azureedge.net",
-        "grazie.ai",
-        "oaistatic.com",
-        "perplexity.ai",
-        "bard.google.com",
-        "client-api.arkoselabs.com",
-        "auth0.com",
-        "intercomcdn.com",
-        "meta.ai",
         "identrust.com",
-        "grazie.aws.intellij.net",
-        "intercom.io",
+        "client-api.arkoselabs.com",
+        "sora.com",
+        "oaistatic.com",
         "featuregates.org",
-        "events.statsigapi.net",
-        "oaiusercontent.com"
+        "oaiusercontent.com",
+        "copilot.cloud.microsoft",
+        "openaiapi-site.azureedge.net",
+        "perplexity.ai"
       ]
     }
   ]
