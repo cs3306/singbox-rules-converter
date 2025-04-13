@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "gemini.google.com",
-        "generativelanguage.googleapis.com",
-        "console.groq.com",
-        "api.githubcopilot.com",
-        "sydney.bing.com",
-        "bard.google.com",
-        "ai.google.dev",
         "api.together.xyz",
+        "gemini.google.com",
+        "api.githubcopilot.com",
+        "console.groq.com",
+        "sydney.bing.com",
+        "ai.google.dev",
         "api.groq.com",
-        "copilot-proxy.githubusercontent.com"
+        "copilot-proxy.githubusercontent.com",
+        "generativelanguage.googleapis.com",
+        "bard.google.com"
       ],
       "domain_keyword": [
         "anthropic",
@@ -20,32 +20,32 @@
         "openai"
       ],
       "domain_suffix": [
-        "gemini.google.com",
+        "client-api.arkoselabs.com",
+        "oaiusercontent.com",
         "auth0.com",
-        "openai.com",
+        "copilot.cloud.microsoft",
+        "identrust.com",
+        "events.statsigapi.net",
+        "chatgpt.com",
+        "grazie.aws.intellij.net",
+        "claude.ai",
+        "intercom.io",
+        "mistral.ai",
+        "featuregates.org",
+        "grazie.ai",
+        "oaistatic.com",
+        "makersuite.google.com",
+        "sora.com",
+        "anthropic.com",
         "copilot.microsoft.com",
         "intercomcdn.com",
-        "makersuite.google.com",
-        "claude.ai",
-        "events.statsigapi.net",
-        "mistral.ai",
-        "chatgpt.com",
-        "grazie.ai",
-        "meta.ai",
-        "bard.google.com",
-        "intercom.io",
-        "grazie.aws.intellij.net",
         "ai.azure.com",
-        "anthropic.com",
-        "identrust.com",
-        "client-api.arkoselabs.com",
-        "sora.com",
-        "oaistatic.com",
-        "featuregates.org",
-        "oaiusercontent.com",
-        "copilot.cloud.microsoft",
+        "gemini.google.com",
+        "perplexity.ai",
+        "meta.ai",
         "openaiapi-site.azureedge.net",
-        "perplexity.ai"
+        "openai.com",
+        "bard.google.com"
       ]
     }
   ]
