@@ -2,11 +2,25 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "id.mail.wo.cn",
+        "hmrz.wo.cn",
+        "ye.dun.163yun.com",
+        "log.cmpassport.com",
+        "log1.cmpassport.com",
+        "config.cmpassport.com",
+        "mdn.open.wo.cn",
+        "auth.wosms.cn",
+        "opencloud.wostore.cn",
+        "enrichgw.10010.com",
+        "nishub1.10010.com"
+      ],
       "domain_suffix": [
+        "auth.wo.cn",
         "id6.me",
-        "open.e.189.cn",
         "cmpassport.com",
-        "auth.wo.cn"
+        "open.e.189.cn",
+        "mob.com"
       ]
     }
   ]
