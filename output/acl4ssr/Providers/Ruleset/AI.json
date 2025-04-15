@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "console.groq.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.githubcopilot.com",
-        "api.groq.com",
-        "bard.google.com",
         "api.together.xyz",
-        "gemini.google.com",
+        "console.groq.com",
+        "ai.google.dev",
+        "api.githubcopilot.com",
         "generativelanguage.googleapis.com",
+        "api.groq.com",
+        "gemini.google.com",
         "sydney.bing.com",
-        "ai.google.dev"
+        "bard.google.com",
+        "copilot-proxy.githubusercontent.com"
       ],
       "domain_keyword": [
         "anthropic",
-        "openai",
-        "claude"
+        "claude",
+        "openai"
       ],
       "domain_suffix": [
-        "intercomcdn.com",
-        "bard.google.com",
-        "perplexity.ai",
-        "featuregates.org",
         "client-api.arkoselabs.com",
-        "meta.ai",
-        "openaiapi-site.azureedge.net",
-        "mistral.ai",
-        "copilot.microsoft.com",
+        "intercomcdn.com",
         "chatgpt.com",
-        "oaistatic.com",
-        "grazie.ai",
-        "claude.ai",
-        "grazie.aws.intellij.net",
-        "makersuite.google.com",
         "sora.com",
+        "oaiusercontent.com",
+        "openaiapi-site.azureedge.net",
         "events.statsigapi.net",
-        "auth0.com",
-        "intercom.io",
-        "copilot.cloud.microsoft",
+        "perplexity.ai",
         "ai.azure.com",
-        "gemini.google.com",
-        "openai.com",
-        "anthropic.com",
         "identrust.com",
-        "oaiusercontent.com"
+        "grazie.ai",
+        "grazie.aws.intellij.net",
+        "meta.ai",
+        "openai.com",
+        "auth0.com",
+        "featuregates.org",
+        "claude.ai",
+        "copilot.microsoft.com",
+        "intercom.io",
+        "mistral.ai",
+        "makersuite.google.com",
+        "gemini.google.com",
+        "anthropic.com",
+        "copilot.cloud.microsoft",
+        "bard.google.com",
+        "oaistatic.com"
       ]
     }
   ]
