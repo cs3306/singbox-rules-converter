@@ -4,14 +4,14 @@
     {
       "domain": [
         "rtm.tnt-ea.com",
-        "originasserts.akamaized.net",
         "eaasserts-a.akamaihd.net",
         "origin-a.akamaihd.net",
+        "originasserts.akamaized.net",
         "cloudsync-prod.s3.amazonaws.com"
       ],
       "domain_suffix": [
-        "origin.com",
-        "ea.com"
+        "ea.com",
+        "origin.com"
       ]
     }
   ]
