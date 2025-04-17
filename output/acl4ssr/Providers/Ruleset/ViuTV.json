@@ -3,20 +3,20 @@
   "rules": [
     {
       "domain": [
-        "d2anahhhmp1ffz.cloudfront.net",
-        "d1k2us671qcoau.cloudfront.net",
         "api.viu.now.com",
-        "dfp6rglgjqszk.cloudfront.net"
+        "dfp6rglgjqszk.cloudfront.net",
+        "d2anahhhmp1ffz.cloudfront.net",
+        "d1k2us671qcoau.cloudfront.net"
       ],
       "domain_suffix": [
-        "viu.now.com",
-        "viu.com",
-        "cognito-identity.us-east-1.amazonaws.com",
-        "d2anahhhmp1ffz.cloudfront.net",
-        "mobileanalytics.us-east-1.amazonaws.com",
-        "dfp6rglgjqszk.cloudfront.net",
         "viu.tv",
-        "d1k2us671qcoau.cloudfront.net"
+        "cognito-identity.us-east-1.amazonaws.com",
+        "viu.now.com",
+        "mobileanalytics.us-east-1.amazonaws.com",
+        "d1k2us671qcoau.cloudfront.net",
+        "viu.com",
+        "d2anahhhmp1ffz.cloudfront.net",
+        "dfp6rglgjqszk.cloudfront.net"
       ]
     }
   ]
