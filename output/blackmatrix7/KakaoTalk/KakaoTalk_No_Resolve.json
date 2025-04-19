@@ -3,23 +3,23 @@
   "rules": [
     {
       "domain_suffix": [
-        "kakao.com",
         "kakao.co.kr",
         "daumpotplayer.com",
-        "daumcdn.net",
-        "potplayer.tv",
-        "kakaocorp.com",
-        "kakaocdn.net",
         "daumkakao.io",
-        "daum.net"
+        "kakao.com",
+        "daumcdn.net",
+        "daum.net",
+        "potplayer.tv",
+        "kakaocdn.net",
+        "kakaocorp.com"
       ],
       "ip_cidr": [
         "113.61.104.0/22",
-        "1.201.0.0/24",
         "110.76.140.0/22",
+        "27.0.236.0/22",
+        "1.201.0.0/24",
         "103.246.56.0/22",
-        "103.27.148.0/22",
-        "27.0.236.0/22"
+        "103.27.148.0/22"
       ]
     }
   ]
