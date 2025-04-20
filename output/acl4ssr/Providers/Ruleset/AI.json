@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "bard.google.com",
-        "copilot-proxy.githubusercontent.com",
-        "console.groq.com",
-        "sydney.bing.com",
-        "api.githubcopilot.com",
         "ai.google.dev",
         "api.groq.com",
-        "gemini.google.com",
+        "api.together.xyz",
+        "bard.google.com",
+        "api.githubcopilot.com",
+        "copilot-proxy.githubusercontent.com",
         "generativelanguage.googleapis.com",
-        "api.together.xyz"
+        "sydney.bing.com",
+        "gemini.google.com",
+        "console.groq.com"
       ],
       "domain_keyword": [
         "openai",
-        "claude",
-        "anthropic"
+        "anthropic",
+        "claude"
       ],
       "domain_suffix": [
+        "oaistatic.com",
+        "ai.azure.com",
+        "perplexity.ai",
+        "openaiapi-site.azureedge.net",
         "openai.com",
         "makersuite.google.com",
-        "intercom.io",
-        "chatgpt.com",
-        "sora.com",
-        "mistral.ai",
-        "claude.ai",
-        "events.statsigapi.net",
-        "perplexity.ai",
-        "grazie.ai",
-        "auth0.com",
-        "featuregates.org",
         "meta.ai",
-        "identrust.com",
-        "anthropic.com",
-        "oaiusercontent.com",
+        "chatgpt.com",
+        "auth0.com",
+        "mistral.ai",
         "bard.google.com",
-        "oaistatic.com",
-        "copilot.cloud.microsoft",
-        "copilot.microsoft.com",
-        "ai.azure.com",
-        "client-api.arkoselabs.com",
+        "grazie.ai",
+        "featuregates.org",
         "grazie.aws.intellij.net",
-        "gemini.google.com",
+        "sora.com",
+        "identrust.com",
+        "events.statsigapi.net",
+        "copilot.cloud.microsoft",
+        "intercom.io",
+        "anthropic.com",
+        "claude.ai",
+        "oaiusercontent.com",
         "intercomcdn.com",
-        "openaiapi-site.azureedge.net"
+        "copilot.microsoft.com",
+        "gemini.google.com",
+        "client-api.arkoselabs.com"
       ]
     }
   ]
