@@ -6,21 +6,21 @@
         "openai"
       ],
       "domain_suffix": [
-        "challenges.cloudflare.com",
+        "client-api.arkoselabs.com",
+        "events.statsigapi.net",
+        "stripe.com",
+        "sentry.io",
+        "featuregates.org",
         "intercom.io",
         "auth0.com",
         "oaistatic.com",
-        "client-api.arkoselabs.com",
-        "chatgpt.com",
-        "openai.com",
-        "events.statsigapi.net",
-        "oaiusercontent.com",
-        "featuregates.org",
-        "identrust.com",
-        "sentry.io",
-        "stripe.com",
+        "openaiapi-site.azureedge.net",
+        "challenges.cloudflare.com",
         "intercomcdn.com",
-        "openaiapi-site.azureedge.net"
+        "openai.com",
+        "chatgpt.com",
+        "oaiusercontent.com",
+        "identrust.com"
       ]
     }
   ]
