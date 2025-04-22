@@ -10,48 +10,48 @@
         "nicegram"
       ],
       "domain_suffix": [
-        "telegram.me",
-        "telegram-cdn.org",
-        "telegra.ph",
-        "legra.ph",
-        "telesco.pe",
-        "tx.me",
-        "t.me",
-        "telegramdownload.com",
-        "tdesktop.com",
-        "contest.com",
-        "telega.one",
-        "telegram.org",
-        "usercontent.dev",
-        "graph.org",
-        "comments.app",
         "stel.com",
-        "telegram.dog",
-        "telegram.space",
-        "tg.dev",
         "quiz.directory",
+        "tdesktop.com",
+        "legra.ph",
+        "telegram.space",
+        "telegramdownload.com",
+        "telegram.org",
+        "graph.org",
+        "tx.me",
+        "telegra.ph",
+        "t.me",
+        "cdn-telegram.org",
+        "telesco.pe",
         "mbrx.app",
-        "cdn-telegram.org"
+        "tg.dev",
+        "usercontent.dev",
+        "comments.app",
+        "telegram.dog",
+        "contest.com",
+        "telegram-cdn.org",
+        "telega.one",
+        "telegram.me"
       ],
       "ip_cidr": [
-        "91.108.0.0/16",
         "2001:b28:f23c::/47",
-        "5.28.192.0/18",
-        "149.154.160.0/20",
-        "109.239.140.0/24",
         "2001:b28:f23f::/48",
+        "91.108.0.0/16",
         "2001:67c:4e8::/48",
-        "2a0a:f280::/29"
+        "109.239.140.0/24",
+        "5.28.192.0/18",
+        "2a0a:f280::/29",
+        "149.154.160.0/20"
       ]
     },
     {
       "process_name": [
         "telegram-desktop",
+        "Telegram.exe",
+        "nekox.messenger",
         "org.telegram.messenger",
         "tw.nekomimi.nekogram",
-        "Telegram.exe",
-        "xyz.nextalone.nagram",
-        "nekox.messenger"
+        "xyz.nextalone.nagram"
       ]
     }
   ]
