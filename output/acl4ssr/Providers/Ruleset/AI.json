@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "api.githubcopilot.com",
+        "console.groq.com",
+        "copilot-proxy.githubusercontent.com",
+        "generativelanguage.googleapis.com",
         "ai.google.dev",
-        "sydney.bing.com",
         "api.groq.com",
         "gemini.google.com",
+        "sydney.bing.com",
+        "api.githubcopilot.com",
         "bard.google.com",
-        "console.groq.com",
-        "api.together.xyz",
-        "copilot-proxy.githubusercontent.com",
-        "generativelanguage.googleapis.com"
+        "api.together.xyz"
       ],
       "domain_keyword": [
+        "openai",
         "anthropic",
-        "claude",
-        "openai"
+        "claude"
       ],
       "domain_suffix": [
-        "featuregates.org",
-        "makersuite.google.com",
-        "copilot.microsoft.com",
-        "events.statsigapi.net",
-        "claude.ai",
-        "gemini.google.com",
-        "intercom.io",
         "meta.ai",
-        "oaistatic.com",
         "intercomcdn.com",
-        "grazie.ai",
-        "perplexity.ai",
-        "oaiusercontent.com",
-        "copilot.cloud.microsoft",
-        "ai.azure.com",
-        "grazie.aws.intellij.net",
-        "anthropic.com",
-        "client-api.arkoselabs.com",
-        "auth0.com",
-        "identrust.com",
+        "claude.ai",
         "openaiapi-site.azureedge.net",
+        "identrust.com",
+        "gemini.google.com",
+        "ai.azure.com",
+        "featuregates.org",
+        "copilot.microsoft.com",
+        "openai.com",
+        "grazie.ai",
         "mistral.ai",
-        "sora.com",
+        "oaiusercontent.com",
         "bard.google.com",
+        "makersuite.google.com",
+        "auth0.com",
+        "client-api.arkoselabs.com",
+        "oaistatic.com",
+        "grazie.aws.intellij.net",
+        "perplexity.ai",
         "chatgpt.com",
-        "openai.com"
+        "anthropic.com",
+        "sora.com",
+        "copilot.cloud.microsoft",
+        "intercom.io",
+        "events.statsigapi.net"
       ]
     }
   ]
