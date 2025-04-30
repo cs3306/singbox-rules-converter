@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "console.groq.com",
         "api.together.xyz",
-        "copilot-proxy.githubusercontent.com",
-        "ai.google.dev",
-        "api.githubcopilot.com",
-        "generativelanguage.googleapis.com",
-        "api.groq.com",
+        "console.groq.com",
         "gemini.google.com",
+        "copilot-proxy.githubusercontent.com",
+        "api.githubcopilot.com",
+        "sydney.bing.com",
+        "api.groq.com",
         "bard.google.com",
-        "sydney.bing.com"
+        "ai.google.dev",
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
+        "anthropic",
         "openai",
-        "claude",
-        "anthropic"
+        "claude"
       ],
       "domain_suffix": [
-        "ai.azure.com",
-        "sora.com",
-        "events.statsigapi.net",
-        "perplexity.ai",
-        "auth0.com",
-        "meta.ai",
         "copilot.microsoft.com",
-        "gemini.google.com",
-        "bard.google.com",
-        "grazie.ai",
-        "featuregates.org",
-        "anthropic.com",
-        "identrust.com",
-        "client-api.arkoselabs.com",
-        "oaistatic.com",
+        "meta.ai",
+        "oaiusercontent.com",
+        "ai.azure.com",
         "intercomcdn.com",
-        "mistral.ai",
+        "claude.ai",
+        "oaistatic.com",
         "openai.com",
         "grazie.aws.intellij.net",
-        "openaiapi-site.azureedge.net",
-        "makersuite.google.com",
+        "anthropic.com",
+        "auth0.com",
+        "mistral.ai",
+        "bard.google.com",
+        "gemini.google.com",
+        "events.statsigapi.net",
         "copilot.cloud.microsoft",
-        "intercom.io",
-        "oaiusercontent.com",
+        "client-api.arkoselabs.com",
+        "makersuite.google.com",
         "chatgpt.com",
-        "claude.ai"
+        "perplexity.ai",
+        "intercom.io",
+        "sora.com",
+        "featuregates.org",
+        "identrust.com",
+        "grazie.ai",
+        "openaiapi-site.azureedge.net"
       ]
     }
   ]
