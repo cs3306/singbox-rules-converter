@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "sydney.bing.com",
+        "api.githubcopilot.com",
+        "ai.google.dev",
+        "bard.google.com",
+        "generativelanguage.googleapis.com",
         "console.groq.com",
         "api.groq.com",
-        "ai.google.dev",
-        "api.githubcopilot.com",
-        "api.together.xyz",
-        "bard.google.com",
         "copilot-proxy.githubusercontent.com",
-        "sydney.bing.com",
-        "gemini.google.com",
-        "generativelanguage.googleapis.com"
+        "api.together.xyz",
+        "gemini.google.com"
       ],
       "domain_keyword": [
         "anthropic",
-        "openai",
-        "claude"
+        "claude",
+        "openai"
       ],
       "domain_suffix": [
-        "claude.ai",
-        "grazie.ai",
         "auth0.com",
-        "copilot.cloud.microsoft",
-        "bard.google.com",
-        "intercomcdn.com",
-        "perplexity.ai",
-        "events.statsigapi.net",
-        "chatgpt.com",
-        "mistral.ai",
-        "gemini.google.com",
-        "sora.com",
-        "anthropic.com",
-        "openaiapi-site.azureedge.net",
-        "copilot.microsoft.com",
-        "oaistatic.com",
         "grazie.aws.intellij.net",
-        "ai.azure.com",
+        "anthropic.com",
         "makersuite.google.com",
-        "openai.com",
-        "featuregates.org",
+        "grazie.ai",
         "oaiusercontent.com",
-        "meta.ai",
+        "openaiapi-site.azureedge.net",
+        "events.statsigapi.net",
         "identrust.com",
         "intercom.io",
-        "client-api.arkoselabs.com"
+        "copilot.microsoft.com",
+        "openai.com",
+        "mistral.ai",
+        "featuregates.org",
+        "claude.ai",
+        "meta.ai",
+        "perplexity.ai",
+        "sora.com",
+        "bard.google.com",
+        "ai.azure.com",
+        "client-api.arkoselabs.com",
+        "chatgpt.com",
+        "oaistatic.com",
+        "intercomcdn.com",
+        "copilot.cloud.microsoft",
+        "gemini.google.com"
       ]
     }
   ]
