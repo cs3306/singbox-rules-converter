@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "alkalimakersuite-pa.clients6.google.com",
-        "generativelanguage.googleapis.com",
+        "makersuite.google.com",
         "ai.google.dev",
-        "makersuite.google.com"
+        "alkalimakersuite-pa.clients6.google.com",
+        "generativelanguage.googleapis.com"
       ],
       "domain_suffix": [
-        "bard.google.com",
-        "deepmind.com",
-        "generativeai.google",
         "proactivebackend-pa.googleapis.com",
+        "deepmind.com",
+        "bard.google.com",
+        "generativeai.google",
         "gemini.google.com",
         "deepmind.google"
       ]
