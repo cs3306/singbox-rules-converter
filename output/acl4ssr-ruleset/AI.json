@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "bard.google.com",
+        "api.githubcopilot.com",
         "api.groq.com",
         "console.groq.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.githubcopilot.com",
-        "generativelanguage.googleapis.com",
-        "ai.google.dev",
-        "sydney.bing.com",
+        "api.together.xyz",
         "gemini.google.com",
-        "bard.google.com",
-        "api.together.xyz"
+        "generativelanguage.googleapis.com",
+        "copilot-proxy.githubusercontent.com",
+        "sydney.bing.com",
+        "ai.google.dev"
       ],
       "domain_keyword": [
         "claude",
-        "anthropic",
-        "openai"
+        "openai",
+        "anthropic"
       ],
       "domain_suffix": [
-        "claude.ai",
-        "copilot.microsoft.com",
-        "identrust.com",
-        "gemini.google.com",
+        "ai.azure.com",
         "auth0.com",
-        "mistral.ai",
         "openaiapi-site.azureedge.net",
-        "chatgpt.com",
+        "identrust.com",
+        "claude.ai",
+        "perplexity.ai",
+        "client-api.arkoselabs.com",
+        "meta.ai",
+        "grazie.aws.intellij.net",
+        "intercomcdn.com",
         "sora.com",
+        "copilot.cloud.microsoft",
+        "intercom.io",
         "grazie.ai",
         "bard.google.com",
-        "intercom.io",
-        "ai.azure.com",
-        "client-api.arkoselabs.com",
-        "perplexity.ai",
-        "meta.ai",
-        "events.statsigapi.net",
-        "copilot.cloud.microsoft",
-        "featuregates.org",
-        "makersuite.google.com",
-        "oaistatic.com",
-        "openai.com",
-        "grazie.aws.intellij.net",
-        "oaiusercontent.com",
         "anthropic.com",
-        "intercomcdn.com"
+        "openai.com",
+        "oaiusercontent.com",
+        "chatgpt.com",
+        "makersuite.google.com",
+        "copilot.microsoft.com",
+        "mistral.ai",
+        "events.statsigapi.net",
+        "featuregates.org",
+        "oaistatic.com",
+        "gemini.google.com"
       ]
     }
   ]
