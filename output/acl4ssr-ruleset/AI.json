@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "api.groq.com",
+        "api.together.xyz",
+        "copilot-proxy.githubusercontent.com",
+        "gemini.google.com",
         "generativelanguage.googleapis.com",
         "sydney.bing.com",
+        "api.githubcopilot.com",
         "bard.google.com",
         "ai.google.dev",
-        "console.groq.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.groq.com",
-        "api.githubcopilot.com",
-        "gemini.google.com",
-        "api.together.xyz"
+        "console.groq.com"
       ],
       "domain_keyword": [
-        "openai",
         "claude",
-        "anthropic"
+        "anthropic",
+        "openai"
       ],
       "domain_suffix": [
-        "grazie.aws.intellij.net",
-        "identrust.com",
-        "openai.com",
-        "featuregates.org",
-        "mistral.ai",
-        "auth0.com",
-        "client-api.arkoselabs.com",
-        "meta.ai",
-        "grazie.ai",
-        "openaiapi-site.azureedge.net",
-        "perplexity.ai",
-        "chatgpt.com",
-        "events.statsigapi.net",
-        "intercom.io",
-        "ai.azure.com",
-        "copilot.microsoft.com",
-        "oaiusercontent.com",
-        "oaistatic.com",
         "gemini.google.com",
-        "anthropic.com",
+        "grazie.ai",
+        "featuregates.org",
+        "identrust.com",
+        "mistral.ai",
+        "chatgpt.com",
+        "ai.azure.com",
+        "events.statsigapi.net",
+        "makersuite.google.com",
+        "client-api.arkoselabs.com",
         "copilot.cloud.microsoft",
+        "grazie.aws.intellij.net",
+        "perplexity.ai",
+        "openai.com",
+        "sora.com",
         "claude.ai",
         "bard.google.com",
+        "oaiusercontent.com",
         "intercomcdn.com",
-        "sora.com",
-        "makersuite.google.com"
+        "openaiapi-site.azureedge.net",
+        "auth0.com",
+        "intercom.io",
+        "anthropic.com",
+        "oaistatic.com",
+        "meta.ai",
+        "copilot.microsoft.com"
       ]
     }
   ]
