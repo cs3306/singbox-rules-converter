@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "gemini.google.com",
-        "api.together.xyz",
-        "generativelanguage.googleapis.com",
-        "api.githubcopilot.com",
-        "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
         "ai.google.dev",
+        "api.githubcopilot.com",
+        "console.groq.com",
+        "api.together.xyz",
         "bard.google.com",
         "api.groq.com",
-        "console.groq.com"
+        "generativelanguage.googleapis.com",
+        "sydney.bing.com",
+        "copilot-proxy.githubusercontent.com",
+        "gemini.google.com"
       ],
       "domain_keyword": [
         "anthropic",
-        "openai",
-        "claude"
+        "claude",
+        "openai"
       ],
       "domain_suffix": [
-        "gemini.google.com",
+        "perplexity.ai",
+        "intercom.io",
+        "copilot.cloud.microsoft",
+        "mistral.ai",
+        "oaistatic.com",
+        "intercomcdn.com",
+        "bard.google.com",
+        "oaiusercontent.com",
+        "grazie.ai",
+        "auth0.com",
+        "identrust.com",
+        "makersuite.google.com",
+        "meta.ai",
         "openai.com",
         "ai.azure.com",
+        "anthropic.com",
+        "gemini.google.com",
+        "openaiapi-site.azureedge.net",
+        "sora.com",
+        "claude.ai",
         "copilot.microsoft.com",
         "chatgpt.com",
-        "bard.google.com",
-        "client-api.arkoselabs.com",
-        "mistral.ai",
-        "makersuite.google.com",
-        "intercomcdn.com",
         "featuregates.org",
-        "intercom.io",
-        "auth0.com",
         "events.statsigapi.net",
-        "perplexity.ai",
-        "openaiapi-site.azureedge.net",
-        "meta.ai",
-        "grazie.aws.intellij.net",
-        "copilot.cloud.microsoft",
-        "anthropic.com",
-        "claude.ai",
-        "identrust.com",
-        "grazie.ai",
-        "oaiusercontent.com",
-        "sora.com",
-        "oaistatic.com"
+        "client-api.arkoselabs.com",
+        "grazie.aws.intellij.net"
       ]
     }
   ]
