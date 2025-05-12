@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "api.githubcopilot.com",
-        "bard.google.com",
-        "sydney.bing.com",
-        "generativelanguage.googleapis.com",
-        "ai.google.dev",
+        "api.groq.com",
+        "copilot-proxy.githubusercontent.com",
         "api.together.xyz",
+        "bard.google.com",
+        "ai.google.dev",
+        "sydney.bing.com",
         "console.groq.com",
         "gemini.google.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.groq.com"
+        "api.githubcopilot.com",
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
-        "claude",
         "anthropic",
-        "openai"
+        "openai",
+        "claude"
       ],
       "domain_suffix": [
+        "grazie.ai",
+        "identrust.com",
+        "sora.com",
+        "claude.ai",
+        "openai.com",
+        "copilot.microsoft.com",
         "ai.azure.com",
         "grazie.aws.intellij.net",
-        "bard.google.com",
-        "grazie.ai",
-        "makersuite.google.com",
-        "auth0.com",
-        "perplexity.ai",
-        "mistral.ai",
-        "oaiusercontent.com",
-        "openai.com",
-        "gemini.google.com",
-        "copilot.microsoft.com",
-        "anthropic.com",
-        "intercomcdn.com",
-        "intercom.io",
-        "meta.ai",
         "oaistatic.com",
-        "openaiapi-site.azureedge.net",
-        "claude.ai",
-        "sora.com",
+        "intercom.io",
+        "auth0.com",
+        "mistral.ai",
         "chatgpt.com",
+        "anthropic.com",
+        "bard.google.com",
         "copilot.cloud.microsoft",
-        "featuregates.org",
-        "identrust.com",
+        "makersuite.google.com",
+        "openaiapi-site.azureedge.net",
+        "gemini.google.com",
+        "events.statsigapi.net",
         "client-api.arkoselabs.com",
-        "events.statsigapi.net"
+        "featuregates.org",
+        "perplexity.ai",
+        "intercomcdn.com",
+        "oaiusercontent.com",
+        "meta.ai"
       ]
     }
   ]
