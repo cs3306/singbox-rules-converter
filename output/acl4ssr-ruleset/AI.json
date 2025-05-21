@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
         "ai.google.dev",
         "bard.google.com",
         "generativelanguage.googleapis.com",
+        "api.together.xyz",
+        "copilot-proxy.githubusercontent.com",
         "gemini.google.com",
-        "api.githubcopilot.com",
-        "api.groq.com",
+        "sydney.bing.com",
         "console.groq.com",
-        "api.together.xyz"
+        "api.groq.com",
+        "api.githubcopilot.com"
       ],
       "domain_keyword": [
-        "anthropic",
         "claude",
-        "openai"
+        "openai",
+        "anthropic"
       ],
       "domain_suffix": [
-        "client-api.arkoselabs.com",
-        "mistral.ai",
-        "ai.azure.com",
-        "featuregates.org",
-        "oaiusercontent.com",
-        "identrust.com",
-        "oaistatic.com",
-        "auth0.com",
+        "bard.google.com",
         "openai.com",
+        "mistral.ai",
+        "claude.ai",
+        "gemini.google.com",
         "perplexity.ai",
-        "intercomcdn.com",
-        "anthropic.com",
+        "chatgpt.com",
+        "oaiusercontent.com",
+        "sora.com",
         "intercom.io",
         "copilot.microsoft.com",
-        "bard.google.com",
-        "makersuite.google.com",
-        "events.statsigapi.net",
+        "intercomcdn.com",
+        "ai.azure.com",
         "copilot.cloud.microsoft",
-        "sora.com",
-        "meta.ai",
+        "makersuite.google.com",
+        "identrust.com",
         "grazie.aws.intellij.net",
-        "openaiapi-site.azureedge.net",
-        "gemini.google.com",
         "grazie.ai",
-        "claude.ai",
-        "chatgpt.com"
+        "client-api.arkoselabs.com",
+        "meta.ai",
+        "oaistatic.com",
+        "auth0.com",
+        "anthropic.com",
+        "openaiapi-site.azureedge.net",
+        "events.statsigapi.net",
+        "featuregates.org"
       ]
     }
   ]
