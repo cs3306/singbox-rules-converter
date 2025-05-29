@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
-        "gemini.google.com",
-        "api.groq.com",
-        "console.groq.com",
-        "generativelanguage.googleapis.com",
-        "api.githubcopilot.com",
-        "copilot-proxy.githubusercontent.com",
         "bard.google.com",
+        "ai.google.dev",
+        "api.githubcopilot.com",
+        "gemini.google.com",
+        "copilot-proxy.githubusercontent.com",
+        "api.together.xyz",
+        "generativelanguage.googleapis.com",
         "sydney.bing.com",
-        "api.together.xyz"
+        "api.groq.com",
+        "console.groq.com"
       ],
       "domain_keyword": [
         "openai",
@@ -20,32 +20,32 @@
         "claude"
       ],
       "domain_suffix": [
-        "oaiusercontent.com",
-        "copilot.microsoft.com",
-        "client-api.arkoselabs.com",
-        "events.statsigapi.net",
-        "openai.com",
-        "grazie.aws.intellij.net",
-        "openaiapi-site.azureedge.net",
-        "featuregates.org",
-        "auth0.com",
-        "mistral.ai",
-        "copilot.cloud.microsoft",
         "bard.google.com",
-        "perplexity.ai",
         "intercom.io",
-        "chatgpt.com",
-        "oaistatic.com",
-        "meta.ai",
-        "sora.com",
-        "claude.ai",
-        "grazie.ai",
-        "identrust.com",
-        "makersuite.google.com",
+        "client-api.arkoselabs.com",
+        "openai.com",
+        "events.statsigapi.net",
+        "featuregates.org",
+        "copilot.microsoft.com",
+        "grazie.aws.intellij.net",
+        "oaiusercontent.com",
         "gemini.google.com",
+        "perplexity.ai",
+        "openaiapi-site.azureedge.net",
+        "sora.com",
+        "chatgpt.com",
+        "identrust.com",
+        "ai.azure.com",
+        "mistral.ai",
+        "oaistatic.com",
+        "copilot.cloud.microsoft",
+        "claude.ai",
+        "makersuite.google.com",
+        "meta.ai",
         "anthropic.com",
+        "grazie.ai",
         "intercomcdn.com",
-        "ai.azure.com"
+        "auth0.com"
       ]
     }
   ]
