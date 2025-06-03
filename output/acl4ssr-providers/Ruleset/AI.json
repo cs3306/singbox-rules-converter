@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "api.githubcopilot.com",
-        "api.together.xyz",
-        "console.groq.com",
-        "gemini.google.com",
         "bard.google.com",
-        "generativelanguage.googleapis.com",
-        "ai.google.dev",
+        "gemini.google.com",
         "api.groq.com",
         "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com"
+        "console.groq.com",
+        "api.together.xyz",
+        "generativelanguage.googleapis.com",
+        "api.githubcopilot.com",
+        "copilot-proxy.githubusercontent.com",
+        "ai.google.dev"
       ],
       "domain_keyword": [
         "openai",
-        "anthropic",
-        "claude"
+        "claude",
+        "anthropic"
       ],
       "domain_suffix": [
-        "copilot.cloud.microsoft",
-        "grazie.aws.intellij.net",
-        "identrust.com",
-        "ai.azure.com",
-        "copilot.microsoft.com",
-        "openai.com",
-        "oaiusercontent.com",
-        "chatgpt.com",
         "gemini.google.com",
         "grazie.ai",
-        "sora.com",
-        "mistral.ai",
-        "anthropic.com",
-        "client-api.arkoselabs.com",
-        "featuregates.org",
-        "oaistatic.com",
-        "openaiapi-site.azureedge.net",
+        "copilot.cloud.microsoft",
         "bard.google.com",
+        "chatgpt.com",
+        "mistral.ai",
+        "sora.com",
         "makersuite.google.com",
+        "anthropic.com",
         "meta.ai",
-        "perplexity.ai",
-        "intercomcdn.com",
-        "auth0.com",
         "events.statsigapi.net",
+        "openaiapi-site.azureedge.net",
+        "grazie.aws.intellij.net",
+        "identrust.com",
+        "featuregates.org",
+        "intercomcdn.com",
         "intercom.io",
-        "claude.ai"
+        "openai.com",
+        "claude.ai",
+        "ai.azure.com",
+        "perplexity.ai",
+        "auth0.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "client-api.arkoselabs.com",
+        "copilot.microsoft.com"
       ]
     }
   ]
