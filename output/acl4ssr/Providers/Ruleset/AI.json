@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "console.groq.com",
-        "gemini.google.com",
-        "copilot-proxy.githubusercontent.com",
-        "sydney.bing.com",
-        "generativelanguage.googleapis.com",
-        "api.groq.com",
         "ai.google.dev",
-        "api.githubcopilot.com",
+        "generativelanguage.googleapis.com",
+        "copilot-proxy.githubusercontent.com",
         "bard.google.com",
-        "api.together.xyz"
+        "api.groq.com",
+        "gemini.google.com",
+        "sydney.bing.com",
+        "console.groq.com",
+        "api.together.xyz",
+        "api.githubcopilot.com"
       ],
       "domain_keyword": [
         "openai",
@@ -20,32 +20,32 @@
         "claude"
       ],
       "domain_suffix": [
-        "openaiapi-site.azureedge.net",
-        "oaistatic.com",
-        "client-api.arkoselabs.com",
-        "mistral.ai",
-        "featuregates.org",
-        "sora.com",
-        "chatgpt.com",
-        "copilot.microsoft.com",
-        "openai.com",
-        "perplexity.ai",
+        "ai.azure.com",
+        "claude.ai",
         "events.statsigapi.net",
         "anthropic.com",
-        "copilot.cloud.microsoft",
-        "grazie.ai",
-        "auth0.com",
-        "oaiusercontent.com",
-        "grazie.aws.intellij.net",
+        "sora.com",
         "meta.ai",
-        "bard.google.com",
         "intercomcdn.com",
-        "identrust.com",
-        "ai.azure.com",
-        "gemini.google.com",
+        "makersuite.google.com",
+        "auth0.com",
         "intercom.io",
-        "claude.ai",
-        "makersuite.google.com"
+        "chatgpt.com",
+        "oaiusercontent.com",
+        "openaiapi-site.azureedge.net",
+        "perplexity.ai",
+        "grazie.ai",
+        "openai.com",
+        "gemini.google.com",
+        "client-api.arkoselabs.com",
+        "featuregates.org",
+        "identrust.com",
+        "oaistatic.com",
+        "mistral.ai",
+        "grazie.aws.intellij.net",
+        "bard.google.com",
+        "copilot.microsoft.com",
+        "copilot.cloud.microsoft"
       ]
     }
   ]

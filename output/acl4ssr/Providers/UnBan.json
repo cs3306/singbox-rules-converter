@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain": [
-        "origin-a.akamaihd.net",
-        "livew.l.qq.com",
-        "dl.google.com",
-        "fairplay.l.qq.com",
+        "app.adjust.com",
         "msg.umengcloud.com",
         "bdtj.tagtic.cn",
-        "vd.l.qq.com",
         "msg.umeng.com",
-        "app.adjust.com",
         "tracking.miui.com",
+        "errlog.umeng.com",
+        "dl.google.com",
+        "origin-a.akamaihd.net",
         "rewards.hypixel.net",
-        "errlog.umeng.com"
+        "livew.l.qq.com",
+        "fairplay.l.qq.com",
+        "vd.l.qq.com"
       ],
       "domain_suffix": [
-        "ol.epicgames.com",
         "koodomobile.com",
+        "koodomobile.ca",
         "dizhensubao.getui.com",
         "tracking-protection.cdn.mozilla.net",
-        "googletraveladservices.com",
-        "koodomobile.ca"
+        "ol.epicgames.com",
+        "googletraveladservices.com"
       ]
     }
   ]

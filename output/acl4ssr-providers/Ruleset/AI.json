@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
-        "api.githubcopilot.com",
-        "api.together.xyz",
-        "bard.google.com",
-        "copilot-proxy.githubusercontent.com",
-        "ai.google.dev",
-        "generativelanguage.googleapis.com",
-        "sydney.bing.com",
         "api.groq.com",
+        "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "copilot-proxy.githubusercontent.com",
+        "api.together.xyz",
+        "api.githubcopilot.com",
+        "sydney.bing.com",
+        "ai.google.dev",
         "console.groq.com",
-        "gemini.google.com"
+        "bard.google.com"
       ],
       "domain_keyword": [
         "anthropic",
@@ -20,32 +20,32 @@
         "openai"
       ],
       "domain_suffix": [
-        "bard.google.com",
-        "copilot.microsoft.com",
-        "oaistatic.com",
-        "anthropic.com",
-        "client-api.arkoselabs.com",
+        "perplexity.ai",
+        "identrust.com",
+        "intercom.io",
         "ai.azure.com",
         "openaiapi-site.azureedge.net",
-        "auth0.com",
-        "sora.com",
-        "identrust.com",
-        "intercomcdn.com",
-        "openai.com",
-        "grazie.aws.intellij.net",
-        "copilot.cloud.microsoft",
-        "perplexity.ai",
-        "oaiusercontent.com",
-        "events.statsigapi.net",
+        "client-api.arkoselabs.com",
         "grazie.ai",
-        "gemini.google.com",
-        "chatgpt.com",
+        "copilot.microsoft.com",
         "featuregates.org",
-        "intercom.io",
         "claude.ai",
-        "mistral.ai",
+        "chatgpt.com",
+        "grazie.aws.intellij.net",
+        "gemini.google.com",
+        "intercomcdn.com",
+        "oaiusercontent.com",
+        "oaistatic.com",
+        "auth0.com",
+        "copilot.cloud.microsoft",
+        "bard.google.com",
+        "events.statsigapi.net",
+        "sora.com",
+        "openai.com",
         "makersuite.google.com",
-        "meta.ai"
+        "mistral.ai",
+        "meta.ai",
+        "anthropic.com"
       ]
     }
   ]
