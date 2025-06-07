@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
-        "generativelanguage.googleapis.com",
+        "api.together.xyz",
+        "sydney.bing.com",
+        "api.groq.com",
+        "console.groq.com",
         "copilot-proxy.githubusercontent.com",
         "bard.google.com",
-        "api.groq.com",
+        "api.githubcopilot.com",
+        "ai.google.dev",
         "gemini.google.com",
-        "sydney.bing.com",
-        "console.groq.com",
-        "api.together.xyz",
-        "api.githubcopilot.com"
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
-        "openai",
         "anthropic",
-        "claude"
+        "claude",
+        "openai"
       ],
       "domain_suffix": [
-        "ai.azure.com",
-        "claude.ai",
-        "events.statsigapi.net",
-        "anthropic.com",
-        "sora.com",
-        "meta.ai",
-        "intercomcdn.com",
-        "makersuite.google.com",
-        "auth0.com",
         "intercom.io",
+        "copilot.cloud.microsoft",
+        "bard.google.com",
+        "events.statsigapi.net",
         "chatgpt.com",
-        "oaiusercontent.com",
-        "openaiapi-site.azureedge.net",
-        "perplexity.ai",
-        "grazie.ai",
-        "openai.com",
-        "gemini.google.com",
-        "client-api.arkoselabs.com",
-        "featuregates.org",
+        "anthropic.com",
+        "ai.azure.com",
         "identrust.com",
+        "meta.ai",
+        "claude.ai",
         "oaistatic.com",
         "mistral.ai",
-        "grazie.aws.intellij.net",
-        "bard.google.com",
+        "sora.com",
+        "featuregates.org",
+        "intercomcdn.com",
+        "auth0.com",
+        "openaiapi-site.azureedge.net",
+        "oaiusercontent.com",
+        "openai.com",
+        "perplexity.ai",
         "copilot.microsoft.com",
-        "copilot.cloud.microsoft"
+        "gemini.google.com",
+        "grazie.aws.intellij.net",
+        "client-api.arkoselabs.com",
+        "grazie.ai",
+        "makersuite.google.com"
       ]
     }
   ]
