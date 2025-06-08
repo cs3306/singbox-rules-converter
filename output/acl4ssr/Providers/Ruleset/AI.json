@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "api.together.xyz",
+        "generativelanguage.googleapis.com",
         "sydney.bing.com",
-        "api.groq.com",
-        "console.groq.com",
-        "copilot-proxy.githubusercontent.com",
         "bard.google.com",
+        "api.together.xyz",
+        "gemini.google.com",
+        "console.groq.com",
+        "api.groq.com",
         "api.githubcopilot.com",
         "ai.google.dev",
-        "gemini.google.com",
-        "generativelanguage.googleapis.com"
+        "copilot-proxy.githubusercontent.com"
       ],
       "domain_keyword": [
+        "openai",
         "anthropic",
-        "claude",
-        "openai"
+        "claude"
       ],
       "domain_suffix": [
-        "intercom.io",
-        "copilot.cloud.microsoft",
+        "grazie.aws.intellij.net",
+        "featuregates.org",
+        "auth0.com",
         "bard.google.com",
-        "events.statsigapi.net",
-        "chatgpt.com",
-        "anthropic.com",
-        "ai.azure.com",
+        "client-api.arkoselabs.com",
+        "makersuite.google.com",
         "identrust.com",
-        "meta.ai",
-        "claude.ai",
+        "perplexity.ai",
         "oaistatic.com",
         "mistral.ai",
-        "sora.com",
-        "featuregates.org",
-        "intercomcdn.com",
-        "auth0.com",
-        "openaiapi-site.azureedge.net",
-        "oaiusercontent.com",
-        "openai.com",
-        "perplexity.ai",
-        "copilot.microsoft.com",
         "gemini.google.com",
-        "grazie.aws.intellij.net",
-        "client-api.arkoselabs.com",
+        "claude.ai",
+        "openai.com",
+        "meta.ai",
+        "sora.com",
         "grazie.ai",
-        "makersuite.google.com"
+        "events.statsigapi.net",
+        "intercom.io",
+        "copilot.cloud.microsoft",
+        "copilot.microsoft.com",
+        "oaiusercontent.com",
+        "anthropic.com",
+        "intercomcdn.com",
+        "chatgpt.com",
+        "ai.azure.com",
+        "openaiapi-site.azureedge.net"
       ]
     }
   ]
