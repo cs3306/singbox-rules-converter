@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain": [
-        "makersuite.google.com",
         "ai.google.dev",
+        "makersuite.google.com",
         "alkalimakersuite-pa.clients6.google.com"
       ],
       "domain_keyword": [
@@ -13,12 +13,12 @@
         "colab"
       ],
       "domain_suffix": [
-        "deepmind.com",
         "generativeai.google",
-        "bard.google.com",
         "proactivebackend-pa.googleapis.com",
-        "gemini.google.com",
         "apis.google.com",
+        "deepmind.com",
+        "bard.google.com",
+        "gemini.google.com",
         "deepmind.google"
       ]
     }
