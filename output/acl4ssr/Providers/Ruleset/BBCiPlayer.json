@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain": [
-        "vod-dash-uk-live.akamaized.net",
         "aod-dash-uk-live.akamaized.net",
         "aod-hls-uk-live.akamaized.net",
+        "vod-dash-uk-live.akamaized.net",
         "vod-thumb-uk-live.akamaized.net"
       ],
       "domain_keyword": [
-        "bbcfmt",
-        "uk-live"
+        "uk-live",
+        "bbcfmt"
       ],
       "domain_suffix": [
-        "bbcfmt.hs.llnwd.net",
-        "bbci.co.uk",
-        "bbc.co",
-        "bbci.co",
-        "bbc.com",
         "bbc.net.uk",
-        "bidi.net.uk",
-        "bbc.co.uk"
+        "bbc.co",
+        "bbci.co.uk",
+        "bbci.co",
+        "bbcfmt.hs.llnwd.net",
+        "bbc.co.uk",
+        "bbc.com",
+        "bidi.net.uk"
       ]
     }
   ]
