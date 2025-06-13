@@ -3,42 +3,42 @@
   "rules": [
     {
       "domain_keyword": [
-        "buy.itunes.apple.com",
-        "smp-device",
-        "apple.com.akadns.net",
-        "icloud.com.akadns.net",
         "apple.com.edgekey.net",
-        "apple-support.akadns.net",
-        "testflight"
+        "icloud.com.akadns.net",
+        "apple.com.akadns.net",
+        "buy.itunes.apple.com",
+        "testflight",
+        "smp-device",
+        "apple-support.akadns.net"
       ],
       "ip_cidr": [
         "198.183.17.0/24",
         "144.178.36.0/22",
-        "205.180.175.0/24",
-        "144.178.48.0/20",
-        "139.178.128.0/18",
         "63.92.224.0/19",
-        "17.0.0.0/8",
-        "65.199.22.0/23",
+        "139.178.128.0/18",
+        "192.35.50.0/24",
         "144.178.0.0/19",
-        "192.35.50.0/24"
+        "65.199.22.0/23",
+        "17.0.0.0/8",
+        "144.178.48.0/20",
+        "205.180.175.0/24"
       ]
     },
     {
       "process_name": [
-        "mapspushd",
-        "TV",
-        "CoreLocationAgent",
-        "WeatherWidget",
-        "findmydevice-user-agent",
-        "com.apple.geod",
-        "apsd",
-        "trustd",
+        "Music",
         "netbiosd",
         "com.apple.Maps",
-        "LookupViewService",
+        "apsd",
         "fmfd",
-        "Music"
+        "findmydevice-user-agent",
+        "CoreLocationAgent",
+        "mapspushd",
+        "WeatherWidget",
+        "trustd",
+        "LookupViewService",
+        "TV",
+        "com.apple.geod"
       ]
     }
   ]
