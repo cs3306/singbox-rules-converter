@@ -4,14 +4,14 @@
     {
       "process_name": [
         "ToDesk.exe",
-        "DriverInstaller.exe",
-        "ToDesk_Session.exe",
-        "ToDesk_Setup.exe",
         "devcon.exe",
         "mstsc.exe",
+        "ToDesk_Service.exe",
+        "ToDesk_Session.exe",
+        "ToDesk_Setup.exe",
+        "DriverInstaller.exe",
         "SunloginClient.exe",
-        "CrashReport.exe",
-        "ToDesk_Service.exe"
+        "CrashReport.exe"
       ]
     }
   ]

@@ -3,38 +3,38 @@
   "rules": [
     {
       "domain": [
-        "aod-dash-uk-live.akamaized.net",
         "vod-hls-uk-live.akamaized.net",
-        "vod-thumb-ww-live.akamaized.net",
-        "aod-hls-uk-live.akamaized.net",
-        "vod-dash-uk-live.akamaized.net",
+        "aod-dash-uk-live.akamaized.net",
         "vod-sub-uk-live.akamaized.net",
         "as-dash-uk-live.akamaized.net",
-        "vod-dash-ww-live.akamaized.net",
-        "as-hls-uk-live.akamaized.net",
+        "vod-dash-uk-live.akamaized.net",
         "vod-thumb-uk-live.akamaized.net",
-        "vs-cmaf-push-uk-live.akamaized.net"
+        "vod-thumb-ww-live.akamaized.net",
+        "vs-cmaf-push-uk-live.akamaized.net",
+        "as-hls-uk-live.akamaized.net",
+        "aod-hls-uk-live.akamaized.net",
+        "vod-dash-ww-live.akamaized.net"
       ],
       "domain_keyword": [
         "bbcfmt",
         "uk-live"
       ],
       "domain_suffix": [
-        "bbc.co.uk",
-        "bbc",
-        "bbcmedia.co.uk",
-        "bbc.in",
+        "bbci.co.uk",
+        "bbcverticals.com",
+        "bbcfmt.s.llnwi.net",
+        "bbc.net.uk",
         "bbcchinese.com",
         "bbci.co",
-        "bidi.net.uk",
-        "bbc.com",
-        "bbcfmt.s.llnwi.net",
-        "bbc.co",
-        "bbcverticals.com",
-        "bbci.co.uk",
         "bbcpersian.com",
+        "bbc.com",
+        "bidi.net.uk",
+        "bbc.co.uk",
+        "bbc.co",
         "bbcfmt.hs.llnwd.net",
-        "bbc.net.uk"
+        "bbc",
+        "bbcmedia.co.uk",
+        "bbc.in"
       ]
     }
   ]

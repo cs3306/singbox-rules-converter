@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
-        "chat.openai.com.cdn.cloudflare.net",
-        "browser-intake-datadoghq.com",
-        "static.cloudflareinsights.com",
+        "production-openaicom-storage.azureedge.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
-        "openai-api.arkoselabs.com",
         "openaicomproductionae4b.blob.core.windows.net",
-        "production-openaicom-storage.azureedge.net"
+        "browser-intake-datadoghq.com",
+        "chat.openai.com.cdn.cloudflare.net",
+        "static.cloudflareinsights.com",
+        "openai-api.arkoselabs.com"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "observeit.net",
-        "segment.io",
-        "openaiapi-site.azureedge.net",
-        "events.statsigapi.net",
-        "host.livekit.cloud",
-        "algolia.net",
-        "openaicom.imgix.net",
         "auth0.com",
-        "intercomcdn.com",
-        "chatgpt.com",
-        "ai.com",
-        "featuregates.org",
-        "oaiusercontent.com",
-        "stripe.com",
-        "openai.com",
-        "oaistatic.com",
-        "intercom.io",
+        "launchdarkly.com",
         "chatgpt.livekit.cloud",
+        "api.statsig.com",
+        "openai.com",
+        "stripe.com",
+        "host.livekit.cloud",
+        "oaiusercontent.com",
+        "sentry.io",
+        "segment.io",
+        "chatgpt.com",
+        "openaiapi-site.azureedge.net",
+        "algolia.net",
+        "featuregates.org",
+        "events.statsigapi.net",
+        "turn.livekit.cloud",
+        "intercomcdn.com",
+        "oaistatic.com",
+        "ai.com",
+        "openaicom.imgix.net",
         "client-api.arkoselabs.com",
         "identrust.com",
-        "turn.livekit.cloud",
-        "sentry.io",
-        "launchdarkly.com",
-        "api.statsig.com"
+        "intercom.io",
+        "observeit.net"
       ],
       "ip_cidr": [
-        "64.23.132.171/32",
-        "24.199.123.28/32"
+        "24.199.123.28/32",
+        "64.23.132.171/32"
       ]
     }
   ]
