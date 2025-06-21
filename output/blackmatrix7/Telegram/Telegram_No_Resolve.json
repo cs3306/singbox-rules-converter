@@ -3,55 +3,55 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
+        "graph.org",
         "usercontent.dev",
         "telega.one",
-        "telegram.me",
-        "contest.com",
-        "telegram.org",
-        "telegra.ph",
-        "stel.com",
         "tdesktop.com",
-        "graph.org",
-        "quiz.directory",
-        "cdn-telegram.org",
-        "tx.me",
         "t.me",
-        "comments.app",
-        "legra.ph",
-        "telegram.dog",
-        "telegram.space",
-        "telegramdownload.com",
-        "mbrx.app",
         "telesco.pe",
+        "tx.me",
+        "telegram.org",
+        "telegram.space",
+        "quiz.directory",
+        "telegra.ph",
         "telegram-cdn.org",
-        "tg.dev"
+        "stel.com",
+        "mbrx.app",
+        "tg.dev",
+        "cdn-telegram.org",
+        "legra.ph",
+        "contest.com",
+        "telegram.me",
+        "comments.app",
+        "telegram.dog",
+        "telegramdownload.com"
       ],
       "ip_cidr": [
-        "2a0a:f280::/29",
         "149.154.160.0/20",
+        "2a0a:f280::/29",
+        "5.28.192.0/18",
         "109.239.140.0/24",
-        "2001:b28:f23c::/47",
         "2001:67c:4e8::/48",
         "2001:b28:f23f::/48",
         "91.108.0.0/16",
-        "5.28.192.0/18"
+        "2001:b28:f23c::/47"
       ]
     },
     {
       "process_name": [
-        "tw.nekomimi.nekogram",
-        "telegram-desktop",
-        "xyz.nextalone.nagram",
-        "org.telegram.messenger",
+        "Telegram.exe",
         "nekox.messenger",
-        "Telegram.exe"
+        "telegram-desktop",
+        "org.telegram.messenger",
+        "tw.nekomimi.nekogram",
+        "xyz.nextalone.nagram"
       ]
     }
   ]
