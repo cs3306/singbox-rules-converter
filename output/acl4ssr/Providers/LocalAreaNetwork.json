@@ -4,44 +4,44 @@
     {
       "domain": [
         "instant.arubanetworks.com",
-        "router.asus.com",
         "www.asusrouter.com",
-        "setmeup.arubanetworks.com"
+        "setmeup.arubanetworks.com",
+        "router.asus.com"
       ],
       "domain_suffix": [
-        "tendawifi.com",
         "p.to",
-        "peiluyou.com",
-        "ip6-localhost",
-        "acl4.ssr",
-        "local",
         "my.router",
+        "miwifi.com",
+        "ip6-loopback",
+        "local",
+        "ip6-localhost",
+        "hiwifi.com",
+        "localhost",
+        "routerlogin.com",
+        "leike.cc",
+        "lan",
+        "wifi.cmcc",
+        "zte.home",
+        "tendawifi.com",
+        "peiluyou.com",
         "tplogin.cn",
         "router.ctc",
-        "wifi.cmcc",
-        "localhost",
         "phicomm.me",
-        "miwifi.com",
-        "routerlogin.com",
-        "hiwifi.com",
-        "lan",
-        "zte.home",
-        "leike.cc",
-        "ip6-loopback"
+        "acl4.ssr"
       ],
       "ip_cidr": [
         "0.0.0.0/8",
-        "100.64.0.0/10",
-        "fd00::/8",
-        "fc00::/7",
-        "fe80::/10",
         "127.0.0.0/8",
-        "10.0.0.0/8",
-        "172.16.0.0/12",
-        "224.0.0.0/4",
-        "::1/128",
         "198.18.0.0/16",
-        "192.168.0.0/16"
+        "fd00::/8",
+        "192.168.0.0/16",
+        "100.64.0.0/10",
+        "::1/128",
+        "10.0.0.0/8",
+        "fc00::/7",
+        "224.0.0.0/4",
+        "fe80::/10",
+        "172.16.0.0/12"
       ]
     }
   ]
