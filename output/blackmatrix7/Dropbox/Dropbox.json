@@ -3,23 +3,23 @@
   "rules": [
     {
       "domain_suffix": [
-        "getdropbox.com",
-        "dropbox.tech",
-        "dropboxbusiness.com",
-        "dropboxinsiders.com",
-        "dropboxstatic.com",
-        "dropboxcaptcha.com",
-        "dropboxforums.com",
-        "dropboxmail.com",
-        "dropboxforum.com",
-        "dropboxusercontent.com",
-        "dropbox.zendesk.com",
-        "paper-attachments.s3.amazonaws.com",
-        "db.tt",
         "dropbox-dns.com",
+        "dropbox.tech",
+        "dropboxstatic.com",
+        "dropbox.zendesk.com",
+        "dropboxforums.com",
+        "dropboxinsiders.com",
         "dropboxapi.com",
+        "dropboxforum.com",
+        "dropboxmail.com",
+        "getdropbox.com",
         "dropbox.com",
-        "dropboxpartners.com"
+        "paper-attachments.s3.amazonaws.com",
+        "dropboxbusiness.com",
+        "dropboxcaptcha.com",
+        "dropboxpartners.com",
+        "dropboxusercontent.com",
+        "db.tt"
       ]
     }
   ]
