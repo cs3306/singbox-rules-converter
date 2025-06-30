@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
-        "production-openaicom-storage.azureedge.net",
-        "openaicomproductionae4b.blob.core.windows.net",
-        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
-        "chat.openai.com.cdn.cloudflare.net",
         "browser-intake-datadoghq.com",
         "static.cloudflareinsights.com",
-        "openai-api.arkoselabs.com"
+        "chat.openai.com.cdn.cloudflare.net",
+        "openai-api.arkoselabs.com",
+        "openaicomproductionae4b.blob.core.windows.net",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "production-openaicom-storage.azureedge.net"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "api.statsig.com",
-        "events.statsigapi.net",
+        "openaicom.imgix.net",
         "oaiusercontent.com",
-        "openaiapi-site.azureedge.net",
-        "turn.livekit.cloud",
+        "algolia.net",
+        "events.statsigapi.net",
+        "stripe.com",
+        "oaistatic.com",
         "chatgpt.com",
+        "turn.livekit.cloud",
+        "intercomcdn.com",
+        "intercom.io",
+        "identrust.com",
+        "openai.com",
+        "sentry.io",
+        "chatgpt.livekit.cloud",
+        "segment.io",
+        "api.statsig.com",
         "observeit.net",
         "auth0.com",
         "host.livekit.cloud",
-        "intercom.io",
-        "segment.io",
-        "openaicom.imgix.net",
-        "algolia.net",
-        "openai.com",
-        "ai.com",
-        "stripe.com",
-        "launchdarkly.com",
-        "identrust.com",
-        "sentry.io",
-        "chatgpt.livekit.cloud",
-        "featuregates.org",
         "client-api.arkoselabs.com",
-        "intercomcdn.com",
-        "oaistatic.com"
+        "ai.com",
+        "launchdarkly.com",
+        "featuregates.org",
+        "openaiapi-site.azureedge.net"
       ],
       "ip_cidr": [
-        "64.23.132.171/32",
-        "24.199.123.28/32"
+        "24.199.123.28/32",
+        "64.23.132.171/32"
       ]
     }
   ]
