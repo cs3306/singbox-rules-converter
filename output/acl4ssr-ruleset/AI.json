@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
-        "api.together.xyz",
-        "copilot-proxy.githubusercontent.com",
-        "api.githubcopilot.com",
         "api.groq.com",
-        "gemini.google.com",
+        "api.githubcopilot.com",
+        "api.together.xyz",
         "sydney.bing.com",
-        "generativelanguage.googleapis.com",
+        "copilot-proxy.githubusercontent.com",
         "console.groq.com",
-        "bard.google.com"
+        "gemini.google.com",
+        "bard.google.com",
+        "generativelanguage.googleapis.com",
+        "ai.google.dev"
       ],
       "domain_keyword": [
-        "anthropic",
+        "claude",
         "openai",
-        "claude"
+        "anthropic"
       ],
       "domain_suffix": [
-        "events.statsigapi.net",
+        "anthropic.com",
         "oaistatic.com",
+        "auth0.com",
+        "copilot.cloud.microsoft",
+        "featuregates.org",
         "grazie.ai",
-        "identrust.com",
         "mistral.ai",
         "openaiapi-site.azureedge.net",
-        "claude.ai",
-        "oaiusercontent.com",
-        "makersuite.google.com",
-        "grazie.aws.intellij.net",
-        "sora.com",
-        "anthropic.com",
-        "auth0.com",
-        "intercom.io",
-        "featuregates.org",
-        "gemini.google.com",
-        "intercomcdn.com",
-        "meta.ai",
-        "copilot.cloud.microsoft",
-        "chatgpt.com",
+        "identrust.com",
         "bard.google.com",
-        "perplexity.ai",
-        "ai.azure.com",
+        "intercom.io",
+        "chatgpt.com",
+        "claude.ai",
+        "meta.ai",
+        "intercomcdn.com",
+        "openai.com",
         "client-api.arkoselabs.com",
-        "copilot.microsoft.com",
-        "openai.com"
+        "gemini.google.com",
+        "makersuite.google.com",
+        "ai.azure.com",
+        "events.statsigapi.net",
+        "grazie.aws.intellij.net",
+        "perplexity.ai",
+        "sora.com",
+        "oaiusercontent.com",
+        "copilot.microsoft.com"
       ]
     }
   ]
