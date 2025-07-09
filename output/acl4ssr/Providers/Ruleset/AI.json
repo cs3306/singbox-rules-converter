@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "gemini.google.com",
-        "api.githubcopilot.com",
         "ai.google.dev",
-        "api.together.xyz",
-        "generativelanguage.googleapis.com",
-        "sydney.bing.com",
-        "bard.google.com",
-        "copilot-proxy.githubusercontent.com",
         "console.groq.com",
-        "api.groq.com"
+        "api.githubcopilot.com",
+        "api.together.xyz",
+        "sydney.bing.com",
+        "copilot-proxy.githubusercontent.com",
+        "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "api.groq.com",
+        "bard.google.com"
       ],
       "domain_keyword": [
-        "openai",
+        "claude",
         "anthropic",
-        "claude"
+        "openai"
       ],
       "domain_suffix": [
-        "sora.com",
         "intercomcdn.com",
-        "oaistatic.com",
-        "chatgpt.com",
-        "openaiapi-site.azureedge.net",
-        "copilot.cloud.microsoft",
+        "makersuite.google.com",
         "gemini.google.com",
+        "identrust.com",
+        "sora.com",
+        "auth0.com",
+        "grazie.aws.intellij.net",
+        "openaiapi-site.azureedge.net",
+        "grazie.ai",
+        "copilot.cloud.microsoft",
+        "mistral.ai",
+        "chatgpt.com",
+        "anthropic.com",
+        "openai.com",
+        "oaistatic.com",
+        "intercom.io",
+        "ai.azure.com",
+        "client-api.arkoselabs.com",
+        "bard.google.com",
         "perplexity.ai",
+        "meta.ai",
         "copilot.microsoft.com",
         "featuregates.org",
-        "identrust.com",
-        "client-api.arkoselabs.com",
-        "ai.azure.com",
-        "grazie.ai",
         "events.statsigapi.net",
-        "mistral.ai",
-        "grazie.aws.intellij.net",
-        "bard.google.com",
-        "claude.ai",
-        "makersuite.google.com",
-        "intercom.io",
-        "meta.ai",
-        "anthropic.com",
         "oaiusercontent.com",
-        "openai.com",
-        "auth0.com"
+        "claude.ai"
       ]
     }
   ]
