@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
-        "shopifycdn.com",
         "shopify.dev",
-        "myshopify.com",
         "shopify.com",
-        "shopifysvc.com",
-        "shopifystatus.com",
+        "myshopify.com",
         "shopifycloud.com",
-        "shop.app"
+        "shop.app",
+        "shopifystatus.com",
+        "shopifycdn.com",
+        "shopifysvc.com"
       ]
     }
   ]
