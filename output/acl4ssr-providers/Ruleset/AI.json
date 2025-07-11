@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
-        "console.groq.com",
-        "api.githubcopilot.com",
-        "generativelanguage.googleapis.com",
-        "gemini.google.com",
         "sydney.bing.com",
-        "api.groq.com",
+        "api.githubcopilot.com",
+        "api.together.xyz",
+        "ai.google.dev",
         "copilot-proxy.githubusercontent.com",
+        "console.groq.com",
+        "api.groq.com",
+        "gemini.google.com",
         "bard.google.com",
-        "api.together.xyz"
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
+        "claude",
         "anthropic",
-        "openai",
-        "claude"
+        "openai"
       ],
       "domain_suffix": [
-        "copilot.cloud.microsoft",
-        "oaiusercontent.com",
-        "openaiapi-site.azureedge.net",
-        "sora.com",
-        "identrust.com",
-        "grazie.ai",
-        "mistral.ai",
-        "intercom.io",
-        "meta.ai",
-        "ai.azure.com",
-        "claude.ai",
-        "events.statsigapi.net",
-        "anthropic.com",
-        "bard.google.com",
         "oaistatic.com",
-        "auth0.com",
-        "openai.com",
-        "copilot.microsoft.com",
         "client-api.arkoselabs.com",
+        "copilot.cloud.microsoft",
+        "events.statsigapi.net",
+        "intercom.io",
+        "makersuite.google.com",
+        "oaiusercontent.com",
         "gemini.google.com",
+        "ai.azure.com",
+        "intercomcdn.com",
+        "anthropic.com",
+        "meta.ai",
+        "auth0.com",
+        "bard.google.com",
+        "perplexity.ai",
+        "mistral.ai",
+        "sora.com",
         "featuregates.org",
         "chatgpt.com",
-        "makersuite.google.com",
         "grazie.aws.intellij.net",
-        "intercomcdn.com",
-        "perplexity.ai"
+        "claude.ai",
+        "openaiapi-site.azureedge.net",
+        "copilot.microsoft.com",
+        "openai.com",
+        "identrust.com",
+        "grazie.ai"
       ]
     }
   ]
