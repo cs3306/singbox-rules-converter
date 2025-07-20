@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain": [
+        "generativelanguage.googleapis.com",
+        "bard.google.com",
+        "console.groq.com",
+        "sydney.bing.com",
         "api.together.xyz",
         "api.groq.com",
         "gemini.google.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.githubcopilot.com",
-        "bard.google.com",
         "ai.google.dev",
-        "generativelanguage.googleapis.com",
-        "sydney.bing.com",
-        "console.groq.com"
+        "api.githubcopilot.com",
+        "copilot-proxy.githubusercontent.com"
       ],
       "domain_keyword": [
         "openai",
@@ -20,32 +20,32 @@
         "anthropic"
       ],
       "domain_suffix": [
-        "auth0.com",
         "chatgpt.com",
-        "meta.ai",
-        "mistral.ai",
-        "bard.google.com",
-        "gemini.google.com",
-        "copilot.microsoft.com",
-        "events.statsigapi.net",
-        "intercomcdn.com",
-        "grazie.aws.intellij.net",
-        "client-api.arkoselabs.com",
-        "identrust.com",
-        "oaiusercontent.com",
-        "openai.com",
         "perplexity.ai",
-        "claude.ai",
-        "makersuite.google.com",
-        "intercom.io",
-        "oaistatic.com",
-        "featuregates.org",
-        "ai.azure.com",
-        "grazie.ai",
+        "mistral.ai",
+        "oaiusercontent.com",
+        "identrust.com",
+        "auth0.com",
+        "gemini.google.com",
         "anthropic.com",
-        "copilot.cloud.microsoft",
+        "claude.ai",
+        "meta.ai",
+        "oaistatic.com",
+        "bard.google.com",
+        "openaiapi-site.azureedge.net",
+        "events.statsigapi.net",
         "sora.com",
-        "openaiapi-site.azureedge.net"
+        "copilot.microsoft.com",
+        "client-api.arkoselabs.com",
+        "grazie.ai",
+        "intercomcdn.com",
+        "ai.azure.com",
+        "copilot.cloud.microsoft",
+        "featuregates.org",
+        "grazie.aws.intellij.net",
+        "openai.com",
+        "intercom.io",
+        "makersuite.google.com"
       ]
     }
   ]

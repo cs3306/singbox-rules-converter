@@ -4,10 +4,10 @@
     {
       "domain": [
         "cloudsync-prod.s3.amazonaws.com",
-        "eaasserts-a.akamaihd.net",
-        "origin-a.akamaihd.net",
         "originasserts.akamaized.net",
-        "rtm.tnt-ea.com"
+        "rtm.tnt-ea.com",
+        "eaasserts-a.akamaihd.net",
+        "origin-a.akamaihd.net"
       ],
       "domain_suffix": [
         "origin.com",
