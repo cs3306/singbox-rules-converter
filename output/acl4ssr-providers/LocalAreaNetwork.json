@@ -9,39 +9,39 @@
         "www.asusrouter.com"
       ],
       "domain_suffix": [
+        "tplogin.cn",
         "ip6-localhost",
         "zte.home",
-        "ip6-loopback",
-        "peiluyou.com",
-        "tplogin.cn",
-        "local",
-        "hiwifi.com",
-        "routerlogin.com",
         "p.to",
-        "acl4.ssr",
+        "ip6-loopback",
         "tendawifi.com",
         "wifi.cmcc",
-        "localhost",
-        "phicomm.me",
+        "peiluyou.com",
         "lan",
+        "local",
+        "routerlogin.com",
         "router.ctc",
+        "localhost",
+        "acl4.ssr",
+        "phicomm.me",
+        "hiwifi.com",
+        "leike.cc",
         "my.router",
-        "miwifi.com",
-        "leike.cc"
+        "miwifi.com"
       ],
       "ip_cidr": [
+        "172.16.0.0/12",
+        "127.0.0.0/8",
+        "224.0.0.0/4",
         "198.18.0.0/16",
+        "::1/128",
+        "fd00::/8",
         "fe80::/10",
         "192.168.0.0/16",
-        "fc00::/7",
-        "172.16.0.0/12",
-        "10.0.0.0/8",
-        "127.0.0.0/8",
-        "::1/128",
-        "0.0.0.0/8",
-        "224.0.0.0/4",
         "100.64.0.0/10",
-        "fd00::/8"
+        "10.0.0.0/8",
+        "0.0.0.0/8",
+        "fc00::/7"
       ]
     }
   ]
