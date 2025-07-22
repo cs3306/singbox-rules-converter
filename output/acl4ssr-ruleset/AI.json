@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "api.together.xyz",
+        "copilot-proxy.githubusercontent.com",
+        "bard.google.com",
         "console.groq.com",
         "api.githubcopilot.com",
-        "ai.google.dev",
         "api.groq.com",
-        "api.together.xyz",
-        "generativelanguage.googleapis.com",
-        "bard.google.com",
+        "gemini.google.com",
+        "ai.google.dev",
         "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
-        "gemini.google.com"
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
-        "anthropic",
         "claude",
-        "openai"
+        "openai",
+        "anthropic"
       ],
       "domain_suffix": [
-        "makersuite.google.com",
-        "identrust.com",
-        "featuregates.org",
-        "claude.ai",
-        "sora.com",
-        "perplexity.ai",
-        "meta.ai",
-        "copilot.cloud.microsoft",
-        "mistral.ai",
-        "bard.google.com",
-        "oaiusercontent.com",
         "openaiapi-site.azureedge.net",
-        "grazie.ai",
-        "gemini.google.com",
-        "client-api.arkoselabs.com",
-        "anthropic.com",
+        "ai.azure.com",
         "openai.com",
-        "intercom.io",
-        "events.statsigapi.net",
-        "chatgpt.com",
-        "intercomcdn.com",
+        "bard.google.com",
         "copilot.microsoft.com",
+        "featuregates.org",
+        "grazie.ai",
+        "mistral.ai",
+        "sora.com",
+        "meta.ai",
+        "events.statsigapi.net",
+        "claude.ai",
+        "intercom.io",
+        "perplexity.ai",
+        "copilot.cloud.microsoft",
         "grazie.aws.intellij.net",
-        "auth0.com",
+        "identrust.com",
+        "gemini.google.com",
+        "oaiusercontent.com",
         "oaistatic.com",
-        "ai.azure.com"
+        "anthropic.com",
+        "client-api.arkoselabs.com",
+        "intercomcdn.com",
+        "makersuite.google.com",
+        "chatgpt.com",
+        "auth0.com"
       ]
     }
   ]
