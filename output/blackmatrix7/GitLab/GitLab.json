@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "gitlab.net",
-        "gitlab.com",
         "gitlab-static.net",
-        "gitlab-assets.oss-cn-hongkong.aliyuncs.com",
         "gitter.im",
-        "gitter-static.net"
+        "gitlab.net",
+        "gitter-static.net",
+        "gitlab.com",
+        "gitlab-assets.oss-cn-hongkong.aliyuncs.com"
       ]
     }
   ]
