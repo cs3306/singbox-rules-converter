@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "api.groq.com",
+        "generativelanguage.googleapis.com",
+        "gemini.google.com",
+        "console.groq.com",
+        "copilot-proxy.githubusercontent.com",
+        "sydney.bing.com",
+        "ai.google.dev",
         "api.together.xyz",
         "bard.google.com",
-        "api.githubcopilot.com",
-        "api.groq.com",
-        "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
-        "ai.google.dev",
-        "gemini.google.com",
-        "generativelanguage.googleapis.com",
-        "console.groq.com"
+        "api.githubcopilot.com"
       ],
       "domain_keyword": [
-        "anthropic",
+        "openai",
         "claude",
-        "openai"
+        "anthropic"
       ],
       "domain_suffix": [
-        "grazie.ai",
-        "intercomcdn.com",
-        "makersuite.google.com",
-        "auth0.com",
-        "grazie.aws.intellij.net",
-        "chatgpt.com",
-        "openai.com",
-        "mistral.ai",
-        "openaiapi-site.azureedge.net",
-        "meta.ai",
-        "bard.google.com",
-        "featuregates.org",
-        "identrust.com",
+        "claude.ai",
         "gemini.google.com",
-        "anthropic.com",
-        "perplexity.ai",
+        "openaiapi-site.azureedge.net",
+        "copilot.microsoft.com",
+        "mistral.ai",
         "events.statsigapi.net",
         "oaistatic.com",
+        "featuregates.org",
+        "meta.ai",
+        "perplexity.ai",
+        "identrust.com",
         "ai.azure.com",
-        "copilot.microsoft.com",
-        "client-api.arkoselabs.com",
-        "intercom.io",
+        "openai.com",
+        "grazie.ai",
+        "intercomcdn.com",
         "copilot.cloud.microsoft",
         "oaiusercontent.com",
         "sora.com",
-        "claude.ai"
+        "bard.google.com",
+        "makersuite.google.com",
+        "anthropic.com",
+        "client-api.arkoselabs.com",
+        "chatgpt.com",
+        "intercom.io",
+        "grazie.aws.intellij.net",
+        "auth0.com"
       ]
     }
   ]
