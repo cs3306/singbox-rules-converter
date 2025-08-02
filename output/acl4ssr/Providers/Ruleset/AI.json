@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
-        "api.githubcopilot.com",
         "generativelanguage.googleapis.com",
         "console.groq.com",
-        "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
-        "api.groq.com",
-        "bard.google.com",
-        "api.together.xyz",
-        "ai.google.dev",
-        "gemini.google.com"
-      ],
-      "domain_keyword": [
-        "anthropic",
-        "openai",
-        "claude"
-      ],
-      "domain_suffix": [
-        "oaistatic.com",
-        "mistral.ai",
-        "makersuite.google.com",
         "bard.google.com",
         "gemini.google.com",
-        "intercomcdn.com",
-        "events.statsigapi.net",
-        "intercom.io",
-        "copilot.cloud.microsoft",
+        "sydney.bing.com",
+        "api.groq.com",
+        "api.githubcopilot.com",
+        "copilot-proxy.githubusercontent.com",
+        "api.together.xyz",
+        "ai.google.dev"
+      ],
+      "domain_keyword": [
+        "claude",
+        "openai",
+        "anthropic"
+      ],
+      "domain_suffix": [
         "claude.ai",
-        "oaiusercontent.com",
-        "perplexity.ai",
-        "ai.azure.com",
-        "grazie.aws.intellij.net",
-        "featuregates.org",
-        "chatgpt.com",
-        "anthropic.com",
-        "grazie.ai",
-        "sora.com",
-        "openai.com",
-        "copilot.microsoft.com",
-        "openaiapi-site.azureedge.net",
-        "auth0.com",
+        "bard.google.com",
         "identrust.com",
+        "intercom.io",
+        "grazie.aws.intellij.net",
+        "openai.com",
+        "grazie.ai",
+        "featuregates.org",
+        "gemini.google.com",
+        "mistral.ai",
+        "sora.com",
+        "perplexity.ai",
+        "copilot.cloud.microsoft",
+        "copilot.microsoft.com",
         "meta.ai",
-        "client-api.arkoselabs.com"
+        "chatgpt.com",
+        "client-api.arkoselabs.com",
+        "intercomcdn.com",
+        "makersuite.google.com",
+        "auth0.com",
+        "oaiusercontent.com",
+        "anthropic.com",
+        "openaiapi-site.azureedge.net",
+        "events.statsigapi.net",
+        "oaistatic.com",
+        "ai.azure.com"
       ]
     }
   ]
