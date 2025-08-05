@@ -3,49 +3,49 @@
   "rules": [
     {
       "domain": [
+        "bard.google.com",
+        "api.githubcopilot.com",
+        "copilot-proxy.githubusercontent.com",
+        "api.together.xyz",
+        "ai.google.dev",
         "api.groq.com",
+        "sydney.bing.com",
         "gemini.google.com",
         "console.groq.com",
-        "generativelanguage.googleapis.com",
-        "api.githubcopilot.com",
-        "bard.google.com",
-        "sydney.bing.com",
-        "copilot-proxy.githubusercontent.com",
-        "ai.google.dev",
-        "api.together.xyz"
+        "generativelanguage.googleapis.com"
       ],
       "domain_keyword": [
         "openai",
-        "anthropic",
-        "claude"
+        "claude",
+        "anthropic"
       ],
       "domain_suffix": [
-        "oaistatic.com",
-        "ai.azure.com",
-        "identrust.com",
         "bard.google.com",
         "anthropic.com",
-        "makersuite.google.com",
-        "intercomcdn.com",
-        "perplexity.ai",
-        "openai.com",
-        "copilot.microsoft.com",
-        "openaiapi-site.azureedge.net",
-        "intercom.io",
-        "sora.com",
-        "auth0.com",
-        "client-api.arkoselabs.com",
-        "claude.ai",
         "mistral.ai",
+        "copilot.cloud.microsoft",
+        "openai.com",
+        "intercomcdn.com",
+        "events.statsigapi.net",
+        "openaiapi-site.azureedge.net",
+        "claude.ai",
+        "grazie.ai",
+        "perplexity.ai",
+        "client-api.arkoselabs.com",
+        "oaiusercontent.com",
         "featuregates.org",
         "meta.ai",
-        "oaiusercontent.com",
+        "ai.azure.com",
+        "oaistatic.com",
+        "auth0.com",
         "grazie.aws.intellij.net",
-        "copilot.cloud.microsoft",
-        "grazie.ai",
+        "sora.com",
+        "makersuite.google.com",
         "chatgpt.com",
-        "events.statsigapi.net",
-        "gemini.google.com"
+        "copilot.microsoft.com",
+        "gemini.google.com",
+        "intercom.io",
+        "identrust.com"
       ]
     }
   ]
