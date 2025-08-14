@@ -3,27 +3,27 @@
   "rules": [
     {
       "domain_suffix": [
-        "firefox.com.cn",
-        "crates.io",
-        "firefoxusercontent.com",
-        "pocket-image-cache.com",
+        "mdn.mozillademos.org",
+        "mofoprod.net",
         "mozilla.community",
+        "media.prod.mdn.mozit.cloud",
+        "crates.io",
+        "rust-lang.org",
+        "extensionworkshop.com",
+        "getpocket.com",
+        "rustup.rs",
+        "docs.rs",
+        "bugzilla.org",
         "mozilla.org",
         "thunderbird.net",
-        "extensionworkshop.com",
-        "media.prod.mdn.mozit.cloud",
-        "rust-lang.org",
-        "bugzilla.org",
-        "seamonkey-project.org",
-        "rustup.rs",
-        "mdn.mozillademos.org",
-        "sentry.prod.mozaws.net",
-        "docs.rs",
-        "getpocket.com",
         "firefox.com",
-        "mofoprod.net",
-        "mozilla.net",
-        "mozilla.com"
+        "firefox.com.cn",
+        "sentry.prod.mozaws.net",
+        "seamonkey-project.org",
+        "mozilla.com",
+        "firefoxusercontent.com",
+        "pocket-image-cache.com",
+        "mozilla.net"
       ]
     }
   ]
