@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain": [
-        "alkalimakersuite-pa.clients6.google.com",
         "makersuite.google.com",
-        "ai.google.dev"
+        "ai.google.dev",
+        "alkalimakersuite-pa.clients6.google.com"
       ],
       "domain_keyword": [
         "developerprofiles",
@@ -13,13 +13,13 @@
         "generativelanguage"
       ],
       "domain_suffix": [
-        "deepmind.com",
-        "generativeai.google",
-        "gemini.google.com",
+        "proactivebackend-pa.googleapis.com",
         "apis.google.com",
         "deepmind.google",
-        "bard.google.com",
-        "proactivebackend-pa.googleapis.com"
+        "generativeai.google",
+        "gemini.google.com",
+        "deepmind.com",
+        "bard.google.com"
       ]
     }
   ]
