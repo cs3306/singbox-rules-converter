@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain": [
-        "steamuserimages-a.akamaihd.net",
-        "steamcommunity-a.akamaihd.net",
-        "steamstore-a.akamaihd.net",
+        "steamusercontent-a.akamaihd.net",
         "steambroadcast.akamaized.net",
         "steampipe.akamaized.net",
-        "steamusercontent-a.akamaihd.net"
+        "steamstore-a.akamaihd.net",
+        "steamuserimages-a.akamaihd.net",
+        "steamcommunity-a.akamaihd.net"
       ],
       "domain_suffix": [
         "steampowered.com",
         "steamserver.net",
-        "steam-chat.com",
-        "steamgames.com",
         "steamstatic.com",
-        "playartifact.com",
-        "underlords.com",
-        "valvesoftware.com",
-        "steamcommunity.com",
+        "steam-chat.com",
+        "steamstat.us",
         "fanatical.com",
-        "humblebundle.com",
-        "steamstat.us"
+        "valvesoftware.com",
+        "playartifact.com",
+        "steamcommunity.com",
+        "steamgames.com",
+        "underlords.com",
+        "humblebundle.com"
       ]
     }
   ]
