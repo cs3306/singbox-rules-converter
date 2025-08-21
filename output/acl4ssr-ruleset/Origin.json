@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain": [
-        "eaasserts-a.akamaihd.net",
         "origin-a.akamaihd.net",
-        "rtm.tnt-ea.com",
         "cloudsync-prod.s3.amazonaws.com",
+        "eaasserts-a.akamaihd.net",
+        "rtm.tnt-ea.com",
         "originasserts.akamaized.net"
       ],
       "domain_suffix": [
