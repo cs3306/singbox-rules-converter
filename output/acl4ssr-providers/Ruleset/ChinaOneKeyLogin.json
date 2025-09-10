@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain": [
-        "auth.wosms.cn",
-        "enrichgw.10010.com",
-        "log.cmpassport.com",
-        "nishub1.10010.com",
         "log1.cmpassport.com",
         "mdn.open.wo.cn",
-        "hmrz.wo.cn",
         "config.cmpassport.com",
+        "log.cmpassport.com",
+        "hmrz.wo.cn",
+        "auth.wosms.cn",
+        "ye.dun.163yun.com",
         "opencloud.wostore.cn",
+        "enrichgw.10010.com",
         "id.mail.wo.cn",
-        "ye.dun.163yun.com"
+        "nishub1.10010.com"
       ],
       "domain_suffix": [
-        "auth.wo.cn",
-        "mob.com",
         "id6.me",
+        "open.e.189.cn",
         "cmpassport.com",
-        "open.e.189.cn"
+        "mob.com",
+        "auth.wo.cn"
       ]
     }
   ]
