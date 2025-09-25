@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telegram.dog",
-        "t.me",
-        "telegram.space",
-        "quiz.directory",
-        "cdn-telegram.org",
-        "mbrx.app",
-        "telegra.ph",
-        "usercontent.dev",
-        "telegram.me",
-        "tg.dev",
-        "contest.com",
-        "graph.org",
-        "telega.one",
-        "tx.me",
-        "telegram.org",
-        "telegram-cdn.org",
-        "stel.com",
-        "telesco.pe",
         "comments.app",
-        "telegramdownload.com",
+        "stel.com",
+        "tx.me",
         "legra.ph",
-        "tdesktop.com"
+        "graph.org",
+        "contest.com",
+        "quiz.directory",
+        "telega.one",
+        "telegram.org",
+        "telegram.dog",
+        "telesco.pe",
+        "telegra.ph",
+        "telegram-cdn.org",
+        "tdesktop.com",
+        "t.me",
+        "cdn-telegram.org",
+        "usercontent.dev",
+        "telegram.space",
+        "tg.dev",
+        "telegram.me",
+        "telegramdownload.com",
+        "mbrx.app"
       ],
       "ip_cidr": [
-        "91.108.0.0/16",
+        "2a0a:f280::/29",
+        "2001:67c:4e8::/48",
         "2001:b28:f23f::/48",
-        "5.28.192.0/18",
+        "139.59.210.98/32",
+        "109.239.140.0/24",
+        "149.154.160.0/20",
+        "91.108.0.0/16",
         "196.55.216.167/32",
         "2001:b28:f23c::/47",
-        "2001:67c:4e8::/48",
-        "139.59.210.98/32",
-        "2a0a:f280::/29",
-        "109.239.140.0/24",
-        "149.154.160.0/20"
+        "5.28.192.0/18"
       ]
     },
     {
       "process_name": [
+        "org.telegram.messenger",
         "telegram-desktop",
-        "nekox.messenger",
         "xyz.nextalone.nagram",
+        "nekox.messenger",
         "Telegram.exe",
-        "tw.nekomimi.nekogram",
-        "org.telegram.messenger"
+        "tw.nekomimi.nekogram"
       ]
     }
   ]
