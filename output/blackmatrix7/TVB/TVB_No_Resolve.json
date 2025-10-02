@@ -3,29 +3,29 @@
   "rules": [
     {
       "domain": [
-        "edge.api.brightcove.com",
         "tvbtracking.azurewebsites.net",
+        "edge.api.brightcove.com",
         "bcbolt446c5271-a.akamaihd.net"
       ],
       "domain_suffix": [
-        "tvbweekly.com",
-        "tvb.com.au",
-        "encoretvb.com",
-        "tvb.com",
-        "tvbeventpower.com.hk",
-        "tvbanywhere.com",
-        "tvbusa.com",
-        "youboranqs01.com",
-        "bigbigshop.com",
-        "tvbanywhere.com.sg",
-        "mytvsuper.com",
-        "tvmedia.net.au",
-        "videos-f.jwpsrv.com",
-        "content.jwplatform.com",
         "mytvsuperlimited.sc.omtrdc.net",
-        "mytvsuperlimited.hb.omtrdc.net",
+        "tvb.com",
+        "tvbanywhere.com",
+        "videos-f.jwpsrv.com",
+        "tvbanywhere.com.sg",
         "tvbc.com.cn",
-        "bigbigchannel.com.hk"
+        "youboranqs01.com",
+        "bigbigchannel.com.hk",
+        "mytvsuperlimited.hb.omtrdc.net",
+        "content.jwplatform.com",
+        "tvb.com.au",
+        "tvbweekly.com",
+        "mytvsuper.com",
+        "tvbeventpower.com.hk",
+        "tvbusa.com",
+        "encoretvb.com",
+        "tvmedia.net.au",
+        "bigbigshop.com"
       ]
     }
   ]
