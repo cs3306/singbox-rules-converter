@@ -3,39 +3,39 @@
   "rules": [
     {
       "domain": [
-        "msg.umeng.com",
-        "dl.google.com",
-        "app.adjust.com",
-        "vd.l.qq.com",
-        "rewards.hypixel.net",
-        "msg.umengcloud.com",
-        "livew.l.qq.com",
-        "origin-a.akamaihd.net",
         "errlog.umeng.com",
+        "msg.umeng.com",
+        "app.adjust.com",
         "tracking.miui.com",
         "fairplay.l.qq.com",
-        "bdtj.tagtic.cn"
+        "rewards.hypixel.net",
+        "dl.google.com",
+        "vd.l.qq.com",
+        "bdtj.tagtic.cn",
+        "livew.l.qq.com",
+        "msg.umengcloud.com",
+        "origin-a.akamaihd.net"
       ],
       "domain_suffix": [
-        "tracking-protection.cdn.mozilla.net",
+        "synology.me",
+        "DiskStation.me",
+        "FamilyDS.com",
         "DSmyNAS.com",
+        "DSCloud.biz",
+        "DSmyNAS.org",
         "ol.epicgames.com",
         "i234.me",
-        "DSCloud.mobi",
-        "FamilyDS.net",
-        "dizhensubao.getui.com",
-        "myDS.me",
         "koodomobile.com",
-        "DiskStation.me",
-        "DSCloud.me",
-        "googletraveladservices.com",
+        "dizhensubao.getui.com",
         "DSmyNAS.net",
-        "FamilyDS.org",
-        "FamilyDS.com",
-        "DSCloud.biz",
-        "synology.me",
+        "DSCloud.mobi",
+        "myDS.me",
         "koodomobile.ca",
-        "DSmyNAS.org"
+        "googletraveladservices.com",
+        "FamilyDS.org",
+        "tracking-protection.cdn.mozilla.net",
+        "DSCloud.me",
+        "FamilyDS.net"
       ]
     }
   ]
