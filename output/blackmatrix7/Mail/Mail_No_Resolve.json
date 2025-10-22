@@ -3,19 +3,19 @@
   "rules": [
     {
       "domain": [
-        "imap.gmail.com",
         "pop.gmail.com",
-        "smtp-mail.outlook.com",
-        "smtp.office365.com",
+        "imap.gmail.com",
         "outlook.office365.com",
-        "imap-mail.outlook.com",
-        "smtp.gmail.com",
         "apple.smtp.mail.yahoo.com",
-        "apple.imap.mail.yahoo.com"
+        "imap-mail.outlook.com",
+        "smtp-mail.outlook.com",
+        "apple.imap.mail.yahoo.com",
+        "smtp.office365.com",
+        "smtp.gmail.com"
       ],
       "domain_suffix": [
-        "smtp.yandex.com",
         "imap.yandex.com",
+        "smtp.yandex.com",
         "m.hotmail.com"
       ]
     }
