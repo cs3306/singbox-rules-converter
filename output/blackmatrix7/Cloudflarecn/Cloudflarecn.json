@@ -3,20 +3,20 @@
   "rules": [
     {
       "domain_suffix": [
-        "cloudflareprod.com",
-        "cloudflarestaging.com",
-        "cloudflareinsights-cn.com",
-        "cftest5.cn",
-        "cf-ns.site",
         "cftest8.com",
-        "cftest6.cn",
-        "cloudflare-cn.com",
-        "cf-ns.com",
-        "cloudflarecn.net",
-        "cf-ns.net",
+        "cloudflareinsights-cn.com",
+        "cloudflarestaging.com",
         "cloudflarestoragegw.com",
+        "cf-ns.net",
         "cf-ns.tech",
-        "cftest7.com"
+        "cf-ns.site",
+        "cftest6.cn",
+        "cloudflarecn.net",
+        "cftest5.cn",
+        "cloudflare-cn.com",
+        "cftest7.com",
+        "cloudflareprod.com",
+        "cf-ns.com"
       ]
     }
   ]
