@@ -3,42 +3,42 @@
   "rules": [
     {
       "domain": [
-        "intl-subscription.iqiyi.com",
-        "chuangcachecdnoversea-tw.inter.ptqy.gitv.tv",
-        "api.biliapi.com",
-        "akmcdnoversea-tw.inter.iqiyi.com",
-        "upos-hz-mirrorakam.akamaized.net",
-        "app.biliapi.net",
-        "www.bilibili.com",
-        "chuangcachecdnoversea-tw.inter.iqiyi.com",
-        "grpc.biliapi.net",
-        "api.bilibili.com",
-        "app.biliapi.com",
-        "m.bilibili.com",
-        "intl.iqiyi.com",
-        "akmcdnoversea-tw.inter.ptqy.gitv.tv",
         "app.bilibili.com",
+        "api.biliapi.com",
+        "intl-subscription.iqiyi.com",
+        "m.bilibili.com",
+        "chuangcachecdnoversea-tw.inter.ptqy.gitv.tv",
+        "app.biliapi.com",
+        "api.bilibili.com",
+        "akmcdnoversea-tw.inter.iqiyi.com",
+        "akmcdnoversea-tw.inter.ptqy.gitv.tv",
+        "intl-rcd.iqiyi.com",
         "api.biliapi.net",
+        "chuangcachecdnoversea-tw.inter.iqiyi.com",
+        "app.biliapi.net",
         "mobileso.bz.mgtv.com",
-        "cache.video.iqiyi.com",
-        "intl-rcd.iqiyi.com"
+        "www.bilibili.com",
+        "upos-hz-mirrorakam.akamaized.net",
+        "intl.iqiyi.com",
+        "grpc.biliapi.net",
+        "cache.video.iqiyi.com"
       ],
       "domain_keyword": [
         "cn-hk-eq-bcache-"
       ],
       "domain_suffix": [
-        "wetv.vip",
-        "wetvinfo.com",
         "iq.com",
-        "api.mgtv.com"
+        "wetvinfo.com",
+        "api.mgtv.com",
+        "wetv.vip"
       ],
       "ip_cidr": [
+        "23.40.241.251/32",
         "23.40.242.10/32",
-        "118.26.120.0/24",
         "116.211.202.216/32",
         "116.211.202.206/32",
         "118.26.32.0/23",
-        "23.40.241.251/32",
+        "118.26.120.0/24",
         "103.44.56.0/22"
       ]
     }
