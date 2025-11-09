@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain": [
-        "global.quickconnect.cn",
         "sns.synology.com",
-        "account.synology.com"
+        "account.synology.com",
+        "global.quickconnect.cn"
       ],
       "domain_suffix": [
+        "download.synology.com",
         "quickconnect.to",
-        "quickconnect.com",
-        "download.synology.com"
+        "quickconnect.com"
       ]
     }
   ]
