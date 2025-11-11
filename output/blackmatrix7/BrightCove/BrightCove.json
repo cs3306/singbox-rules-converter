@@ -3,20 +3,20 @@
   "rules": [
     {
       "domain_suffix": [
-        "brightcovecdn.com",
-        "brightcove.com",
-        "bcovlive-a.akamaihd.net",
-        "bcove.video",
-        "brightcove.net",
-        "zencoder.com",
-        "bcsecure01-a.akamaihd.net",
         "brightcove.services",
-        "brightcove.imgix.net",
+        "brightcove.com",
+        "brightcovecdn.com",
+        "bcove.video",
+        "bcsecure01-a.akamaihd.net",
         "boltdns.net",
-        "bcvp0rtal.com",
-        "bcovlive.io",
         "videojs.com",
-        "zencdn.net"
+        "bcvp0rtal.com",
+        "brightcove.net",
+        "zencdn.net",
+        "zencoder.com",
+        "brightcove.imgix.net",
+        "bcovlive.io",
+        "bcovlive-a.akamaihd.net"
       ]
     }
   ]
