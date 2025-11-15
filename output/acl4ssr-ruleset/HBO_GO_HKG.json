@@ -3,29 +3,29 @@
   "rules": [
     {
       "domain": [
-        "hboasia5-i.akamaihd.net",
-        "bcbolthboa-a.akamaihd.net",
         "cf-images.ap-southeast-1.prod.boltdns.net",
-        "hboasia2-i.akamaihd.net",
-        "players.brightcove.net",
-        "s3-ap-southeast-1.amazonaws.com",
-        "hboasia1-i.akamaihd.net",
-        "hbounify-prod.evergent.com",
-        "hboasialive.akamaized.net",
-        "hbogoprod-vod.akamaized.net",
-        "hbolb.onwardsmg.com",
         "hboasia4-i.akamaihd.net",
-        "dai3fd1oh325y.cloudfront.net",
+        "hboasialive.akamaized.net",
+        "hboasia1-i.akamaihd.net",
+        "hbolb.onwardsmg.com",
         "44wilhpljf.execute-api.ap-southeast-1.amazonaws.com",
+        "hboasia5-i.akamaihd.net",
+        "s3-ap-southeast-1.amazonaws.com",
+        "hboasia2-i.akamaihd.net",
+        "hbounify-prod.evergent.com",
+        "players.brightcove.net",
+        "bcbolthboa-a.akamaihd.net",
+        "dai3fd1oh325y.cloudfront.net",
+        "hbogoprod-vod.akamaized.net",
         "hboasia3-i.akamaihd.net"
       ],
       "domain_keyword": [
         "hbogoasia"
       ],
       "domain_suffix": [
-        "hbogoasia.hk",
         "hboasia.com",
-        "hbogoasia.com"
+        "hbogoasia.com",
+        "hbogoasia.hk"
       ]
     }
   ]
