@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain_suffix": [
-        "sourcegraph.com",
-        "spring.net",
-        "redhat.com",
-        "elastic.com",
-        "sonatype.org",
-        "gitlab.io",
-        "quay.io",
         "mvnrepository.com",
-        "stackoverflow.com",
+        "maven.org",
+        "quay.io",
+        "docker.io",
+        "redhat.com",
+        "gitlab.io",
         "medium.com",
+        "elastic.com",
+        "gitlab.com",
         "gcr.io",
         "reddit.com",
-        "gitlab.com",
         "docker.com",
-        "docker.io",
         "spring.io",
-        "jitpack.io",
         "apache.org",
-        "maven.org",
-        "elastic.co"
+        "elastic.co",
+        "sonatype.org",
+        "sourcegraph.com",
+        "stackoverflow.com",
+        "spring.net",
+        "jitpack.io"
       ]
     }
   ]
