@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_keyword": [
-        "xunlei",
         "yunpan",
-        "aria2",
+        "xunlei",
         "thunder",
-        "xlliveud"
+        "xlliveud",
+        "aria2"
       ],
       "domain_suffix": [
         "qbittorrent.org"
@@ -15,34 +15,34 @@
     },
     {
       "process_name": [
-        "WebTorrent.exe",
-        "WebTorrent",
-        "aria2c",
-        "Folx",
-        "baidunetdisk.exe",
-        "BitComet_x64.exe",
-        "Weiyun",
-        "DownloadService.exe",
-        "uTorrent",
-        "DownloadService",
-        "uTorrent.exe",
-        "qbittorrent.exe",
-        "NetTransport.exe",
-        "BitComet.exe",
-        "WebTorrentHelper.exe",
-        "aria2c.exe",
-        "fdm",
-        "Transmission.exe",
-        "Transmission",
-        "BitComet",
-        "qbittorrent",
-        "Weiyun.exe",
-        "Thunder.exe",
         "Thunder",
+        "uTorrent.exe",
+        "NetTransport",
+        "BitComet.exe",
+        "aria2c.exe",
+        "aria2c",
         "Folx.exe",
         "WebTorrentHelper",
-        "NetTransport",
-        "fdm.exe"
+        "DownloadService",
+        "WebTorrentHelper.exe",
+        "BitComet",
+        "qbittorrent",
+        "Thunder.exe",
+        "fdm",
+        "qbittorrent.exe",
+        "baidunetdisk.exe",
+        "Folx",
+        "Transmission.exe",
+        "WebTorrent.exe",
+        "WebTorrent",
+        "BitComet_x64.exe",
+        "Weiyun",
+        "fdm.exe",
+        "DownloadService.exe",
+        "Weiyun.exe",
+        "Transmission",
+        "NetTransport.exe",
+        "uTorrent"
       ]
     }
   ]
