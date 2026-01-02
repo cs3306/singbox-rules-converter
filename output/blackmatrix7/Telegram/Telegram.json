@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "quiz.directory",
-        "telegra.ph",
-        "usercontent.dev",
-        "tx.me",
-        "tdesktop.com",
-        "contest.com",
-        "telegram.space",
         "telegram-cdn.org",
-        "graph.org",
-        "t.me",
-        "mbrx.app",
-        "telegram.me",
-        "cdn-telegram.org",
         "telegramdownload.com",
-        "legra.ph",
-        "tg.dev",
-        "stel.com",
-        "telega.one",
-        "comments.app",
+        "quiz.directory",
         "telegram.dog",
+        "usercontent.dev",
+        "stel.com",
+        "graph.org",
         "telegram.org",
+        "cdn-telegram.org",
+        "comments.app",
+        "mbrx.app",
+        "tdesktop.com",
+        "telegra.ph",
+        "tg.dev",
+        "t.me",
+        "telegram.space",
+        "telegram.me",
+        "tx.me",
+        "contest.com",
+        "telega.one",
+        "legra.ph",
         "telesco.pe"
       ],
       "ip_cidr": [
-        "2a0a:f280::/29",
-        "109.239.140.0/24",
-        "2001:b28:f23c::/47",
         "91.108.0.0/16",
-        "149.154.160.0/20",
-        "5.28.192.0/18",
         "2001:b28:f23f::/48",
-        "2001:67c:4e8::/48",
         "196.55.216.167/32",
-        "139.59.210.98/32"
+        "109.239.140.0/24",
+        "2a0a:f280::/29",
+        "5.28.192.0/18",
+        "139.59.210.98/32",
+        "149.154.160.0/20",
+        "2001:67c:4e8::/48",
+        "2001:b28:f23c::/47"
       ]
     },
     {
       "process_name": [
-        "xyz.nextalone.nagram",
-        "tw.nekomimi.nekogram",
-        "org.telegram.messenger",
+        "nekox.messenger",
         "Telegram.exe",
+        "tw.nekomimi.nekogram",
         "telegram-desktop",
-        "nekox.messenger"
+        "xyz.nextalone.nagram",
+        "org.telegram.messenger"
       ]
     }
   ]
