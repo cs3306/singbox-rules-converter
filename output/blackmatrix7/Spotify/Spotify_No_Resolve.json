@@ -3,37 +3,37 @@
   "rules": [
     {
       "domain": [
-        "audio4-ak-spotify-com.akamaized.net",
-        "spotify.com.edgesuite.net",
-        "spotify.map.fastlylb.net",
         "heads-ak-spotify-com.akamaized.net",
+        "cdn-spotify-experiments.conductrics.com",
+        "spotify.map.fastlylb.net",
         "spotify.map.fastly.net",
-        "cdn-spotify-experiments.conductrics.com"
+        "audio4-ak-spotify-com.akamaized.net",
+        "spotify.com.edgesuite.net"
       ],
       "domain_keyword": [
         "spotify"
       ],
       "domain_suffix": [
-        "spotify.design",
-        "spotify.com",
         "audio-ak-spotify-com.akamaized.net",
-        "spotifynewsroom.jp",
-        "spotify-com.akamaized.net",
-        "spotify.app.link",
-        "spotifyjobs.com",
-        "spotifycharts.com",
-        "spotifycdn.net",
         "tospotify.com",
-        "spotifycdn.com",
-        "spotifyforbrands.com",
-        "spotilocal.com",
-        "spotify-everywhere.com",
-        "spoti.fi",
         "pscdn.co",
+        "spotifycharts.com",
         "scdn.co",
-        "heads4-ak-spotify-com.akamaized.net",
         "byspotify.com",
-        "spotifycodes.com"
+        "spotifycodes.com",
+        "spoti.fi",
+        "spotify-everywhere.com",
+        "spotifyjobs.com",
+        "spotify.com",
+        "spotify.app.link",
+        "spotifyforbrands.com",
+        "spotifycdn.net",
+        "spotify-com.akamaized.net",
+        "spotifynewsroom.jp",
+        "heads4-ak-spotify-com.akamaized.net",
+        "spotilocal.com",
+        "spotifycdn.com",
+        "spotify.design"
       ],
       "ip_cidr": [
         "104.154.127.126/32",
