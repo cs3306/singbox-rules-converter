@@ -3,23 +3,23 @@
   "rules": [
     {
       "domain_keyword": [
-        "skydrive",
         "onedrive",
+        "skydrive",
         "1drv"
       ],
       "domain_suffix": [
-        "onedrive.live.com",
-        "storage.msn.com",
-        "livefilestore.com",
-        "onedrive.com",
         "oneclient.sfx.ms",
-        "photos.live.com",
-        "sharepointonline.com",
-        "skydrive.wns.windows.com",
-        "spoprod-a.akamaihd.net",
-        "sharepoint.com",
+        "storage.msn.com",
+        "onedrive.live.com",
         "microsoftpersonalcontent.com",
-        "storage.live.com"
+        "sharepointonline.com",
+        "spoprod-a.akamaihd.net",
+        "livefilestore.com",
+        "photos.live.com",
+        "sharepoint.com",
+        "skydrive.wns.windows.com",
+        "storage.live.com",
+        "onedrive.com"
       ]
     }
   ]
