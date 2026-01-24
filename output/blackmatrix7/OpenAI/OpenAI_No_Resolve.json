@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
+        "static.cloudflareinsights.com",
+        "production-openaicom-storage.azureedge.net",
+        "browser-intake-datadoghq.com",
+        "chat.openai.com.cdn.cloudflare.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
         "openaicomproductionae4b.blob.core.windows.net",
-        "production-openaicom-storage.azureedge.net",
-        "static.cloudflareinsights.com",
-        "openai-api.arkoselabs.com",
-        "browser-intake-datadoghq.com",
-        "chat.openai.com.cdn.cloudflare.net"
+        "openai-api.arkoselabs.com"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
         "client-api.arkoselabs.com",
-        "segment.io",
-        "openaiapi-site.azureedge.net",
-        "identrust.com",
-        "api.statsig.com",
-        "intercomcdn.com",
-        "openai.com",
         "stripe.com",
-        "oaiusercontent.com",
-        "oaistatic.com",
-        "auth0.com",
-        "featuregates.org",
-        "algolia.net",
-        "chatgpt.com",
-        "launchdarkly.com",
-        "intercom.io",
-        "chatgpt.livekit.cloud",
-        "observeit.net",
-        "turn.livekit.cloud",
-        "ai.com",
-        "sentry.io",
         "openaicom.imgix.net",
         "host.livekit.cloud",
-        "events.statsigapi.net"
+        "turn.livekit.cloud",
+        "segment.io",
+        "sentry.io",
+        "oaistatic.com",
+        "intercom.io",
+        "oaiusercontent.com",
+        "launchdarkly.com",
+        "chatgpt.com",
+        "featuregates.org",
+        "api.statsig.com",
+        "auth0.com",
+        "chatgpt.livekit.cloud",
+        "ai.com",
+        "events.statsigapi.net",
+        "identrust.com",
+        "algolia.net",
+        "observeit.net",
+        "openaiapi-site.azureedge.net",
+        "intercomcdn.com",
+        "openai.com"
       ],
       "ip_cidr": [
-        "24.199.123.28/32",
-        "64.23.132.171/32"
+        "64.23.132.171/32",
+        "24.199.123.28/32"
       ]
     }
   ]
