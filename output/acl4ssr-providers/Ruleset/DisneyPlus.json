@@ -3,25 +3,25 @@
   "rules": [
     {
       "domain_suffix": [
-        "cdn.optimizely.com",
-        "adobedtm.com",
-        "disney-plus.net",
-        "cws.conviva.com",
-        "braze.com",
-        "cdn.registerdisney.go.com",
-        "disney.demdex.net",
-        "dssott.com",
-        "disney-portal.my.onetrust.com",
-        "disneystreaming.com",
-        "js-agent.newrelic.com",
-        "disneyplus.com.ssl.sc.omtrdc.net",
         "disneyplus.com",
-        "bamgrid.com",
-        "bam.nr-data.net",
-        "disneyplus.bn5x.net",
+        "disneyplus.com.ssl.sc.omtrdc.net",
+        "adobedtm.com",
         "execute-api.us-east-1.amazonaws.com",
+        "disney-plus.net",
+        "cdn.registerdisney.go.com",
+        "bamgrid.com",
+        "js-agent.newrelic.com",
+        "disney.demdex.net",
+        "disneyplus.bn5x.net",
+        "braze.com",
         "d9.flashtalking.com",
-        "disney.my.sentry.io"
+        "disney-portal.my.onetrust.com",
+        "disney.my.sentry.io",
+        "bam.nr-data.net",
+        "cdn.optimizely.com",
+        "disneystreaming.com",
+        "cws.conviva.com",
+        "dssott.com"
       ]
     }
   ]
