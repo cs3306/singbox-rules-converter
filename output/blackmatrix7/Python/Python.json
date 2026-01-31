@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "pypi.io",
-        "pypi.org",
-        "pypa.io",
-        "pythonhosted.org",
         "python.org",
-        "pycon.org"
+        "pythonhosted.org",
+        "pycon.org",
+        "pypa.io",
+        "pypi.org",
+        "pypi.io"
       ]
     }
   ]
