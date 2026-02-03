@@ -2,16 +2,19 @@
   "version": 2,
   "rules": [
     {
+      "domain_keyword": [
+        "tiktokcdn"
+      ],
       "domain_suffix": [
-        "byteoversea.com",
-        "tiktokv.com",
-        "musical.ly",
-        "muscdn.com",
-        "ibytedtos.com",
-        "tiktok.com",
-        "tiktokcdn.com",
         "tik-tokapi.com",
-        "ipstatp.com"
+        "ipstatp.com",
+        "tiktok.com",
+        "tiktokv.com",
+        "ibytedtos.com",
+        "byteoversea.com",
+        "tiktokcdn.com",
+        "muscdn.com",
+        "musical.ly"
       ]
     }
   ]

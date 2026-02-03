@@ -2,25 +2,28 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "cdn.registerdisney.go.com"
+      ],
       "domain_suffix": [
-        "disney-plus.net",
-        "dssott.com",
-        "adobedtm.com",
-        "disneystreaming.com",
-        "disney.demdex.net",
         "execute-api.us-east-1.amazonaws.com",
+        "bam.nr-data.net",
+        "disneyplus.com.ssl.sc.omtrdc.net",
+        "cws.conviva.com",
+        "disney-plus.net",
+        "disney-portal.my.onetrust.com",
         "braze.com",
+        "disneyplus.bn5x.net",
         "bamgrid.com",
         "js-agent.newrelic.com",
+        "disneystreaming.com",
+        "dssott.com",
         "disneyplus.com",
-        "cdn.optimizely.com",
         "d9.flashtalking.com",
-        "bam.nr-data.net",
-        "cws.conviva.com",
         "cdn.registerdisney.go.com",
-        "disneyplus.com.ssl.sc.omtrdc.net",
-        "disney-portal.my.onetrust.com",
-        "disneyplus.bn5x.net",
+        "cdn.optimizely.com",
+        "adobedtm.com",
+        "disney.demdex.net",
         "disney.my.sentry.io"
       ]
     }

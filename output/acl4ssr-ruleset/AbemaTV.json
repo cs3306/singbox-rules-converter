@@ -2,11 +2,14 @@
   "version": 2,
   "rules": [
     {
+      "domain_keyword": [
+        "abematv.akamaized.net"
+      ],
       "domain_suffix": [
         "abema.io",
-        "ameba.jp",
+        "hayabusa.io",
         "abema.tv",
-        "hayabusa.io"
+        "ameba.jp"
       ]
     }
   ]
