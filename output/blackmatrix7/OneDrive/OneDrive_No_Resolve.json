@@ -8,25 +8,25 @@
         "1drv"
       ],
       "domain_suffix": [
-        "oneclient.sfx.ms",
-        "onedrive.com",
-        "photos.live.com",
-        "skydrive.wns.windows.com",
-        "livefilestore.com",
-        "sharepoint.com",
-        "microsoftpersonalcontent.com",
-        "storage.live.com",
         "onedrive.live.com",
-        "1drv.com",
+        "onedrive.com",
         "spoprod-a.akamaihd.net",
+        "oneclient.sfx.ms",
+        "storage.live.com",
+        "photos.live.com",
+        "sharepoint.com",
+        "livefilestore.com",
+        "skydrive.wns.windows.com",
         "storage.msn.com",
-        "sharepointonline.com"
+        "microsoftpersonalcontent.com",
+        "sharepointonline.com",
+        "1drv.com"
       ]
     },
     {
       "process_name": [
-        "OneDrive",
-        "OneDriveUpdater"
+        "OneDriveUpdater",
+        "OneDrive"
       ]
     }
   ]
