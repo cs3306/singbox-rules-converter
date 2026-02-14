@@ -3,44 +3,44 @@
   "rules": [
     {
       "domain": [
-        "cc-ext-prod-pkgs.s3.amazonaws.com",
-        "adbemdigitalmediarebootprod2.112.2o7.net"
+        "adbemdigitalmediarebootprod2.112.2o7.net",
+        "cc-ext-prod-pkgs.s3.amazonaws.com"
       ],
       "domain_keyword": [
         "adobe"
       ],
       "domain_suffix": [
-        "demandbase.com",
-        "adbecrsl.com",
-        "omtrdc.net",
         "omniture.com",
-        "symcb.com",
-        "globalsign.com",
-        "newrelic.com",
-        "demdex.net",
-        "ftcdn.net",
-        "thawte.com",
-        "worldsecuresystems.com",
-        "godaddy.com",
-        "omniroot.com",
-        "edgefonts.net",
-        "echocdn.com",
-        "verisign.com",
-        "typekit.com",
-        "typekit.net",
-        "geotrust.com",
         "photoshop.com",
-        "ctldl.windowsupdate.com",
+        "demandbase.com",
+        "behance.net",
+        "typekit.com",
+        "omtrdc.net",
+        "symcb.com",
         "macromedia.com",
-        "symantec.com",
-        "symcd.com",
-        "creativecloud.com",
-        "businesscatalyst.com",
-        "digicert.com",
-        "acrobat.com",
         "bam.nr-data.net",
+        "echocdn.com",
+        "adbecrsl.com",
+        "digicert.com",
+        "creativecloud.com",
+        "symcd.com",
+        "thawte.com",
+        "ftcdn.net",
+        "worldsecuresystems.com",
+        "geotrust.com",
+        "demdex.net",
+        "acrobat.com",
+        "typekit.net",
+        "symantec.com",
+        "ctldl.windowsupdate.com",
+        "edgefonts.net",
+        "omniroot.com",
+        "newrelic.com",
         "echosign.com",
-        "behance.net"
+        "globalsign.com",
+        "godaddy.com",
+        "verisign.com",
+        "businesscatalyst.com"
       ]
     }
   ]
