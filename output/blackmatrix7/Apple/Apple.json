@@ -3,45 +3,45 @@
   "rules": [
     {
       "domain_keyword": [
-        "testflight",
+        "icloud.com.akadns.net",
+        "smp-device",
+        "apple.com.edgekey.net",
         "buy.itunes.apple.com",
         "apple-support.akadns.net",
-        "smp-device",
         "apple.com.akadns.net",
-        "icloud.com.akadns.net",
-        "apple.com.edgekey.net"
+        "testflight"
       ],
       "ip_cidr": [
-        "17.0.0.0/8",
         "192.35.50.0/24",
-        "205.180.175.0/24",
         "144.178.48.0/20",
-        "144.178.36.0/22",
         "198.183.17.0/24",
-        "65.199.22.0/23",
-        "63.92.224.0/19",
-        "2a01:b740::/32",
         "2403:300::/32",
-        "139.178.128.0/18",
+        "205.180.175.0/24",
+        "2620:149::/32",
+        "65.199.22.0/23",
         "144.178.0.0/19",
-        "2620:149::/32"
+        "17.0.0.0/8",
+        "63.92.224.0/19",
+        "139.178.128.0/18",
+        "2a01:b740::/32",
+        "144.178.36.0/22"
       ]
     },
     {
       "process_name": [
-        "apsd",
-        "WeatherWidget",
-        "com.apple.Maps",
-        "CoreLocationAgent",
-        "mapspushd",
-        "com.apple.geod",
         "fmfd",
-        "netbiosd",
-        "Music",
+        "mapspushd",
         "trustd",
         "LookupViewService",
+        "Music",
+        "com.apple.Maps",
+        "TV",
+        "CoreLocationAgent",
         "findmydevice-user-agent",
-        "TV"
+        "apsd",
+        "netbiosd",
+        "WeatherWidget",
+        "com.apple.geod"
       ]
     }
   ]
