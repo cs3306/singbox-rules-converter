@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain": [
-        "youtubei.googleapis.com",
-        "yt3.ggpht.com"
+        "yt3.ggpht.com",
+        "youtubei.googleapis.com"
       ],
       "domain_keyword": [
         "youtube"
       ],
       "domain_suffix": [
+        "withyoutube.com",
         "youtu.be",
         "youtubegaming.com",
-        "youtube.com",
-        "youtubekids.com",
-        "youtubeeducation.com",
-        "yt.be",
         "googlevideo.com",
-        "withyoutube.com",
-        "gvt2.com",
+        "youtube-nocookie.com",
+        "youtubeeducation.com",
+        "youtube.com",
         "ytimg.com",
-        "youtube-nocookie.com"
+        "youtubekids.com",
+        "gvt2.com",
+        "yt.be"
       ]
     }
   ]
