@@ -1,17 +1,12 @@
 # SingBox Rules
-
 这个仓库包含了从常用的Clash规则源自动转换生成的SingBox规则集。
-
 ## 规则来源
-
 - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) (master分支)
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
-
+- [cs3306/adguard-dns-divert](https://github.com/cs3306/adguard-dns-divert) (cn_domains / foreign_domains)
 ## 致谢
-
 本项目使用了以下开源项目的代码：
 - [singbox_ruleset](https://github.com/senshinya/singbox_ruleset) - 提供了规则集转换功能的基础实现
-
 ## 使用方法
 
 在SingBox配置中添加规则集：
@@ -21,18 +16,23 @@
   "route": {
     "rule_set": [
       {
-        "tag": "规则名称",
+        "tag": "cn-domains",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/来源/规则类别/规则名称.srs",
+        "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/adguard-dns-divert/cn_domains.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "foreign-domains",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/adguard-dns-divert/foreign_domains.srs",
         "download_detour": "proxy"
       }
     ],
     "rules": [
-      {
-        "rule_set": ["规则名称"],
-        "outbound": "proxy或direct或block"
-      }
+      { "rule_set": ["cn-domains"],      "outbound": "direct" },
+      { "rule_set": ["foreign-domains"],  "outbound": "proxy"  }
     ]
   }
 }
@@ -1957,3 +1957,8 @@ singbox的规则集格式与路由规则不同，规则集使用以下格式：
 - [blackmatrix7/myTVSUPER/myTVSUPER_No_Resolve.srs](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/blackmatrix7/myTVSUPER/myTVSUPER_No_Resolve.srs)
 - [blackmatrix7/zhanqi/zhanqi.srs](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/blackmatrix7/zhanqi/zhanqi.srs)
 - [blackmatrix7/zhanqi/zhanqi_No_Resolve.srs](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/blackmatrix7/zhanqi/zhanqi_No_Resolve.srs)
+
+### AdGuard DNS Divert 规则
+
+- [adguard-dns-divert/cn_domains.srs](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/adguard-dns-divert/cn_domains.srs)
+- [adguard-dns-divert/foreign_domains.srs](https://raw.githubusercontent.com/cs3306/singbox-rules-converter/main/output/adguard-dns-divert/foreign_domains.srs)
