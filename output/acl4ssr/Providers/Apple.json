@@ -6,36 +6,36 @@
         "apple.comscoreresearch.com"
       ],
       "domain_suffix": [
-        "apple-cloudkit.com",
-        "apple.com.cn",
-        "icloud.com",
-        "akadns.net",
-        "appstore.com",
-        "itunes.com",
-        "mzstatic.com",
-        "aaplimg.com",
-        "apple-mapkit.com",
-        "me.com",
-        "apple.com",
-        "apple.news",
-        "icloud-content.com",
         "icloud.com.cn",
-        "cdn-apple.com",
+        "apple-cloudkit.com",
+        "aaplimg.com",
         "apple-dns.net",
+        "me.com",
+        "apple.com.cn",
+        "cdn-apple.com",
+        "mzstatic.com",
+        "apple-mapkit.com",
+        "apple.news",
+        "icloud.com",
+        "itunes.com",
+        "icloud-content.com",
+        "akadns.net",
+        "crashlytics.com",
         "apple.co",
-        "crashlytics.com"
+        "apple.com",
+        "appstore.com"
       ],
       "ip_cidr": [
-        "198.183.17.0/24",
+        "144.178.0.0/19",
+        "65.199.22.0/23",
+        "17.0.0.0/8",
         "205.180.175.0/24",
         "192.35.50.0/24",
-        "144.178.0.0/19",
-        "144.178.36.0/22",
-        "63.92.224.0/19",
-        "139.178.128.0/18",
         "144.178.48.0/20",
-        "17.0.0.0/8",
-        "65.199.22.0/23"
+        "198.183.17.0/24",
+        "139.178.128.0/18",
+        "144.178.36.0/22",
+        "63.92.224.0/19"
       ]
     }
   ]
