@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain": [
-        "smtp.office365.com",
-        "pop.gmail.com",
         "imap.gmail.com",
-        "apple.imap.mail.yahoo.com",
-        "apple.smtp.mail.yahoo.com",
         "imap-mail.outlook.com",
         "outlook.office365.com",
+        "smtp.gmail.com",
         "smtp-mail.outlook.com",
-        "smtp.gmail.com"
+        "smtp.office365.com",
+        "pop.gmail.com",
+        "apple.smtp.mail.yahoo.com",
+        "apple.imap.mail.yahoo.com"
       ],
       "domain_suffix": [
         "m.hotmail.com",

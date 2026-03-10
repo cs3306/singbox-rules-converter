@@ -3,14 +3,14 @@
   "rules": [
     {
       "process_name": [
-        "DriverInstaller.exe",
-        "ToDesk_Service.exe",
-        "ToDesk.exe",
-        "devcon.exe",
-        "ToDesk_Session.exe",
         "SunloginClient.exe",
+        "ToDesk_Service.exe",
+        "ToDesk_Session.exe",
         "CrashReport.exe",
         "mstsc.exe",
+        "devcon.exe",
+        "DriverInstaller.exe",
+        "ToDesk.exe",
         "ToDesk_Setup.exe"
       ]
     }
