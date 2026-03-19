@@ -3,47 +3,47 @@
   "rules": [
     {
       "domain": [
-        "router.asus.com",
-        "setmeup.arubanetworks.com",
         "instant.arubanetworks.com",
-        "www.asusrouter.com"
+        "setmeup.arubanetworks.com",
+        "www.asusrouter.com",
+        "router.asus.com"
       ],
       "domain_suffix": [
-        "internal",
-        "hiwifi.com",
-        "wifi.cmcc",
-        "leike.cc",
         "lan",
+        "routerlogin.com",
+        "internal",
         "phicomm.me",
-        "localhost",
-        "ip6-localhost",
-        "my.router",
-        "p.to",
         "acl4.ssr",
+        "leike.cc",
+        "tplogin.cn",
+        "hiwifi.com",
         "local",
-        "router.ctc",
-        "zte.home",
-        "ip6-loopback",
+        "p.to",
+        "wifi.cmcc",
         "miwifi.com",
         "peiluyou.com",
+        "zte.home",
         "tendawifi.com",
-        "tplogin.cn",
-        "routerlogin.com"
+        "my.router",
+        "router.ctc",
+        "ip6-localhost",
+        "ip6-loopback",
+        "localhost"
       ],
       "ip_cidr": [
         "127.0.0.0/8",
-        "fc00::/7",
-        "192.168.0.0/16",
+        "10.0.0.0/8",
+        "224.0.0.0/4",
         "198.18.0.0/16",
-        "100.64.0.0/10",
         "0.0.0.0/8",
         "fe80::/10",
-        "fd00::/8",
         "172.16.0.0/12",
         "169.254.0.0/16",
-        "224.0.0.0/4",
+        "fd00::/8",
+        "192.168.0.0/16",
+        "fc00::/7",
         "::1/128",
-        "10.0.0.0/8"
+        "100.64.0.0/10"
       ]
     }
   ]
