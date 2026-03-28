@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telegram.me",
+        "telegram.space",
+        "comments.app",
         "tdesktop.com",
         "tx.me",
-        "graph.org",
-        "telegram.dog",
-        "comments.app",
-        "quiz.directory",
-        "t.me",
         "contest.com",
-        "telegram-cdn.org",
-        "telega.one",
-        "telegram.org",
-        "cdn-telegram.org",
-        "mbrx.app",
+        "telegram.me",
+        "graph.org",
         "tg.dev",
-        "stel.com",
-        "legra.ph",
-        "usercontent.dev",
         "telesco.pe",
-        "telegramdownload.com",
+        "quiz.directory",
+        "usercontent.dev",
+        "legra.ph",
         "telegra.ph",
-        "telegram.space"
+        "cdn-telegram.org",
+        "t.me",
+        "telegram-cdn.org",
+        "telegram.org",
+        "telegram.dog",
+        "mbrx.app",
+        "telega.one",
+        "telegramdownload.com",
+        "stel.com"
       ],
       "ip_cidr": [
-        "196.55.216.167/32",
-        "5.28.192.0/18",
-        "2001:b28:f23f::/48",
-        "2a0a:f280::/29",
-        "2001:67c:4e8::/48",
         "139.59.210.98/32",
         "149.154.160.0/20",
-        "109.239.140.0/24",
+        "196.55.216.167/32",
+        "2a0a:f280::/29",
         "2001:b28:f23c::/47",
+        "2001:67c:4e8::/48",
+        "2001:b28:f23f::/48",
+        "5.28.192.0/18",
+        "109.239.140.0/24",
         "91.108.0.0/16"
       ]
     },
     {
       "process_name": [
-        "xyz.nextalone.nagram",
-        "tw.nekomimi.nekogram",
-        "org.telegram.messenger",
-        "telegram-desktop",
+        "nekox.messenger",
         "Telegram.exe",
-        "nekox.messenger"
+        "telegram-desktop",
+        "tw.nekomimi.nekogram",
+        "xyz.nextalone.nagram",
+        "org.telegram.messenger"
       ]
     }
   ]
