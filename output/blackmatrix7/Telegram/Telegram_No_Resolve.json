@@ -3,56 +3,56 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "legra.ph",
         "usercontent.dev",
+        "legra.ph",
         "telegram.dog",
-        "telegram.space",
-        "quiz.directory",
-        "telega.one",
-        "comments.app",
-        "tdesktop.com",
-        "telesco.pe",
-        "telegra.ph",
-        "graph.org",
-        "stel.com",
-        "tx.me",
-        "telegram.org",
         "t.me",
-        "cdn-telegram.org",
-        "contest.com",
         "telegram-cdn.org",
-        "mbrx.app",
-        "tg.dev",
         "telegram.me",
-        "telegramdownload.com"
+        "tx.me",
+        "stel.com",
+        "tdesktop.com",
+        "comments.app",
+        "cdn-telegram.org",
+        "telegra.ph",
+        "telegram.org",
+        "contest.com",
+        "graph.org",
+        "quiz.directory",
+        "telegramdownload.com",
+        "tg.dev",
+        "telesco.pe",
+        "telegram.space",
+        "mbrx.app",
+        "telega.one"
       ],
       "ip_cidr": [
-        "91.108.0.0/16",
-        "5.28.192.0/18",
-        "2001:67c:4e8::/48",
-        "2001:b28:f23c::/47",
-        "196.55.216.167/32",
-        "139.59.210.98/32",
-        "2001:b28:f23f::/48",
-        "2a0a:f280::/29",
         "109.239.140.0/24",
-        "149.154.160.0/20"
+        "5.28.192.0/18",
+        "91.108.0.0/16",
+        "2a0a:f280::/29",
+        "149.154.160.0/20",
+        "2001:67c:4e8::/48",
+        "139.59.210.98/32",
+        "2001:b28:f23c::/47",
+        "2001:b28:f23f::/48",
+        "196.55.216.167/32"
       ]
     },
     {
       "process_name": [
+        "org.telegram.messenger",
         "telegram-desktop",
+        "nekox.messenger",
         "tw.nekomimi.nekogram",
         "xyz.nextalone.nagram",
-        "org.telegram.messenger",
-        "nekox.messenger",
         "Telegram.exe"
       ]
     }
