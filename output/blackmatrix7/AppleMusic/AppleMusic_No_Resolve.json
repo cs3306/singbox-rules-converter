@@ -4,16 +4,16 @@
     {
       "domain": [
         "audio-ssl.itunes.apple.com",
-        "streamingaudio.itunes.apple.com",
-        "aod.itunes.apple.com",
-        "mvod.itunes.apple.com",
+        "aod-ssl.itunes.apple.com",
         "audio.itunes.apple.com",
-        "aod-ssl.itunes.apple.com"
+        "streamingaudio.itunes.apple.com",
+        "mvod.itunes.apple.com",
+        "aod.itunes.apple.com"
       ],
       "domain_suffix": [
         "music.apple.com",
-        "blobstore.apple.com",
-        "applemusic.com"
+        "applemusic.com",
+        "blobstore.apple.com"
       ]
     },
     {

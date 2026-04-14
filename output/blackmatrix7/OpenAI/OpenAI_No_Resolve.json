@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
-        "static.cloudflareinsights.com",
-        "openaicomproductionae4b.blob.core.windows.net",
-        "browser-intake-datadoghq.com",
-        "production-openaicom-storage.azureedge.net",
-        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
         "openai-api.arkoselabs.com",
-        "chat.openai.com.cdn.cloudflare.net"
+        "production-openaicom-storage.azureedge.net",
+        "static.cloudflareinsights.com",
+        "chat.openai.com.cdn.cloudflare.net",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "browser-intake-datadoghq.com",
+        "openaicomproductionae4b.blob.core.windows.net"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "oaistatic.com",
         "identrust.com",
-        "openai.com",
-        "sentry.io",
-        "segment.io",
-        "featuregates.org",
-        "turn.livekit.cloud",
-        "intercomcdn.com",
-        "observeit.net",
-        "events.statsigapi.net",
-        "stripe.com",
-        "ai.com",
-        "auth0.com",
-        "chatgpt.livekit.cloud",
-        "api.statsig.com",
-        "host.livekit.cloud",
-        "openaicom.imgix.net",
-        "chatgpt.com",
-        "openaiapi-site.azureedge.net",
-        "oaiusercontent.com",
-        "launchdarkly.com",
-        "client-api.arkoselabs.com",
         "intercom.io",
-        "algolia.net"
+        "oaiusercontent.com",
+        "client-api.arkoselabs.com",
+        "launchdarkly.com",
+        "openaicom.imgix.net",
+        "intercomcdn.com",
+        "api.statsig.com",
+        "turn.livekit.cloud",
+        "ai.com",
+        "host.livekit.cloud",
+        "featuregates.org",
+        "observeit.net",
+        "auth0.com",
+        "oaistatic.com",
+        "algolia.net",
+        "openai.com",
+        "chatgpt.com",
+        "chatgpt.livekit.cloud",
+        "openaiapi-site.azureedge.net",
+        "stripe.com",
+        "segment.io",
+        "sentry.io",
+        "events.statsigapi.net"
       ],
       "ip_cidr": [
-        "64.23.132.171/32",
-        "24.199.123.28/32"
+        "24.199.123.28/32",
+        "64.23.132.171/32"
       ]
     }
   ]

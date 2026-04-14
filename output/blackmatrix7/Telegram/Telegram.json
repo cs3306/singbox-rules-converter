@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telegra.ph",
-        "telega.one",
-        "telegram.dog",
-        "contest.com",
-        "telegram.org",
-        "telegramdownload.com",
-        "tdesktop.com",
-        "comments.app",
-        "mbrx.app",
-        "telesco.pe",
-        "cdn-telegram.org",
-        "quiz.directory",
-        "t.me",
-        "legra.ph",
-        "telegram-cdn.org",
-        "stel.com",
         "telegram.space",
-        "graph.org",
+        "telegra.ph",
+        "telegram.org",
         "telegram.me",
+        "tdesktop.com",
+        "telesco.pe",
         "tx.me",
+        "quiz.directory",
+        "comments.app",
+        "stel.com",
+        "contest.com",
         "usercontent.dev",
-        "tg.dev"
+        "mbrx.app",
+        "graph.org",
+        "telega.one",
+        "t.me",
+        "telegram-cdn.org",
+        "telegram.dog",
+        "tg.dev",
+        "telegramdownload.com",
+        "cdn-telegram.org",
+        "legra.ph"
       ],
       "ip_cidr": [
-        "109.239.140.0/24",
-        "2001:67c:4e8::/48",
-        "2001:b28:f23f::/48",
-        "2a0a:f280::/29",
-        "196.55.216.167/32",
-        "139.59.210.98/32",
-        "5.28.192.0/18",
         "91.108.0.0/16",
+        "196.55.216.167/32",
+        "2001:67c:4e8::/48",
+        "2001:b28:f23c::/47",
+        "5.28.192.0/18",
+        "109.239.140.0/24",
+        "139.59.210.98/32",
+        "2001:b28:f23f::/48",
         "149.154.160.0/20",
-        "2001:b28:f23c::/47"
+        "2a0a:f280::/29"
       ]
     },
     {
       "process_name": [
-        "xyz.nextalone.nagram",
+        "nekox.messenger",
         "telegram-desktop",
-        "Telegram.exe",
-        "tw.nekomimi.nekogram",
         "org.telegram.messenger",
-        "nekox.messenger"
+        "tw.nekomimi.nekogram",
+        "xyz.nextalone.nagram",
+        "Telegram.exe"
       ]
     }
   ]
