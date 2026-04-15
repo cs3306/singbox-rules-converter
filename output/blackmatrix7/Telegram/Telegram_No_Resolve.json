@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telegram.space",
-        "telegra.ph",
-        "telegram.org",
-        "telegram.me",
         "tdesktop.com",
-        "telesco.pe",
-        "tx.me",
-        "quiz.directory",
-        "comments.app",
-        "stel.com",
-        "contest.com",
-        "usercontent.dev",
-        "mbrx.app",
-        "graph.org",
-        "telega.one",
-        "t.me",
         "telegram-cdn.org",
-        "telegram.dog",
-        "tg.dev",
+        "telegra.ph",
+        "telegram.me",
+        "telegram.org",
+        "legra.ph",
+        "comments.app",
         "telegramdownload.com",
+        "telesco.pe",
+        "telegram.space",
+        "usercontent.dev",
+        "stel.com",
+        "graph.org",
+        "mbrx.app",
+        "tx.me",
+        "t.me",
+        "telegram.dog",
+        "telega.one",
         "cdn-telegram.org",
-        "legra.ph"
+        "contest.com",
+        "tg.dev",
+        "quiz.directory"
       ],
       "ip_cidr": [
-        "91.108.0.0/16",
-        "196.55.216.167/32",
-        "2001:67c:4e8::/48",
-        "2001:b28:f23c::/47",
-        "5.28.192.0/18",
-        "109.239.140.0/24",
-        "139.59.210.98/32",
-        "2001:b28:f23f::/48",
+        "2a0a:f280::/29",
         "149.154.160.0/20",
-        "2a0a:f280::/29"
+        "2001:b28:f23c::/47",
+        "139.59.210.98/32",
+        "109.239.140.0/24",
+        "2001:b28:f23f::/48",
+        "196.55.216.167/32",
+        "5.28.192.0/18",
+        "2001:67c:4e8::/48",
+        "91.108.0.0/16"
       ]
     },
     {
       "process_name": [
-        "nekox.messenger",
         "telegram-desktop",
         "org.telegram.messenger",
-        "tw.nekomimi.nekogram",
         "xyz.nextalone.nagram",
-        "Telegram.exe"
+        "nekox.messenger",
+        "Telegram.exe",
+        "tw.nekomimi.nekogram"
       ]
     }
   ]

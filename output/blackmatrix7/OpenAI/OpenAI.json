@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
+        "openaicomproductionae4b.blob.core.windows.net",
+        "browser-intake-datadoghq.com",
         "openai-api.arkoselabs.com",
-        "production-openaicom-storage.azureedge.net",
-        "static.cloudflareinsights.com",
         "chat.openai.com.cdn.cloudflare.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
-        "browser-intake-datadoghq.com",
-        "openaicomproductionae4b.blob.core.windows.net"
+        "static.cloudflareinsights.com",
+        "production-openaicom-storage.azureedge.net"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "identrust.com",
-        "intercom.io",
-        "oaiusercontent.com",
-        "client-api.arkoselabs.com",
-        "launchdarkly.com",
-        "openaicom.imgix.net",
-        "intercomcdn.com",
-        "api.statsig.com",
-        "turn.livekit.cloud",
-        "ai.com",
-        "host.livekit.cloud",
-        "featuregates.org",
-        "observeit.net",
-        "auth0.com",
-        "oaistatic.com",
-        "algolia.net",
-        "openai.com",
-        "chatgpt.com",
-        "chatgpt.livekit.cloud",
-        "openaiapi-site.azureedge.net",
-        "stripe.com",
         "segment.io",
+        "openaicom.imgix.net",
+        "host.livekit.cloud",
+        "algolia.net",
+        "launchdarkly.com",
+        "api.statsig.com",
+        "intercomcdn.com",
+        "oaistatic.com",
+        "auth0.com",
+        "intercom.io",
+        "stripe.com",
+        "observeit.net",
+        "chatgpt.livekit.cloud",
+        "featuregates.org",
+        "turn.livekit.cloud",
+        "client-api.arkoselabs.com",
+        "openaiapi-site.azureedge.net",
         "sentry.io",
-        "events.statsigapi.net"
+        "events.statsigapi.net",
+        "ai.com",
+        "chatgpt.com",
+        "openai.com",
+        "oaiusercontent.com",
+        "identrust.com"
       ],
       "ip_cidr": [
-        "24.199.123.28/32",
-        "64.23.132.171/32"
+        "64.23.132.171/32",
+        "24.199.123.28/32"
       ]
     }
   ]
