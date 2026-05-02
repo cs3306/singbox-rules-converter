@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "tg.dev",
-        "quiz.directory",
-        "legra.ph",
         "t.me",
-        "telegra.ph",
-        "telegram.dog",
-        "telega.one",
-        "telesco.pe",
-        "comments.app",
-        "mbrx.app",
-        "contest.com",
-        "usercontent.dev",
-        "telegram.org",
-        "stel.com",
         "cdn-telegram.org",
-        "telegram.me",
-        "tdesktop.com",
-        "telegram.space",
-        "graph.org",
-        "telegram-cdn.org",
+        "telegra.ph",
+        "telesco.pe",
         "telegramdownload.com",
-        "tx.me"
+        "stel.com",
+        "telegram.me",
+        "telegram.org",
+        "tg.dev",
+        "telega.one",
+        "legra.ph",
+        "telegram.space",
+        "usercontent.dev",
+        "comments.app",
+        "telegram-cdn.org",
+        "mbrx.app",
+        "quiz.directory",
+        "graph.org",
+        "tx.me",
+        "telegram.dog",
+        "tdesktop.com",
+        "contest.com"
       ],
       "ip_cidr": [
-        "2001:67c:4e8::/48",
-        "109.239.140.0/24",
         "196.55.216.167/32",
+        "149.154.160.0/20",
+        "2001:67c:4e8::/48",
         "5.28.192.0/18",
-        "2001:b28:f23c::/47",
-        "139.59.210.98/32",
+        "2001:b28:f23f::/48",
         "2a0a:f280::/29",
         "91.108.0.0/16",
-        "2001:b28:f23f::/48",
-        "149.154.160.0/20"
+        "109.239.140.0/24",
+        "139.59.210.98/32",
+        "2001:b28:f23c::/47"
       ]
     },
     {
       "process_name": [
         "org.telegram.messenger",
-        "telegram-desktop",
         "xyz.nextalone.nagram",
-        "nekox.messenger",
         "tw.nekomimi.nekogram",
-        "Telegram.exe"
+        "Telegram.exe",
+        "telegram-desktop",
+        "nekox.messenger"
       ]
     }
   ]
