@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
-        "static.cloudflareinsights.com",
-        "openai-api.arkoselabs.com",
-        "production-openaicom-storage.azureedge.net",
         "browser-intake-datadoghq.com",
-        "chat.openai.com.cdn.cloudflare.net",
         "openaicomproductionae4b.blob.core.windows.net",
-        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"
+        "production-openaicom-storage.azureedge.net",
+        "static.cloudflareinsights.com",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openai-api.arkoselabs.com",
+        "chat.openai.com.cdn.cloudflare.net"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "host.livekit.cloud",
-        "observeit.net",
-        "ai.com",
-        "auth0.com",
-        "stripe.com",
-        "chatgpt.livekit.cloud",
-        "chatgpt.com",
         "intercomcdn.com",
+        "observeit.net",
         "api.statsig.com",
-        "oaistatic.com",
-        "openaicom.imgix.net",
-        "openai.com",
-        "featuregates.org",
-        "oaiusercontent.com",
-        "launchdarkly.com",
-        "identrust.com",
+        "chatgpt.livekit.cloud",
         "events.statsigapi.net",
-        "turn.livekit.cloud",
+        "host.livekit.cloud",
+        "algolia.net",
+        "openai.com",
+        "auth0.com",
         "segment.io",
-        "client-api.arkoselabs.com",
-        "sentry.io",
+        "featuregates.org",
+        "chatgpt.com",
         "openaiapi-site.azureedge.net",
+        "oaistatic.com",
+        "stripe.com",
+        "turn.livekit.cloud",
+        "openaicom.imgix.net",
         "intercom.io",
-        "algolia.net"
+        "client-api.arkoselabs.com",
+        "identrust.com",
+        "sentry.io",
+        "oaiusercontent.com",
+        "ai.com",
+        "launchdarkly.com"
       ],
       "ip_cidr": [
-        "64.23.132.171/32",
-        "24.199.123.28/32"
+        "24.199.123.28/32",
+        "64.23.132.171/32"
       ]
     }
   ]
