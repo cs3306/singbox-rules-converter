@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
-        "nomadproject.io",
-        "terraform.io",
         "consul.io",
+        "terraform.io",
         "hashicorp.com",
         "packer.io",
+        "vagrantup.com",
         "vagrantcloud.com",
-        "vaultproject.io",
-        "vagrantup.com"
+        "nomadproject.io",
+        "vaultproject.io"
       ]
     }
   ]
