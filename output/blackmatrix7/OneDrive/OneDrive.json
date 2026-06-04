@@ -3,30 +3,30 @@
   "rules": [
     {
       "domain_keyword": [
-        "skydrive",
         "1drv",
-        "onedrive"
+        "onedrive",
+        "skydrive"
       ],
       "domain_suffix": [
-        "photos.live.com",
-        "onedrive.live.com",
-        "skydrive.wns.windows.com",
+        "sharepoint.com",
         "spoprod-a.akamaihd.net",
-        "sharepointonline.com",
+        "oneclient.sfx.ms",
+        "skydrive.wns.windows.com",
+        "onedrive.live.com",
+        "1drv.com",
+        "livefilestore.com",
+        "microsoftpersonalcontent.com",
         "onedrive.com",
         "storage.live.com",
-        "livefilestore.com",
-        "oneclient.sfx.ms",
         "storage.msn.com",
-        "microsoftpersonalcontent.com",
-        "sharepoint.com",
-        "1drv.com"
+        "sharepointonline.com",
+        "photos.live.com"
       ]
     },
     {
       "process_name": [
-        "OneDriveUpdater",
-        "OneDrive"
+        "OneDrive",
+        "OneDriveUpdater"
       ]
     }
   ]
