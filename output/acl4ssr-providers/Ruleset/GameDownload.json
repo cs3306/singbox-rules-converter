@@ -3,28 +3,28 @@
   "rules": [
     {
       "domain": [
-        "origin-a.akamaihd.net",
-        "assets1.xboxlive.com",
-        "epicgames-download1.akamaized.net",
+        "gog-cdn-lumen.secure2.footprint.net",
         "packagespc.xboxlive.com",
-        "download.cdp.bethesda.net",
+        "origin-a.akamaihd.net",
+        "xvcf1.xboxlive.com",
+        "download2.epicgames.com",
+        "download.epicgames.com",
+        "assets1.xboxlive.com",
+        "assets2.xboxlive.com",
+        "gamedownloads-rockstargames-com.akamaized.net",
         "download.hikarifield.co.jp",
         "ssl-lvlt.cdn.ea.com",
-        "download4.epicgames.com",
         "download3.epicgames.com",
-        "client.hikarifield.co.jp",
-        "download.epicgames.com",
-        "assets2.xboxlive.com",
-        "xvcf2.xboxlive.com",
+        "epicgames-download1.akamaized.net",
+        "download4.epicgames.com",
         "uplaypc-s-ubisoft.cdn.ubionline.com.cn",
-        "download2.epicgames.com",
-        "xvcf1.xboxlive.com",
-        "gog-cdn-lumen.secure2.footprint.net",
-        "gamedownloads-rockstargames-com.akamaized.net"
+        "download.cdp.bethesda.net",
+        "xvcf2.xboxlive.com",
+        "client.hikarifield.co.jp"
       ],
       "domain_suffix": [
-        "dyn.riotcdn.net",
-        "cdn.ubi.com"
+        "cdn.ubi.com",
+        "dyn.riotcdn.net"
       ]
     }
   ]
