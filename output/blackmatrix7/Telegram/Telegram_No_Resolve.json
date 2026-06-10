@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.swiftgram.app",
-        "api.imem.app"
+        "api.imem.app",
+        "api.swiftgram.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "contest.com",
-        "telegram.dog",
-        "tx.me",
+        "telegram.space",
+        "graph.org",
+        "telesco.pe",
+        "t.me",
         "cdn-telegram.org",
         "mbrx.app",
-        "t.me",
-        "telega.one",
-        "graph.org",
-        "telegram.space",
-        "telegram-cdn.org",
-        "legra.ph",
-        "tdesktop.com",
-        "stel.com",
-        "comments.app",
-        "tg.dev",
-        "quiz.directory",
-        "telegra.ph",
-        "telesco.pe",
-        "telegram.me",
         "usercontent.dev",
+        "stel.com",
+        "legra.ph",
+        "quiz.directory",
         "telegramdownload.com",
-        "telegram.org"
+        "tdesktop.com",
+        "telegram-cdn.org",
+        "tg.dev",
+        "telegram.me",
+        "telegra.ph",
+        "contest.com",
+        "comments.app",
+        "telegram.dog",
+        "tx.me",
+        "telegram.org",
+        "telega.one"
       ],
       "ip_cidr": [
-        "2001:b28:f23f::/48",
-        "5.28.192.0/18",
-        "109.239.140.0/24",
-        "2001:67c:4e8::/48",
-        "2a0a:f280::/29",
         "2001:b28:f23c::/47",
-        "149.154.160.0/20",
         "196.55.216.167/32",
-        "139.59.210.98/32",
-        "91.108.0.0/16"
+        "2a0a:f280::/29",
+        "149.154.160.0/20",
+        "109.239.140.0/24",
+        "2001:b28:f23f::/48",
+        "91.108.0.0/16",
+        "5.28.192.0/18",
+        "2001:67c:4e8::/48",
+        "139.59.210.98/32"
       ]
     },
     {
       "process_name": [
-        "xyz.nextalone.nagram",
-        "org.telegram.messenger",
-        "nekox.messenger",
         "telegram-desktop",
-        "tw.nekomimi.nekogram",
-        "Telegram.exe"
+        "Telegram.exe",
+        "nekox.messenger",
+        "org.telegram.messenger",
+        "xyz.nextalone.nagram",
+        "tw.nekomimi.nekogram"
       ]
     }
   ]

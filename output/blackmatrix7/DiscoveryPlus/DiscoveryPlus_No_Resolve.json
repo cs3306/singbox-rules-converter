@@ -3,25 +3,25 @@
   "rules": [
     {
       "domain": [
-        "dplus-northamerica.media-edge.prod-vod.h264.io",
         "dplus-northamerica-cloudfront-gcs.prod-vod.h264.io",
-        "discovery-us.conax.cloud"
+        "discovery-us.conax.cloud",
+        "dplus-northamerica.media-edge.prod-vod.h264.io"
       ],
       "domain_keyword": [
         "discovery.uplynk.com"
       ],
       "domain_suffix": [
-        "dnitv.com",
-        "mobile-collector.newrelic.com",
-        "getblueshift.com",
-        "discovery.com",
-        "discoveryplus.co.uk",
         "discoveryplus.in",
-        "litix.io",
-        "uplynk.com",
         "fwmrm.net",
+        "uplynk.com",
+        "getblueshift.com",
+        "litix.io",
+        "mobile-collector.newrelic.com",
+        "discoveryplus.co.uk",
+        "discoveryplus.com",
         "disco-api.com",
-        "discoveryplus.com"
+        "dnitv.com",
+        "discovery.com"
       ]
     }
   ]
