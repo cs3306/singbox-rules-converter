@@ -3,16 +3,16 @@
   "rules": [
     {
       "domain_keyword": [
-        "-spotify-",
-        "spotify.com"
+        "spotify.com",
+        "-spotify-"
       ],
       "domain_suffix": [
-        "pscdn.co",
+        "spotifycdn.com",
         "scdn.co",
-        "spotifycdn.net",
-        "spotify.com",
         "spoti.fi",
-        "spotifycdn.com"
+        "pscdn.co",
+        "spotify.com",
+        "spotifycdn.net"
       ]
     }
   ]
