@@ -3,19 +3,19 @@
   "rules": [
     {
       "domain": [
+        "espn.api.edge.bamgrid.com",
         "espn.hb.omtrdc.net",
-        "espndotcom.tt.omtrdc.net",
-        "espn.api.edge.bamgrid.com"
+        "espndotcom.tt.omtrdc.net"
       ],
       "domain_suffix": [
-        "espn.com",
-        "dtci.technology",
-        "espn.net",
-        "espn.co.uk",
         "espncdn.com",
+        "espn.net",
         "espnqa.com",
+        "dtci.technology",
         "watchespn.com",
-        "dtci.co"
+        "dtci.co",
+        "espn.com",
+        "espn.co.uk"
       ]
     }
   ]
