@@ -3,23 +3,23 @@
   "rules": [
     {
       "domain": [
-        "ai.google.dev",
+        "makersuite.google.com",
         "alkalimakersuite-pa.clients6.google.com",
-        "makersuite.google.com"
+        "ai.google.dev"
       ],
       "domain_keyword": [
+        "generativelanguage",
         "colab",
-        "developerprofiles",
-        "generativelanguage"
+        "developerprofiles"
       ],
       "domain_suffix": [
-        "gemini.google.com",
         "apis.google.com",
+        "gemini.google.com",
         "bard.google.com",
-        "generativeai.google",
+        "deepmind.com",
         "proactivebackend-pa.googleapis.com",
         "deepmind.google",
-        "deepmind.com"
+        "generativeai.google"
       ]
     }
   ]
