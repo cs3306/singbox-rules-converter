@@ -3,46 +3,46 @@
   "rules": [
     {
       "domain": [
-        "browser-intake-datadoghq.com",
-        "openai-api.arkoselabs.com",
-        "openaicomproductionae4b.blob.core.windows.net",
-        "chat.openai.com.cdn.cloudflare.net",
         "static.cloudflareinsights.com",
+        "openaicomproductionae4b.blob.core.windows.net",
         "production-openaicom-storage.azureedge.net",
+        "openai-api.arkoselabs.com",
+        "chat.openai.com.cdn.cloudflare.net",
+        "browser-intake-datadoghq.com",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "ai.com",
-        "chatgpt.livekit.cloud",
-        "openai.com",
-        "chatgpt.com",
         "openaiapi-site.azureedge.net",
+        "sentry.io",
+        "openai.com",
+        "chatgpt.livekit.cloud",
+        "featuregates.org",
+        "chatgpt.com",
+        "intercomcdn.com",
+        "intercom.io",
+        "auth0.com",
+        "algolia.net",
+        "stripe.com",
+        "client-api.arkoselabs.com",
+        "turn.livekit.cloud",
+        "ai.com",
         "events.statsigapi.net",
+        "launchdarkly.com",
+        "segment.io",
+        "oaistatic.com",
+        "api.statsig.com",
+        "host.livekit.cloud",
+        "observeit.net",
         "oaiusercontent.com",
         "openaicom.imgix.net",
-        "segment.io",
-        "stripe.com",
-        "observeit.net",
-        "oaistatic.com",
-        "host.livekit.cloud",
-        "sentry.io",
-        "identrust.com",
-        "featuregates.org",
-        "launchdarkly.com",
-        "algolia.net",
-        "intercom.io",
-        "client-api.arkoselabs.com",
-        "api.statsig.com",
-        "turn.livekit.cloud",
-        "intercomcdn.com",
-        "auth0.com"
+        "identrust.com"
       ],
       "ip_cidr": [
-        "24.199.123.28/32",
-        "64.23.132.171/32"
+        "64.23.132.171/32",
+        "24.199.123.28/32"
       ]
     }
   ]
