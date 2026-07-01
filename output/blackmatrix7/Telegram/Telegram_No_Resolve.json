@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "tg.dev",
-        "tdesktop.com",
-        "legra.ph",
-        "graph.org",
-        "telegramdownload.com",
-        "cdn-telegram.org",
-        "telegram.me",
-        "telegram.space",
-        "contest.com",
-        "usercontent.dev",
-        "telegra.ph",
-        "telegram.org",
-        "telegram.dog",
-        "telegram-cdn.org",
-        "comments.app",
-        "tx.me",
-        "telega.one",
-        "telesco.pe",
-        "stel.com",
-        "t.me",
         "quiz.directory",
-        "mbrx.app"
+        "telesco.pe",
+        "telegram.space",
+        "stel.com",
+        "tx.me",
+        "tg.dev",
+        "t.me",
+        "contest.com",
+        "mbrx.app",
+        "telegramdownload.com",
+        "telega.one",
+        "tdesktop.com",
+        "graph.org",
+        "telegra.ph",
+        "telegram.dog",
+        "usercontent.dev",
+        "telegram.org",
+        "telegram-cdn.org",
+        "legra.ph",
+        "cdn-telegram.org",
+        "comments.app",
+        "telegram.me"
       ],
       "ip_cidr": [
+        "91.108.0.0/16",
+        "2001:b28:f23c::/47",
+        "2001:67c:4e8::/48",
         "196.55.216.167/32",
+        "109.239.140.0/24",
+        "149.154.160.0/20",
+        "2001:b28:f23f::/48",
         "139.59.210.98/32",
         "5.28.192.0/18",
-        "109.239.140.0/24",
-        "2001:b28:f23f::/48",
-        "2001:67c:4e8::/48",
-        "2a0a:f280::/29",
-        "149.154.160.0/20",
-        "2001:b28:f23c::/47",
-        "91.108.0.0/16"
+        "2a0a:f280::/29"
       ]
     },
     {
       "process_name": [
-        "Telegram.exe",
-        "xyz.nextalone.nagram",
-        "telegram-desktop",
         "tw.nekomimi.nekogram",
+        "org.telegram.messenger",
+        "xyz.nextalone.nagram",
         "nekox.messenger",
-        "org.telegram.messenger"
+        "telegram-desktop",
+        "Telegram.exe"
       ]
     }
   ]
