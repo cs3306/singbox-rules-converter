@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain_suffix": [
+        "wikidata.org",
+        "wmflabs.org",
+        "wmfusercontent.org",
+        "wikibooks.org",
+        "wikimediafoundation.org",
+        "mediawiki.org",
         "toolforge.org",
+        "wikimedia.org",
+        "wikiversity.org",
+        "wikiquote.org",
         "wikipedia.com",
         "wikipedia.org",
-        "wikiversity.org",
-        "wikibooks.org",
-        "wmfusercontent.org",
-        "wikiquote.org",
-        "wikidata.org",
-        "wikisource.org",
-        "wikinews.org",
-        "w.wiki",
-        "wikileaks.org",
-        "wikimedia.org",
-        "wikimediafoundation.org",
         "wiktionary.org",
-        "wmcloud.org",
-        "wikimediacloud.org",
+        "wikinews.org",
         "wikivoyage.org",
-        "wmflabs.org",
-        "mediawiki.org"
+        "w.wiki",
+        "wikimediacloud.org",
+        "wikisource.org",
+        "wikileaks.org",
+        "wmcloud.org"
       ]
     }
   ]
