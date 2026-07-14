@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telegra.ph",
-        "telesco.pe",
-        "t.me",
-        "graph.org",
-        "cdn-telegram.org",
-        "telega.one",
-        "telegram-cdn.org",
         "legra.ph",
         "telegram.dog",
-        "tg.dev",
-        "telegram.space",
-        "comments.app",
-        "mbrx.app",
-        "telegram.me",
         "tx.me",
         "contest.com",
+        "telesco.pe",
+        "telegram.me",
+        "quiz.directory",
+        "telegram-cdn.org",
+        "telega.one",
+        "t.me",
         "telegram.org",
-        "tdesktop.com",
-        "telegramdownload.com",
+        "tg.dev",
+        "telegra.ph",
         "usercontent.dev",
+        "comments.app",
         "stel.com",
-        "quiz.directory"
+        "tdesktop.com",
+        "mbrx.app",
+        "telegramdownload.com",
+        "graph.org",
+        "telegram.space",
+        "cdn-telegram.org"
       ],
       "ip_cidr": [
-        "2001:b28:f23c::/47",
-        "2001:67c:4e8::/48",
-        "139.59.210.98/32",
-        "5.28.192.0/18",
-        "149.154.160.0/20",
-        "196.55.216.167/32",
-        "2001:b28:f23f::/48",
         "109.239.140.0/24",
-        "91.108.0.0/16",
-        "2a0a:f280::/29"
+        "2001:b28:f23c::/47",
+        "149.154.160.0/20",
+        "2001:67c:4e8::/48",
+        "2a0a:f280::/29",
+        "5.28.192.0/18",
+        "2001:b28:f23f::/48",
+        "139.59.210.98/32",
+        "196.55.216.167/32",
+        "91.108.0.0/16"
       ]
     },
     {
       "process_name": [
-        "org.telegram.messenger",
-        "tw.nekomimi.nekogram",
+        "Telegram.exe",
         "telegram-desktop",
         "nekox.messenger",
-        "xyz.nextalone.nagram",
-        "Telegram.exe"
+        "tw.nekomimi.nekogram",
+        "org.telegram.messenger",
+        "xyz.nextalone.nagram"
       ]
     }
   ]
