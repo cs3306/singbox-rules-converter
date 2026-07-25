@@ -4,19 +4,19 @@
     {
       "domain": [
         "apple.imap.mail.yahoo.com",
-        "smtp-mail.outlook.com",
-        "smtp.office365.com",
-        "smtp.gmail.com",
         "imap-mail.outlook.com",
-        "imap.gmail.com",
-        "pop.gmail.com",
         "outlook.office365.com",
+        "smtp.gmail.com",
+        "smtp.office365.com",
+        "imap.gmail.com",
+        "smtp-mail.outlook.com",
+        "pop.gmail.com",
         "apple.smtp.mail.yahoo.com"
       ],
       "domain_suffix": [
-        "imap.yandex.com",
         "m.hotmail.com",
-        "smtp.yandex.com"
+        "smtp.yandex.com",
+        "imap.yandex.com"
       ]
     }
   ]
