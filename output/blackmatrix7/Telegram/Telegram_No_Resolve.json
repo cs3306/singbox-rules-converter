@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "telesco.pe",
-        "contest.com",
-        "telegram.me",
-        "telegram.dog",
-        "graph.org",
-        "usercontent.dev",
-        "legra.ph",
-        "stel.com",
-        "quiz.directory",
-        "tg.dev",
-        "cdn-telegram.org",
-        "telega.one",
-        "mbrx.app",
-        "tx.me",
-        "tdesktop.com",
-        "telegram.space",
-        "telegra.ph",
-        "telegram.org",
-        "t.me",
-        "comments.app",
         "telegramdownload.com",
-        "telegram-cdn.org"
+        "telegram.me",
+        "telegra.ph",
+        "t.me",
+        "telesco.pe",
+        "legra.ph",
+        "comments.app",
+        "contest.com",
+        "usercontent.dev",
+        "telega.one",
+        "tg.dev",
+        "graph.org",
+        "cdn-telegram.org",
+        "tdesktop.com",
+        "telegram.dog",
+        "telegram-cdn.org",
+        "telegram.org",
+        "quiz.directory",
+        "tx.me",
+        "stel.com",
+        "mbrx.app",
+        "telegram.space"
       ],
       "ip_cidr": [
-        "139.59.210.98/32",
         "2a0a:f280::/29",
-        "109.239.140.0/24",
+        "149.154.160.0/20",
+        "2001:b28:f23f::/48",
+        "196.55.216.167/32",
+        "139.59.210.98/32",
         "91.108.0.0/16",
         "2001:67c:4e8::/48",
-        "149.154.160.0/20",
+        "109.239.140.0/24",
         "2001:b28:f23c::/47",
-        "2001:b28:f23f::/48",
-        "5.28.192.0/18",
-        "196.55.216.167/32"
+        "5.28.192.0/18"
       ]
     },
     {
       "process_name": [
+        "Telegram.exe",
         "tw.nekomimi.nekogram",
         "org.telegram.messenger",
         "xyz.nextalone.nagram",
         "telegram-desktop",
-        "nekox.messenger",
-        "Telegram.exe"
+        "nekox.messenger"
       ]
     }
   ]
