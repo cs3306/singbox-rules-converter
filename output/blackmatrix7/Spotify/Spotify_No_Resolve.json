@@ -3,37 +3,37 @@
   "rules": [
     {
       "domain": [
+        "heads-ak-spotify-com.akamaized.net",
         "spotify.map.fastlylb.net",
-        "cdn-spotify-experiments.conductrics.com",
-        "audio4-ak-spotify-com.akamaized.net",
-        "spotify.map.fastly.net",
         "spotify.com.edgesuite.net",
-        "heads-ak-spotify-com.akamaized.net"
+        "audio4-ak-spotify-com.akamaized.net",
+        "cdn-spotify-experiments.conductrics.com",
+        "spotify.map.fastly.net"
       ],
       "domain_keyword": [
         "spotify"
       ],
       "domain_suffix": [
-        "spoti.fi",
-        "tospotify.com",
-        "spotify-everywhere.com",
-        "spotify-com.akamaized.net",
         "audio-ak-spotify-com.akamaized.net",
-        "spotifycharts.com",
-        "spotify.com",
         "spotifycdn.com",
         "spotifyjobs.com",
-        "spotify.design",
-        "scdn.co",
-        "byspotify.com",
-        "pscdn.co",
         "spotifynewsroom.jp",
-        "spotifyforbrands.com",
-        "spotifycodes.com",
+        "spotify-everywhere.com",
+        "tospotify.com",
         "spotilocal.com",
+        "spotifyforbrands.com",
+        "spotify.app.link",
+        "pscdn.co",
+        "spotify.com",
         "heads4-ak-spotify-com.akamaized.net",
+        "byspotify.com",
+        "spotifycodes.com",
+        "spotify.design",
+        "spotifycharts.com",
+        "spoti.fi",
         "spotifycdn.net",
-        "spotify.app.link"
+        "spotify-com.akamaized.net",
+        "scdn.co"
       ],
       "ip_cidr": [
         "35.186.224.47/32",
