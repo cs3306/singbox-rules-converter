@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain": [
-        "originasserts.akamaized.net",
         "rtm.tnt-ea.com",
+        "originasserts.akamaized.net",
         "cloudsync-prod.s3.amazonaws.com",
-        "eaasserts-a.akamaihd.net",
-        "origin-a.akamaihd.net"
+        "origin-a.akamaihd.net",
+        "eaasserts-a.akamaihd.net"
       ],
       "domain_suffix": [
-        "ea.com",
-        "origin.com"
+        "origin.com",
+        "ea.com"
       ]
     }
   ]

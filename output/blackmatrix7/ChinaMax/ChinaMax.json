@@ -3,37 +3,37 @@
   "rules": [
     {
       "domain_keyword": [
-        "bilibili",
-        "officecdn",
-        "baidu",
-        "alicdn",
         "beplay",
-        "qiyi",
-        "weibo",
-        "stripe",
-        "taobao",
-        ".tmall.com",
         "hnagroup",
+        ".tmall.com",
+        "taobao",
+        "stripe",
+        "baidu",
+        "bilibili",
+        "alicdn",
+        "qiyi",
         "aliyun",
-        "alipay"
+        "officecdn",
+        "alipay",
+        "weibo"
       ]
     },
     {
       "process_name": [
-        "tv.danmaku.bili",
-        "com.qiyi.video",
-        "tv.danmaku.bilibilihd",
-        "com.jjwxc.reader",
-        "com.xiaomi.mibrain.speech",
-        "Thunder",
-        "Thunder.exe",
-        "com.zhiliaoapp.musically",
-        "com.bilibili.comic",
-        "com.bilibili.app.blue",
         "com.bilibili.comic.intl",
+        "tv.danmaku.bilibilihd",
+        "Thunder",
+        "com.bilibili.app.blue",
         "com.taobao.taobao",
+        "tv.danmaku.bili",
+        "com.zhiliaoapp.musically",
+        "Thunder.exe",
+        "com.qiyi.video",
         "com.bilibili.app.in",
-        "小米云服务.exe"
+        "com.jjwxc.reader",
+        "小米云服务.exe",
+        "com.xiaomi.mibrain.speech",
+        "com.bilibili.comic"
       ]
     }
   ]
