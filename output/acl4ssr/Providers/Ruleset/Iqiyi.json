@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain": [
-        "intl-subscription.iqiyi.com",
-        "intel-cache.m.iqiyi.com",
         "intel-cache.video.iqiyi.com",
-        "intl-rcd.iqiyi.com"
+        "intl-rcd.iqiyi.com",
+        "intel-cache.m.iqiyi.com",
+        "intl-subscription.iqiyi.com"
       ],
       "domain_suffix": [
-        "iqiyipic.com",
-        "inter.ptqy.gitv.tv",
-        "iq.com",
-        "iqiyi.com",
-        "71edge.com",
         "inter.iqiyi.com",
-        "qy.net",
-        "qiyi.com",
-        "71.am",
-        "intl.iqiyi.com",
         "ppsimg.com",
-        "qiyipic.com"
+        "iq.com",
+        "qy.net",
+        "71edge.com",
+        "71.am",
+        "qiyipic.com",
+        "qiyi.com",
+        "iqiyi.com",
+        "inter.ptqy.gitv.tv",
+        "intl.iqiyi.com",
+        "iqiyipic.com"
       ],
       "ip_cidr": [
         "103.44.56.0/22",
