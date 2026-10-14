@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain": [
-        "clubhouseprod.s3.amazonaws.com",
-        "clubhouse.pubnub.com"
+        "clubhouse.pubnub.com",
+        "clubhouseprod.s3.amazonaws.com"
       ],
       "domain_suffix": [
-        "joinclubhouse.com",
         "clubhouse.com",
+        "joinclubhouse.com",
         "clubhouseapi.com"
       ]
     }
