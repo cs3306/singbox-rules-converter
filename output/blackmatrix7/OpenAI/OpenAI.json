@@ -4,45 +4,45 @@
     {
       "domain": [
         "browser-intake-datadoghq.com",
-        "static.cloudflareinsights.com",
-        "openaicomproductionae4b.blob.core.windows.net",
         "chat.openai.com.cdn.cloudflare.net",
         "openai-api.arkoselabs.com",
+        "openaicomproductionae4b.blob.core.windows.net",
+        "production-openaicom-storage.azureedge.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
-        "production-openaicom-storage.azureedge.net"
+        "static.cloudflareinsights.com"
       ],
       "domain_keyword": [
         "openai"
       ],
       "domain_suffix": [
-        "ai.com",
-        "featuregates.org",
-        "stripe.com",
-        "client-api.arkoselabs.com",
-        "intercomcdn.com",
-        "launchdarkly.com",
-        "intercom.io",
-        "turn.livekit.cloud",
-        "algolia.net",
-        "host.livekit.cloud",
-        "openaicom.imgix.net",
-        "chatgpt.livekit.cloud",
-        "chatgpt.com",
-        "segment.io",
-        "observeit.net",
-        "oaiusercontent.com",
-        "identrust.com",
         "api.statsig.com",
-        "auth0.com",
-        "events.statsigapi.net",
-        "oaistatic.com",
-        "openaiapi-site.azureedge.net",
+        "featuregates.org",
+        "intercom.io",
+        "host.livekit.cloud",
+        "openai.com",
+        "launchdarkly.com",
+        "oaiusercontent.com",
         "sentry.io",
-        "openai.com"
+        "segment.io",
+        "stripe.com",
+        "auth0.com",
+        "openaiapi-site.azureedge.net",
+        "client-api.arkoselabs.com",
+        "oaistatic.com",
+        "openaicom.imgix.net",
+        "events.statsigapi.net",
+        "chatgpt.com",
+        "intercomcdn.com",
+        "algolia.net",
+        "observeit.net",
+        "chatgpt.livekit.cloud",
+        "identrust.com",
+        "ai.com",
+        "turn.livekit.cloud"
       ],
       "ip_cidr": [
-        "24.199.123.28/32",
-        "64.23.132.171/32"
+        "64.23.132.171/32",
+        "24.199.123.28/32"
       ]
     }
   ]
