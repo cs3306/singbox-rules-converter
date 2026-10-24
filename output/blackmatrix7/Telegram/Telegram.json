@@ -3,57 +3,57 @@
   "rules": [
     {
       "domain": [
-        "api.imem.app",
-        "api.swiftgram.app"
+        "api.swiftgram.app",
+        "api.imem.app"
       ],
       "domain_keyword": [
         "nicegram"
       ],
       "domain_suffix": [
-        "quiz.directory",
-        "tg.dev",
         "cdn-telegram.org",
-        "tx.me",
-        "comments.app",
-        "mbrx.app",
-        "tdesktop.com",
-        "telega.one",
-        "graph.org",
-        "contest.com",
-        "telegram-cdn.org",
-        "telesco.pe",
-        "stel.com",
-        "telegramdownload.com",
         "t.me",
-        "legra.ph",
-        "telegram.me",
         "telegram.org",
-        "telegra.ph",
+        "telegram.space",
+        "telesco.pe",
         "usercontent.dev",
+        "legra.ph",
+        "tdesktop.com",
+        "telegram.me",
+        "comments.app",
+        "contest.com",
+        "stel.com",
+        "telegra.ph",
+        "quiz.directory",
+        "telegramdownload.com",
+        "tx.me",
+        "tg.dev",
+        "mbrx.app",
+        "telegram-cdn.org",
         "telegram.dog",
-        "telegram.space"
+        "telega.one",
+        "graph.org"
       ],
       "ip_cidr": [
-        "5.28.192.0/18",
-        "149.154.160.0/20",
-        "2001:b28:f23c::/47",
-        "2a0a:f280::/29",
         "2001:67c:4e8::/48",
-        "139.59.210.98/32",
-        "196.55.216.167/32",
+        "2001:b28:f23c::/47",
         "109.239.140.0/24",
+        "149.154.160.0/20",
         "91.108.0.0/16",
-        "2001:b28:f23f::/48"
+        "2a0a:f280::/29",
+        "139.59.210.98/32",
+        "2001:b28:f23f::/48",
+        "5.28.192.0/18",
+        "196.55.216.167/32"
       ]
     },
     {
       "process_name": [
-        "xyz.nextalone.nagram",
         "nekox.messenger",
-        "telegram-desktop",
         "Telegram.exe",
-        "org.telegram.messenger",
-        "tw.nekomimi.nekogram"
+        "xyz.nextalone.nagram",
+        "tw.nekomimi.nekogram",
+        "telegram-desktop",
+        "org.telegram.messenger"
       ]
     }
   ]
