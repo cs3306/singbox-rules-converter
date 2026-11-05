@@ -3,40 +3,40 @@
   "rules": [
     {
       "domain": [
-        "itvpnpmobile-a.akamaihd.net",
         "vod-dash-ww-live.akamaized.net",
-        "vs-cmaf-pushb-ww-live.akamaized.net",
-        "itvpnp.live.ott.irdeto.com",
         "itvpnp.stage.ott.irdeto.com",
-        "vod-thumb-ww-live.akamaized.net"
+        "itvpnp.live.ott.irdeto.com",
+        "vod-thumb-ww-live.akamaized.net",
+        "vs-cmaf-pushb-ww-live.akamaized.net",
+        "itvpnpmobile-a.akamaihd.net"
       ],
       "domain_keyword": [
         "bbcfmt",
         "uk-live"
       ],
       "domain_suffix": [
-        "bbcverticals.com",
-        "bbcpersian.com",
-        "britbox.com",
-        "bbc",
-        "bbc.in",
-        "itv.com",
-        "bidi.net.uk",
-        "bbcchinese.com",
-        "bb-static.com",
-        "channel4.com",
-        "bbci.co",
-        "bbc.co",
-        "bbc-reporting-api.app",
+        "bbc.net.uk",
         "bbci.co.uk",
-        "bbcmedia.co.uk",
+        "bidi.net.uk",
+        "channel4.com",
         "bbc.com",
+        "bbc.in",
         "itvstatic.com",
-        "c4assets.com",
+        "itv.com",
+        "bb-static.com",
         "britbox.co.uk",
         "massive-itv.com",
+        "bbcchinese.com",
+        "britbox.com",
+        "bbc",
+        "bbci.co",
+        "bbcverticals.com",
+        "bbc-reporting-api.app",
+        "bbcpersian.com",
         "bbc.co.uk",
-        "bbc.net.uk"
+        "bbc.co",
+        "bbcmedia.co.uk",
+        "c4assets.com"
       ]
     }
   ]
