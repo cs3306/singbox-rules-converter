@@ -4,44 +4,44 @@
     {
       "domain_keyword": [
         "apple-support.akadns.net",
-        "smp-device",
         "apple.com.edgekey.net",
-        "apple.com.akadns.net",
-        "buy.itunes.apple.com",
+        "smp-device",
         "testflight",
-        "icloud.com.akadns.net"
+        "apple.com.akadns.net",
+        "icloud.com.akadns.net",
+        "buy.itunes.apple.com"
       ],
       "ip_cidr": [
-        "144.178.48.0/20",
         "2620:149::/32",
-        "139.178.128.0/18",
+        "144.178.48.0/20",
+        "144.178.0.0/19",
         "192.35.50.0/24",
-        "63.92.224.0/19",
-        "2a01:b740::/32",
         "198.183.17.0/24",
-        "205.180.175.0/24",
-        "144.178.36.0/22",
-        "65.199.22.0/23",
         "2403:300::/32",
+        "139.178.128.0/18",
+        "2a01:b740::/32",
+        "65.199.22.0/23",
+        "144.178.36.0/22",
+        "205.180.175.0/24",
         "17.0.0.0/8",
-        "144.178.0.0/19"
+        "63.92.224.0/19"
       ]
     },
     {
       "process_name": [
-        "apsd",
-        "mapspushd",
+        "Music",
+        "trustd",
+        "com.apple.Maps",
         "WeatherWidget",
+        "fmfd",
         "netbiosd",
         "com.apple.geod",
-        "fmfd",
-        "com.apple.Maps",
-        "findmydevice-user-agent",
+        "mapspushd",
+        "CoreLocationAgent",
+        "apsd",
         "LookupViewService",
         "TV",
-        "CoreLocationAgent",
-        "trustd",
-        "Music"
+        "findmydevice-user-agent"
       ]
     }
   ]
