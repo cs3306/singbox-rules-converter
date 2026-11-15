@@ -3,35 +3,35 @@
   "rules": [
     {
       "domain_keyword": [
-        "google",
-        "gmail"
+        "gmail",
+        "google"
       ],
       "domain_suffix": [
-        "googleapis.com",
-        "xn--ngstr-lra8j.com",
-        "youtube.com",
-        "youtu.be",
-        "googleapis.cn",
-        "yt.be",
-        "ytimg.com",
-        "gstatic.cn",
-        "2mdn.net",
-        "youtube-nocookie.com",
-        "gvt2.com",
         "app-measurement.net",
-        "gvt1.com",
-        "g.co",
-        "goo.gl",
-        "gvt3.com",
-        "gvt0.com",
-        "1e100.net",
+        "ggpht.com",
+        "googleapis.com",
+        "ytimg.com",
+        "googleapis.cn",
+        "gvt2.com",
         "c.gle",
+        "goo.gl",
+        "youtube.com",
+        "g.co",
+        "gvt3.com",
+        "gstatic.cn",
+        "1e100.net",
         "gstatic.com",
-        "ggpht.com"
+        "gvt0.com",
+        "youtube-nocookie.com",
+        "xn--ngstr-lra8j.com",
+        "youtu.be",
+        "yt.be",
+        "gvt1.com",
+        "2mdn.net"
       ],
       "ip_cidr": [
-        "173.194.0.0/16",
-        "74.125.0.0/16"
+        "74.125.0.0/16",
+        "173.194.0.0/16"
       ]
     }
   ]
