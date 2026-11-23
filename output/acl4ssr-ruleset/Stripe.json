@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain_suffix": [
-        "link.com",
-        "stripe.global",
-        "stripe-terminal-local-reader.net",
-        "stripecdn.com",
-        "stripe.com",
-        "stripe.dev",
         "stripe.events",
+        "stripe.com",
+        "stripe.global",
+        "stripecdn.com",
+        "stripe.network",
         "stripeassets.com",
-        "stripe.network"
+        "stripe.dev",
+        "link.com",
+        "stripe-terminal-local-reader.net"
       ]
     }
   ]
